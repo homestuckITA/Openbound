@@ -12,15 +12,15 @@
 
 <assets>
   <asset name='SburbFont' type='font'>
-  	local:Courier New Bold, 
-  	local:Courier New, 
-  	url:fonts/cour.woff, 
-  	url:fonts/cour.ttf, 
+  	local:Courier New Bold,
+  	local:Courier New,
+  	url:fonts/cour.woff,
+  	url:fonts/cour.ttf,
   	weight:bold
   </asset>
 
 
-	
+
   <asset name='dialogBox' type='graphic'>interface/dialogBoxBig.png</asset>
   <asset name='alttextbox_twitter' type='graphic'>interface/alttextbox_twitter.png</asset>
   <asset name='hashTagBarSheet' type='graphic'>interface/hashtagbar.png</asset>
@@ -28,7 +28,7 @@
   <asset name='spadeButtonSheet' type='graphic'>interface/icons_spade.png</asset>
   <asset name='bubbleButtonSheet' type='graphic'>interface/icons_bub.png</asset>
   <asset name='closeButtonSheet' type='graphic'>interface/closeconversation.png</asset>
-  
+
   <asset name='meenah_idle' type='graphic'>dialogs/meenah_idle.png</asset>
   <asset name='meenah_talk' type='graphic'>dialogs/meenah_talk.png</asset>
   <asset name='meenah_angry' type='graphic'>dialogs/meenah_angry.png</asset>
@@ -47,11 +47,11 @@
   <asset name='meenah_wink' type='graphic'>dialogs/meenah_wink.png</asset>
   <asset name='meenah_wut' type='graphic'>dialogs/meenah_wut.png</asset>
   <asset name='meenah_wut2' type='graphic'>dialogs/meenah_wut2.png</asset>
-  
-<!--   <asset name='startMovie' type='movie'>cutscenes/intro.swf</asset> -->
+
+  <asset name='startMovie' type='movie'>cutscenes/intro.swf</asset>
 
   <asset name='fusciaRuler' type='audio'>audio/music/FuschiaRulerQuiet.oga;audio/music/FuschiaRulerQuiet.mp3</asset>
-  
+
   <asset name='closeSound' type='audio'>audio/sfx/Close1.oga;audio/sfx/Close1.mp3</asset>
   <asset name='grindSound' type='audio'>audio/sfx/Grind.oga;audio/sfx/Grind.mp3</asset>
   <asset name='hitPowerfulSound' type='audio'>audio/sfx/HitPowerful.oga;audio/sfx/HitPowerful.mp3</asset>
@@ -63,13 +63,13 @@
   <asset name='stairSound' type='audio'>audio/sfx/Staircase.oga;audio/sfx/Staircase.mp3</asset>
 </assets>
 
-<!-- <action name='startGame' command='playMovie'>
+<action name='startGame' command='playMovie'>
 	<args>startMovie,fusciaRuler, 32.0830</args>
-</action> -->
-
-<action name='startGame' command='playSong'>
-	<args>fusciaRuler, 32.0830</args>
 </action>
+
+<!-- <action name='startGame' command='playSong'>
+	<args>fusciaRuler, 32.0830</args>
+</action> -->
 
 <hud>
   	<spritebutton name='volumeButton' x='9' y='9' width='54' height='36' sheet='volumeControl'>
@@ -85,15 +85,15 @@
   			<args></args>
   		</action>
   	</spritebutton>
-  	
-  	
+
+
 	<dialoger alertPos="56,120" talkPosRight="20,120" talkPosLeft="90,120" hiddenPos="-1000,120"
 		spriteStartLeft="-300,450" spriteEndLeft="100,450" spriteStartRight="950,450" spriteEndRight="550,450"
 		alertTextDimensions="30,30,450,220" leftTextDimensions="150,30,350,220" rightTextDimensions="30,30,350,220"
 		box="dialogBox" type="social">
 	</dialoger>
-  	
-  	<dialogsprites>	
+
+  	<dialogsprites>
   		<animation name='meenah_idle' class='meenahDialog' sheet='meenah_idle'/>
   		<animation name='meenah_talk' class='meenahDialog' sheet='meenah_talk' length='2'/>
   		<animation name='meenah_angry' class='meenahDialog' sheet='meenah_angry'/>
@@ -134,16 +134,16 @@
 <spritebutton name='bubbleButton' x='510' y='300' width='30' height='26' sheet='bubbleButtonSheet'>
 	<action class='rebubble' />
 </spritebutton>
-  	
+
 <!--
-    
-    <character name='terezi' x='200' y='600' sx='-50' sy='-110' sWidth='100' sHeight='130' width='48' height='21' 
+
+    <character name='terezi' x='200' y='600' sx='-50' sy='-110' sWidth='100' sHeight='130' width='48' height='21'
 	       sheet='terezisheet' state='walkFront' facing='Front'>
       <action name='swap' command='changeChar'>terezi</action>
     </character>
-    
+
     -->
-    
+
     <!--
 
   	<sprite class='chest' name='baseRoomChest1' x='600' y='400'>
