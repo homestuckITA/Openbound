@@ -1,7 +1,7 @@
 // String trim polyfill
 if(typeof String.prototype.trim !== 'function') {
   String.prototype.trim = function() {
-    return this.replace(/^\s+|\s+$/g, ''); 
+    return this.replace(/^\s+|\s+$/g, '');
   }
 }
 // Array Remove - By John Resig (MIT Licensed)
@@ -46,7 +46,7 @@ Sburb.assets = null; //all images, sounds, paths
 Sburb.sprites = null; //all sprites that were Serial loaded
 Sburb.effects = null; //all effects that were Serial loaded
 Sburb.buttons = null; //all buttons that were Serial loaded
-Sburb.rooms = null; //all rooms 
+Sburb.rooms = null; //all rooms
 Sburb.char = null; //the player
 Sburb.curRoom = null;
 Sburb.destRoom = null; //current room, the room we are transitioning to, if it exists.
@@ -91,7 +91,7 @@ Sburb.testCompatibility = function(div, levelName, includeDevTools) {
         xhr.onabort = function() { Modernizr.addTest('xhrblob', function () { return false; }); };
         xhr.onerror = function() { Modernizr.addTest('xhrblob', function () { return false; }); };
         xhr.send();
-        
+
         // Test Arraybuffer response
         xhr = new XMLHttpRequest();
         xhr.open("GET",levelName,true);
@@ -107,13 +107,13 @@ Sburb.testCompatibility = function(div, levelName, includeDevTools) {
         xhr.onabort = function() { Modernizr.addTest('xhrarraybuffer', function () { return false; }); };
         xhr.onerror = function() { Modernizr.addTest('xhrarraybuffer', function () { return false; }); };
         xhr.send();
-        
+
         Sburb.firedAsync = true;
     } else {
         Modernizr.addTest('xhrblob', function () { return false; });
         Modernizr.addTest('xhrarraybuffer', function () { return false; });
     }
-    
+
     // Make sure Modernizr finished loading async tests
     if(!('xhrblob' in Modernizr && 'xhrarraybuffer' in Modernizr && 'datauri' in Modernizr)) {
         console.log("Still waiting for Modernizr to load...");
@@ -121,7 +121,7 @@ Sburb.testCompatibility = function(div, levelName, includeDevTools) {
         Sburb.crashed = true;
         return;
     }
-    
+
     // Use Modernizr to test compatibility
     var errors = [];
     if(!Modernizr.fontface)                                     errors.push("- Lack of CSS @font-face support.");
@@ -129,7 +129,7 @@ Sburb.testCompatibility = function(div, levelName, includeDevTools) {
     if(!Modernizr.canvastext)                                   errors.push("- Lack of canvas text support.");
     if(!Modernizr.json)                                         errors.push("- Lack of JSON support.");
     if(!Modernizr.xmlserializer)                                errors.push("- Lack of XMLSerializer support.");
-    
+
     if(errors.length) {
         // Display what failed
         var deploy = '<div style="padding-left: 0; padding-right: 0; margin-left: auto; margin-right: auto; display: block; width:650px; height:450px; overflow: auto;">';
@@ -158,7 +158,7 @@ Sburb.testCompatibility = function(div, levelName, includeDevTools) {
         } else {
             Sburb.tests['storage'] = false;
         }
-        
+
         // Caution, weirdness ahead. Tests in order of preference, future tests should use increasing numbers. Do not change existing constants.
         // To deprecate a test, move it to the bottom of the list. To make it obsolete, comment it out.
         // Assets.js and Debugger.js are the only files to reference these constants
@@ -197,7 +197,7 @@ Sburb.initialize = function(div,levelName,includeDevTools){
     if(Sburb.crashed)
         return; // Hard crash if the browser is too old. testCompatibility() will handle the error message
 	Sburb.debugger = new Sburb.Debugger(); // Load debugger first! -- But not quite
-    
+
 	var deploy = '   \
 	<div style="position: relative;\
         padding-left: 0;\
@@ -229,14 +229,14 @@ Sburb.initialize = function(div,levelName,includeDevTools){
 	var gameDiv = document.getElementById("SBURBgameDiv");
 	gameDiv.onkeydown = _onkeydown;
 	gameDiv.onkeyup = _onkeyup;
-	
-	Sburb.Stage = document.getElementById("SBURBStage");	
+
+	Sburb.Stage = document.getElementById("SBURBStage");
 	Sburb.Stage.scaleX = Sburb.Stage.scaleY = 3;
 	Sburb.Stage.x = Sburb.Stage.y = 0;
 	Sburb.Stage.fps = 30;
 	Sburb.Stage.fade = 0;
 	Sburb.Stage.fadeRate = 0.1;
-	
+
 	Sburb.stage = Sburb.Stage.getContext("2d");
 	Sburb.Stage.onblur = _onblur;
 	Sburb.chooser = new Sburb.Chooser();
@@ -251,7 +251,7 @@ Sburb.initialize = function(div,levelName,includeDevTools){
 	Sburb.gameState = {};
 	Sburb.pressed = {};
 	Sburb.pressedOrder = [];
-	
+
     Sburb.loadSerialFromXML(levelName); // comment out this line and
     //loadAssets();                        // uncomment these two lines, to do a standard hardcode load
     //_hardcode_load = 1;
@@ -278,10 +278,10 @@ function update(){
 	handleAudio();
 	handleInputs();
 	handleHud();
-	
+
 	if(!Sburb.loadingRoom)
 	    Sburb.curRoom.update();
-	
+
 	focusCamera();
 	handleRoomChange();
 	Sburb.chooser.update();
@@ -296,29 +296,29 @@ function draw(){
 		Sburb.stage.save();
 		Sburb.Stage.offset = true;
 		Sburb.stage.translate(-Sburb.Stage.x,-Sburb.Stage.y);
-	
+
 		Sburb.curRoom.draw();
-	
+
 		Sburb.stage.restore();
 		Sburb.Stage.offset = false;
-	
+
 		if(Sburb.Stage.fade>0.1){
 			Sburb.stage.fillStyle = "rgba(0,0,0,"+Sburb.Stage.fade+")";
 			Sburb.stage.fillRect(0,0,Sburb.Stage.width,Sburb.Stage.height);
 		}
-	
+
 		Sburb.dialoger.draw();
 		drawHud();
-	
+
 		Sburb.stage.save();
 		Sburb.Stage.offset = true;
 		Sburb.stage.translate(-Sburb.Stage.x,-Sburb.Stage.y);
-	
+
 		Sburb.chooser.draw();
-	
+
 		Sburb.stage.restore();
 		Sburb.Stage.offset = false;
-		
+
 	    Sburb.debugger.draw();
 	}
 }
@@ -351,7 +351,7 @@ var _onkeydown = function(e){
 				    }
 			    }
 			    if(Sburb.chooser.choices.length>0){
-				    Sburb.chooser.choices.push(new Sburb.Action("cancel","cancel","Cancel."));
+				    Sburb.chooser.choices.push(new Sburb.Action("cancel","cancel","Cancella."));
 				    beginChoosing();
 			    }
 		    }
@@ -362,7 +362,7 @@ var _onkeydown = function(e){
        between injecting the canvas into the dom
        and initializing Sburb.pressed and Sburb.pressedOrder
        could throw an exception.
-       
+
        I'm not too worried about it. -Fugi */
 	if(!Sburb.pressed[e.keyCode])
 	    Sburb.pressedOrder.push(e.keyCode);
@@ -410,7 +410,7 @@ Sburb.onMouseDown = function(e,canvas){
 		}
 	}
 	Sburb.Mouse.down = true;
-	
+
 }
 
 Sburb.onMouseUp = function(e,canvas){
@@ -446,7 +446,7 @@ function handleAudio(){
 		if (Sburb.lastMusicTime == Sburb.bgm.asset.currentTime){
 			Sburb.musicStoppedFor++;
 			if(Sburb.musicStoppedFor>4){
-		    Sburb.bgm.asset.pause(); 
+		    Sburb.bgm.asset.pause();
 		    Sburb.bgm.asset.play(); // asset.play() because sometimes this condition is true on startup
 		  }
     }else{
@@ -490,11 +490,11 @@ function drawHud(){
 }
 
 function hasControl(){
-	return !Sburb.dialoger.talking 
-		&& !Sburb.chooser.choosing 
-		&& !Sburb.destRoom 
-		&& !Sburb.waitFor 
-		&& !Sburb.fading 
+	return !Sburb.dialoger.talking
+		&& !Sburb.chooser.choosing
+		&& !Sburb.destRoom
+		&& !Sburb.waitFor
+		&& !Sburb.fading
 		&& !Sburb.destFocus;
 }
 
@@ -521,8 +521,8 @@ function handleRoomChange(){
 		if(Sburb.Stage.fade<1.1){
 			Sburb.Stage.fade=Math.min(1.1,Sburb.Stage.fade+Sburb.Stage.fadeRate);
 		}else if(Sburb.destRoom){
-			var deltaX = Sburb.destX-Sburb.char.x; 
-			var deltaY = Sburb.destY-Sburb.char.y; 
+			var deltaX = Sburb.destX-Sburb.char.x;
+			var deltaY = Sburb.destY-Sburb.char.y;
 			var curSprite = Sburb.char;
 			while(curSprite){
 				curSprite.x+=deltaX;
@@ -563,7 +563,7 @@ function chainAction(){
 			Sburb.performAction(Sburb.curAction);
 		}
 	}
-}    
+}
 
 function updateWait(){
 	if(Sburb.waitFor){
@@ -581,7 +581,7 @@ Sburb.performAction = function(action){
 	if(((Sburb.curAction && Sburb.curAction.followUp!=action && Sburb.curAction!=action) || !hasControl()) && action.soft){
 		return;
 	}
-	
+
 	var looped = false;
 	Sburb.curAction = action.clone();
 	do{
@@ -670,5 +670,3 @@ Sburb.haltUpdateProcess = haltUpdateProcess;
 Sburb.draw = draw;
 return Sburb;
 })(Sburb || {});
-
-    

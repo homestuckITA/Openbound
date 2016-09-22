@@ -1,4 +1,4 @@
-<sburb description="first room">
+﻿<sburb description="first room">
 
 <dependencies>
 	<dependency>firstRoomDialog.xml</dependency>
@@ -194,10 +194,10 @@
   		<trigger detonate='true'>inBox,char,1450,3332,180,36
   			<action command='talk'>
   				<args>
-  				@! Wait. You hear something nearby.
-				  @! Is...
-				  @! Is that...
-				  @!:#???? Sobbing?
+  				@! Aspetta. Senti qualcosa nei dintorni.
+				  @! È...
+				  @! È forse...
+				  @!:#???? Qualcuno che piange?
 				  </args>
   			</action>
   			
@@ -226,7 +226,7 @@
     <character name='meenah' x='1490' y='630' sx='-50' sy='-110' sWidth='100' sHeight='130' width='30' height='15' 
 	       sheet='meenahSheet' state='walkFront' facing='Front'>
 	  	<animation name='skate' sheet='meenahSkate' x='-60' y='-80' />
-      <action name='Be Meenah.' sprite='!kankri' command='changeChar'>
+      <action name='Sii Meenah.' sprite='!kankri' command='changeChar'>
       	<args>meenah</args>
       	<action command='playSong'>fusciaRuler, 32.0830</action>
       </action>
@@ -234,15 +234,15 @@
       <action class='meenahTalk2' />
       <action class='meenahTalk3'>
       	<action command='talk'>
-      		<args>@! Be Meenah?</args>
+      		<args>@! Sii Meenah?</args>
 		    	<action command='presentActions'>
 		    		<args>
-		    			<action name='Yes' command='changeChar'>
+		    			<action name='S&#236;' command='changeChar'>
 								<args>meenah</args>
 								<action command='playSong'>
 									<args>fusciaRuler, 32.0830</args>
 									<action command='removeAction'>
-										<args>karkat,Talk to Karkat.</args>
+										<args>karkat,Parla con Karkat.</args>
 										<action command='addActions'>
 											<args>karkat,
 												<action class='karkatTalk2'/>
@@ -265,64 +265,64 @@
     </sprite>
     
     <sprite class='chest1' name='firstRoomChest1' x='2913' y='208'>
-    	<action command='openChest' name='open'>
-    		<args>firstRoomChest1,obj01, @! You got a GOLD TIARA!
-      @!:#bling#carats#jackpot You have no intention of wearing this thing, but it doesn't hurt to start stockpiling loot again. Now that you're dead, you're finding yourself a little light on collateral, if you know what I'm saying.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>firstRoomChest1,obj01, @! Hai ottenuto una TIARA DORATA!
+      @!:#bling#carati#jackpot Non hai intenzione di indossare questa cosa, ma non farebbe male ricominciare a accumulare un bottino di nuovo. Ora che sei morta, ti trovi un po' a corto di beni materiali, se capisci che intendo.</args>
     	</action>
     </sprite>
     <sprite class='chest1' name='firstRoomChest2' x='2745' y='576'>
-    	<action command='openChest' name='open'>
-    		<args>firstRoomChest2,obj02,@! You got a DOUBLE TRIDENT!
-      @!:#GOLD#$$$$$#booyeah You already have one of these. But there ain't nothing wrong with stowing a little more SOLID GOLD in your inventory. You got an extravagant ghost sea princess lifestyle to maintain.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>firstRoomChest2,obj02,@! Hai ottenuto un TRIDENTE DOPPIO!
+      @!:#ORO#$$$$$#booyeah Hai gi&#224; uno di questi. Ma non c&apos;&#232; niente di sbagliato a riporre un altro po' di ORO SOLIDO nel tuo inventario. Hai una vita da stravagante principessa marina da mantenere.</args>
     	</action>
     </sprite>
     <sprite class='chest1' name='firstRoomChest3' x='426' y='558'>
-    	<action command='openChest' name='open'>
-    		<args>firstRoomChest3,obj03, @! You got a DIRTY OLD FEDORA!
-      @!:#hornless-troll-indiana-jones-hat Totally useless. This nasty trash isn't coming anywhere close to your head. Doesn't even have horn holes. Looks like something an archaeologist would wear. You wonder whose memory this is?
+    	<action command='openChest' name='Apri.'>
+    		<args>firstRoomChest3,obj03, @! Hai ottenuto un VECCHIO FEDORA SPORCO!
+      @!:#capello-da-troll-indiana-jones-scornato Completamente inutile. Questa disgustosa spazzatura non si trover&#224; mai presso la tua testa. Non ha nemmeno buchi per le corna. Sembra qualcosa che indosserebbe un archeologo. Ti domandi di chi sia questo ricordo.
 </args>
     	</action>
     </sprite>
     <sprite class='chest1' name='firstRoomChest4' x='2643' y='1557'>
-    	<action command='openChest' name='open'>
-    		<args>firstRoomChest4,obj04,@!:#ka-ching You got some BOONDOLLARS! 
-      @!:#broke It's not much, but you pocket the loot without a second thought. The bankroll's been a little slack since you died, and every bit helps on your climb back to obscene wealth.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>firstRoomChest4,obj04,@!:#ka-ching Hai ottenuto dei BOONDOLLARI! 
+      @!:#bancarotta Non &#232; molto, ma ti metti in tasca il bottino senza pensarci due volte. I contanti sono stati un po&apos; snelliti da quando sei morta, e ogni pezzetto ti pu&#242; aiutare nella risalita alla ricchezza scandalosa.</args>
     	</action>
     </sprite>
     <sprite class='chest1' name='firstRoomChest5' x='2052' y='2037'>
-    	<action command='openChest' name='open'>
-    		<args>firstRoomChest5,obj05, @!:#pyralspite You got a SCALEMATE PLUSH!
-      @!:#highly-desirable-merchandise Holy shit. You are never going to stop hugging this thing. Ever.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>firstRoomChest5,obj05, @!:#pyralspite Hai ottenuto un PUPAZZO SCAGLIAMICO!
+      @!:#merce-altamente-desiderabile Santa merda. Non smetterai mai di abbracciare questo coso. Mai.</args>
     	</action>
     </sprite>
     <sprite class='chest1' name='firstRoomChest6' x='278' y='1710'>
-    	<action command='openChest' name='open'>
-    		<args>firstRoomChest6,obj06,@! You got some ANCIENT SERPENT BONES!
-      @!:#where's-the-prawn-shop-in-this-bitch Again, a strange thing to find. Who here would have a memory of these? Huge prehistoric green serpents have always played a major role in your people's mythology, both before and after your session scratched. Of course, only people with an interest in ancient lore and dusty old bones give a crap about that. You're much more interested in their monetary value. Hopefully you can find a sucker to pay up for them big time.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>firstRoomChest6,obj06,@! Hai ottenuto delle ANTICHE OSSA DI SERPENTE!
+      @!:#dov&apos;&#232;-il-negozio-di-coralli-in-sto-posto Di nuovo, una cosa strana da trovare. Chi avrebbe ricordi di queste qui? Enormi serpenti verdi preistorici hanno sempre giocato un ruolo importante fra la tua gente, sia prima che dopo che la tua sessione &#232; stata graffiata. Ovviamente, solo a persone interessate al folclore antico e le vecchie ossa polverose potrebbe fregargliene qualcosa. Tu sei molto pi&#249; interessata nel valore monetario. Se tutto va bene troverai qualche perdente che te le pagher&#224; profumatamente.</args>
     	</action>
     </sprite>
     <sprite class='chest1' name='firstRoomChest7' x='213' y='2097'>
-    	<action command='openChest' name='open'>
-    		<args>firstRoomChest7,obj07, @! You got a BRONZE POTION!
-      @!:#you-throw-it-off-a-cliff This stuff is supposed to make you kiss good, with side effects of mild to total paralysis. Wait a minute... isn't this just some troll blood? Oh yuck.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>firstRoomChest7,obj07, @! Hai ottenuto una POZIONE BRONZEA!
+      @!:#la-butti-gi&#249;-da-un-dirupo Questa roba dovrebbe farti baciare bene, con effetti collaterali di parziale o completa paralisi. Aspetta un minuto... è solo del sangue troll? Oh yuck.</args>
     	</action>
     </sprite>
     <sprite class='chest1' name='firstRoomChest8' x='1152' y='2421'>
-    	<action command='openChest' name='open'>
-    		<args>firstRoomChest8,obj08,@! You got a thing of MOTOR OIL!
-      @!:#P.S.#you-take-a-little-sip#it-tastes-awful Hey, this bottle even has the label intact! Typically the label is ripped off and applied to chalk murals. The fact that it still has a label makes it much more valuable as a collector's item. Always gotta be mindful of the cash value of the useless shit you find in chests.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>firstRoomChest8,obj08,@! Hai un ottenuto una cosa di OLIO PER MOTORI!
+      @!:#P.S.#prendi-un-piccolo-sorso#ha-un-gusto-schifoso Ehi, questa bottiglia ha addirittura l'etichetta intatta! Di solito l'etichetta viene strappata e applicata ai murales. Il fatto che abbia ancora l'etichetta lo rende molto pi&#249; di valore come oggetto da collezione. Sempre essere coscienti del valore monetario della merda inutile che trovi nei forzieri.</args>
     	</action>
     </sprite>
     <sprite class='chest1' name='firstRoomChest9' x='2568' y='2856'>
-    	<action command='openChest' name='open'>
-    		<args>firstRoomChest9,obj09,@! You got a BOONBUCK!
-      @!:#but-once-you're-there#you-can-try-to-make-it-back-in-a-FUCKING-HURRY Now we're talking. This should get your broke ass off the canvas. It's such a crime that the insane fortune you accumulated in your game doesn't persist after you die. You guess it's true, you really can't take it with you to the other side.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>firstRoomChest9,obj09,@! Hai ottenuto un BOONDANARO!
+      @!:#ma-una-volta-che-sei-l&#236;#puoi-cercare-di-riaccumularla-ALLA-FOTTUTA-SVELTA Ora si ragiona. Questo dovrebbe rimuovere il tuo sedere squattrinato dalla tela. &#200; un tale crimine il fatto che la fortuna assurda che hai accumulato nel gioco non persista dopo la tua morte. Supponi che sia vero, non puoi davvero portartela con te dall'altra parte.</args>
     	</action>
     </sprite>
     <sprite class='chest1' name='firstRoomChest10' x='834' y='3235'>
-    	<action command='openChest' name='open'>
-    		<args>firstRoomChest10,obj10,@! You got a BLOODY CHERUB TOOTH!
-      @!:#or-whoever-makes-the-first-offer The fact that this is in a chest here is kind of disturbing to you in ways you can't really explain. You think you'll try to sell this thing to the highest bidder as soon as possible.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>firstRoomChest10,obj10,@! Hai ottenuto un DENTE INSANGUINATO DI CHERUBINO!
+      @!:#o-chiunque-faccia-l'offerta-per-primo Il fatto che questo si trovi qui in un forziere ti disturba in modi che non sapresti davvero spiegare. Pensi che proverai a vedere questo coso al pi&#249; alto offerente il prima possibile.</args>
     	</action>
     </sprite>
     <!--

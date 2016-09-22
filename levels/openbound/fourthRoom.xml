@@ -1,4 +1,4 @@
-<sburb description="fourth room">
+﻿<sburb description="fourth room">
 
 <dependencies>
 	<dependency>fourthRoomDialog.xml</dependency>
@@ -40,9 +40,9 @@
 </sprite>
 
 <sprite class='chest1' name='fourthRoomChest1' x='166' y='498'>
-    	<action command='openChest' name='open'>
-    		<args>fourthRoomChest1,secretObj, @! You got a 2010 SPIRITED HORSE CALENDAR!
-      @!:#fuckin-pain-in-the-red-cheeks You flip through it and... yep. Hearts Boxcars is still farming all those goddamn horses.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>fourthRoomChest1,secretObj, @! Hai ottenuto un CALENDARIO 2010 DI VIVACI CAVALLI!
+      @!:#gran-rottura-di-gote-rosse Lo sfogli e... eh gi&#224;. Hearts Boxcars sta ancora allevando tutti quei maledettissimi dannati cavalli.</args>
     	</action>
     </sprite>
 
@@ -59,16 +59,16 @@
 				<action command='deltaSprite'>
 					<args>char,-12,0</args>
 					<action command='talk'>
-						<args>@! This leads to the end of the game. Are you sure you're done here?</args>
+						<args>@! Questo porta alla fine del gioco. Sei sicuro di aver concluso qui?</args>
 						<action command='presentActions'>
 							<args>
-								<action name='Yes' command='fadeOut'>
+								<action name='S&#236;' command='fadeOut'>
 									<args></args>
 									<action command='talk'>
-										<args>@! That's the end. Continue playing on the next page.</args>
+										<args>@! È finito. Continua a giocare nella prossima pagina.</args>
 										<action command='presentActions'>
 										 	<args>
-											 	<action command='loadStateFile' name='Start over'>
+											 	<action command='loadStateFile' name='Ricomincia.'>
 														<args>openbound.xml,false</args>
 												</action>
 											</args>
@@ -93,7 +93,7 @@
 		
    	<sprite name='araneaStand' x='1486' y='398' width='100' height='30' collidable='true' depthing='1'>
    		<animation sheet='araneaStandSheet' x='-44' y='-100'/>
-   		<action command='addOverlay' name='Talk.'>
+   		<action command='addOverlay' name='Parla.'>
    			<args>peanuts</args>
    			<action class='peanutActions'>
 				</action>

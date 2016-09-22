@@ -48,7 +48,7 @@
   <asset name='meenah_wut' type='graphic'>dialogs/meenah_wut.png</asset>
   <asset name='meenah_wut2' type='graphic'>dialogs/meenah_wut2.png</asset>
   
-  <asset name='startMovie' type='movie'>cutscenes/intro.swf</asset>
+<!--   <asset name='startMovie' type='movie'>cutscenes/intro.swf</asset> -->
 
   <asset name='fusciaRuler' type='audio'>audio/music/FuschiaRulerQuiet.oga;audio/music/FuschiaRulerQuiet.mp3</asset>
   
@@ -62,11 +62,11 @@
   <asset name='openSound2' type='audio'>audio/sfx/Open2.oga;audio/sfx/Open2.mp3</asset>
   <asset name='stairSound' type='audio'>audio/sfx/Staircase.oga;audio/sfx/Staircase.mp3</asset>
 </assets>
-<!--
-<action name='startGame' command='playMovie'>
+
+<!-- <action name='startGame' command='playMovie'>
 	<args>startMovie,fusciaRuler, 32.0830</args>
-</action>
--->
+</action> -->
+
 <action name='startGame' command='playSong'>
 	<args>fusciaRuler, 32.0830</args>
 </action>
@@ -77,7 +77,7 @@
   	</spritebutton>
   	<spritebutton name='helpButton' x='591' y='9' width='54' height='63' sheet='helpControl'>
   		<action command='talk' soft='true'>
-  			<args>@! Use the arrow keys or WASD to move, and space to interact.</args>
+  			<args>@! Usa le freccie o i tasti WASD per muoverti, e spazio per interagire.</args>
   		</action>
   	</spritebutton>
   	<spritebutton name='saveButton' x='595' y='390' sheet='saveControl'>

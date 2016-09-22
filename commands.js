@@ -78,7 +78,7 @@ commands.changeChar = function(info){
 //syntax: songName, loopingStartPoint (seconds)
 commands.playSong = function(info){
 	var params = parseParams(info);
-	
+
 	Sburb.changeBGM(new Sburb.BGM(Sburb.assets[params[0]],parseFloat(params[1])));
 }
 
@@ -108,7 +108,7 @@ commands.playEffect = function(info){
 commands.playAnimation = commands.startAnimation = function(info){
 	var params = parseParams(info);
 	var sprite = parseCharacterString(params[0]);
-	
+
 	sprite.startAnimation(params[1]);
 }
 
@@ -160,7 +160,7 @@ commands.openChest = function(info){
 			commands.playSound("openSound");
 		}
 	}
-	
+
 	chest.removeAction(Sburb.curAction.name);
 	var offset = params[0].length+params[1].length+2;
 	var speech = info.substring(offset,info.length).trim();
@@ -176,7 +176,7 @@ commands.openChest = function(info){
 	}
 	lastAction = lastAction.followUp = new Sburb.Action("waitFor","time,30");
 	lastAction = lastAction.followUp = new Sburb.Action("talk",speech);
-	
+
 	lastAction = lastAction.followUp = new Sburb.Action("removeSprite",item.name+","+Sburb.curRoom.name);
 	lastAction.followUp = Sburb.curAction.followUp;
 	Sburb.performAction(newAction);
@@ -242,7 +242,7 @@ commands.removeMovie = function(info){
 	Sburb.draw();
 	document.getElementById(info).style.display = "none";
 	//document.getElementById("gameDiv").style.display = "block";
-	
+
 }
 
 //Wait for the specified trigger to be satisfied
@@ -257,7 +257,7 @@ commands.addSprite = function(info){
 	var params = parseParams(info);
 	var sprite = Sburb.sprites[params[0]];
 	var room = Sburb.rooms[params[1]];
-	
+
 	room.addSprite(sprite);
 }
 
@@ -375,9 +375,9 @@ commands.changeRoomRemote = function(info){
 commands.teleportRemote = function(info){
     if(Sburb.loadingRoom) return; Sburb.loadingRoom = true; //Only load one room at a time
 	commands.changeRoomRemote(info);
-	
+
 	Sburb.playEffect(Sburb.effects["teleportEffect"],Sburb.char.x,Sburb.char.y);
-	
+
 	var params = parseParams(info);
 	Sburb.curAction.followUp.followUp.followUp = new Sburb.Action("playEffect","teleportEffect,"+params[2]+","+params[3],null,null,Sburb.curAction.followUp.followUp.followUp);
 }
@@ -465,7 +465,7 @@ commands.saveOrLoad = function(info){
 	if(Sburb.tests.storage) {
 	    actions.push(new Sburb.Action("save","false,"+local,"Save"));
     }
-	actions.push(new Sburb.Action("cancel",null,"Cancel"));
+	actions.push(new Sburb.Action("cancel",null,"Cancella"));
 	Sburb.chooser.choices = actions;
 	Sburb.chooser.beginChoosing(Sburb.Stage.x+20,Sburb.Stage.y+50);
 }
@@ -486,16 +486,16 @@ commands.goBack = function(info){
 	var character = parseCharacterString(params[0]);
 	var vx = 0; vy = 0;
 	if(character.facing=="Front"){
-		vx = 0; 
+		vx = 0;
 		vy = -character.speed;
 	}else if(character.facing=="Back"){
-		vx = 0; 
+		vx = 0;
 		vy = character.speed;
 	}else if(character.facing=="Left"){
 		vx = character.speed;
 		vy = 0;
 	}else if(character.facing=="Right"){
-		vx = -character.speed; 
+		vx = -character.speed;
 		vy = 0;
 	}
 	character.tryToMove(vx,vy,Sburb.curRoom);
@@ -533,7 +533,7 @@ var parseCharacterString = Sburb.parseCharacterString = function(string){
 function parseActionString(string){
 	var actions = [];
 	string = "<sburb>"+string+"</sburb>";
-    
+
 	var input = Sburb.parseXML(string);
 	for(var i=0; i<input.childNodes.length; i++) {
 		var tmp = input.childNodes[i];

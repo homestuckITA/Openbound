@@ -10,10 +10,10 @@
 	<animation class='porrim-dialog' frameInterval='6' x='-180' y='-444'/>
 	<animation class='latula-dialog' frameInterval='6' x='-200' y='-524'/>
   
-  <action class='snoop' sprite='meenah' command='talk' name='Talk.'>
+  <action class='snoop' sprite='meenah' command='talk' name='Parla.'>
 		<args>
-		@! Hey, it's shouty! But it looks like he's severely embroiled in a really heavy discussion with your team's Vantas. You really don't feel like getting involved.
-		@!:#eavesdropping#rude Listen in on conversation?
+		@! Ehi, &#232; lo strillone! Ma sembra che sia seriamente coinvolto in una discussione molto viva con il Vantas del tuo team. Non te la senti davvero di rimanere invischiata.
+		@!:#origliare#maleducato Ascoltare la conversazione?
 		</args>
 		<action command='presentActions'>
 			<args>
@@ -38,11 +38,11 @@
 		  		<action command='playAnimation'>
 		  			<args>karkat,walkRight</args>
 		  			<action command='removeAction'>
-							<args>kankri,Talk.</args>
+							<args>kankri,Parla.</args>
 							<action command='removeAction'>
-								<args>karkat,Talk.</args>
+								<args>karkat,Parla.</args>
 								<action command='removeAction'>
-									<args>karkat,Talk to Karkat.</args>
+									<args>karkat,Parla con Karkat.</args>
 									<action command='addActions'>
 										<args>kankri,
 											<action class='snoop'/>
@@ -53,7 +53,7 @@
 												<action class='karkatTalk1'/>
 											</args>
 											<action command='removeAction'>
-												<args>thirdRoomDoor,Open door.</args>
+												<args>thirdRoomDoor,Apri porta.</args>
 												<action command='addActions'>
 													<args>thirdRoomDoor,
 														<action class='doorTalk1'/>
@@ -397,10 +397,10 @@
   									<action command='deltaSprite'>
   										<args>char,12,0</args>
   										<action command='talk'>
-  											<args> @! Do a sick grind down the railing?</args>
+  											<args> @! Fare un'acrobazia figa gi&#249; per lo scorrimano?</args>
 												<action command='presentActions'>
 													<args>
-														<action command='waitFor' name='Yes.'>
+														<action command='waitFor' name='S&#236;.'>
 															<args>time,40</args>
 															<action command='becomeNPC' noWait='true'>
 																<args></args>
@@ -425,7 +425,7 @@
 																										<args>stairEventSwitch,0,-100</args>
 																										<action command='addActions' noWait='true'>
 																											<args>latula,
-																												<action command='changeChar' name='Be Latula.'>
+																												<action command='changeChar' name='Sii Latula.'>
 																													<args>latula</args>
 																													<action command='playSong'>
 																														<args>gameGlare,18.19</args>
@@ -480,9 +480,9 @@
 					<action command='playSong'>
 						<args>ironInfidel</args>
 						<action command='removeAction'>
-							<args>kankri,Talk.</args>
+							<args>kankri,Parla.</args>
 							<action command='removeAction'>
-								<args>karkat,Talk.</args>
+								<args>karkat,Parla.</args>
 								
 							</action>
 						</action>
@@ -503,11 +503,11 @@
 			<action class='latulaTalk2' />
 			<action class='latulaTalk3'>
 				<action command='openChest'>
-					<args>latula,skateboard,@!:#AWWW-YEAH#WHAT'S-UP-GAMERS You got LATULA'S FOUR WHEEL DEVICE!</args>
+					<args>latula,skateboard,@!:#AWWW-YEAH#BELLA-GAMERS Hai ottenuto il DISPOSITIVO A QUATTRO RUOTE DI LATULA!</args>
 					<action command='playAnimation'>
 						<args>latula,walkFront</args>
 						<action command='removeAction'>
-							<args>latula,Be Latula.</args>	
+							<args>latula,Sii Latula.</args>	
 						</action>
 					</action>
 				</action>
@@ -523,7 +523,7 @@
 			<action class='porrimTalk2' />
 			<action class='porrimTalk3' />
 			<action class='porrimTalk4' />
-			<action name='Be Porrim.' command='changeChar'>
+			<action name='Sii Porrim.' command='changeChar'>
 				<args>porrim</args>
 				<action command='playSong'>
 					<args>darlingDolorosa,43.88</args>
@@ -543,11 +543,11 @@
     
     <sprite name='memoryBubble' x='2220' y='1200' width='20' height='20' depthing='1' collidable='true'>
   		<animation name='image' sheet='blueBubbleSheet' x='-20' y='-40' />
-  		<action command='talk' sprite='porrim' name='Examine bubble.'>
+  		<action command='talk' sprite='porrim' name='Esamina bolla.'>
 				<args>
-					@! It's a little dream bubble, containing one of your memories. You look inside.
-					@! The memory is from right here, on Prospit. You spent a great deal of time there during the long sweeps of your session. You remember this little precipice well.
-					@! But... wasn't there a staircase here? You are almost positive there were stairs.
+					@! &#200; una piccola oniribolla, contenente uno dei tuoi ricordi. Guardi dentro.
+					@! Il ricordo viene da qui, su Prospit. Hai passato un buon ammonto di tempo qui durante le lunghe orbite passate nella tua sessione. Ricordi bene questo piccolo precipizio.
+					@! Ma... non c'erano delle scale qui? Sei quasi sicura ci fossero delle scale.
 				</args>
 				<action command='addSprite'>
 					<args>thirdRoomStaircase,thirdRoom</args>
@@ -568,69 +568,69 @@
 					</action>
 				</action>
 			</action>
-    	<action command='talk' sprite='!porrim' name='Examine bubble.'>
+    	<action command='talk' sprite='!porrim' name='Esamina bolla.'>
     		<args>
-			  @!:#sorry It's a little dream bubble. But it does not contain your memory. Only Porrim can see what's inside.
+			  @!:#mi-spiace È una piccola oniribolla. Ma non contiene un tuo ricordo. Solo Porrim può vedere che c'è dentro.
 				</args>
 			</action>
 		</sprite>
     
     <sprite class='chest4' name='thirdRoomChest1' x='354' y='1150'>
-    	<action command='openChest' name='open'>
-    		<args>thirdRoomChest1,obj23,@! You got a PAIR OF HORNS!
-      @!:#case-closed This is the most ridiculous thing you've ever seen. Why would anyone want to wear a second pair of horns? Unless maybe they were compensating for a particularly nubby pair... oh, you got it! Humans wear these to pretend to be trolls, and also be less stupid looking. These clearly belonged to a human. </args>
+    	<action command='openChest' name='Apri.'>
+    		<args>thirdRoomChest1,obj23,@! Hai ottenuto un PAIO DI CORNA!
+      @!:#caso-chiuso Questa &#232; la cosa pi&#249; ridicola che tu abbia mai visto. Perch&#233; uno dovrebbe voler indossare due paia di corna? A meno che non fosse per compesare per un paio di corna ridicolmente spuntate... oh, ora capisci! Gli umani le indossano per fingere di essere troll, e anche avere un aspetto meno cretino. Queste appartenevano chiaramente a un umano. </args>
     	</action>
     </sprite>
     <sprite class='chest4' name='thirdRoomChest2' x='526' y='1150'>
-    	<action command='openChest' name='open'>
-    		<args>thirdRoomChest2,obj24, @! You got a LANCE!
-      @!:#meenah-has-no-idea-what-we're-talking-about Who's memory is this? This thing has really made the rounds. Let's see, Tavros had it, but then was impaled by it. The Black Queen had it, and used it as a cigarette holder sometimes, when she was Snowman. Spades Slick wielded it while riding around on a horse hitcher once. Snowman killed Quarters with it, you think. That happened in the top banner though, so you might have missed it...</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>thirdRoomChest2,obj24, @! Hai ottenuto una LANCIA!
+      @!:#meenah-non-ha-idea-di-che-stiamo-parlando Di chi &#232; questo ricordo? Questa cosa ha davvero fatto tanti giri. Vediamo, prima l&apos;aveva Tavros, ma poi ci &#232; stato impalato. Poi l&apos;aveva la Regina Nera, e l&apos;ha usata a volte come sigaretta, quando era Snowman. Spades Slick l&apos;ha brandita una volta mentre cavalcava un bastone con la testa di cavallo. Snowman ci ha ucciso Quarters, credi. Ma quello &#232; successo sul banner in alto, quindi potresti essertelo perso...</args>
     	</action>
     </sprite>
     <sprite class='chest4' name='thirdRoomChest3' x='663' y='1150'>
-    	<action command='openChest' name='open'>
-    		<args>thirdRoomChest3,obj25,@! You got a SUFFERER PENDANT!
-      @!:#heheh#now-that-you-think-of-it#maybe-you'll-wear-one-too Exhibiting the Sign of the Signless. The story of the Sufferer got really popular among your old crew as a kind of religious fad, after everyone died and learned the stories of their post-scratch lives. Aranea especially seems to have bought into this nonsense hook line and sinker. She never wore anything like that around her neck BEFORE she died. You wonder if people have gotten so into it just to bug Vantas? You just know it probably pisses him off, seeing people wear this thing all the time.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>thirdRoomChest3,obj25,@! Hai ottenuto una COLLANA DEL SOFFERENTE!
+      @!:#heheh#ora-che-ci-pensi#magari-ne-indosserai-una-anche-tu Esibisce il segno del Senzasegno. La storia del Sofferente &#232; diventata molto popolare nel tuo vecchio gruppo come una specie di moda religiosa, dopo che tutti sono morti e hanno appreso della loro storia post-graffio. Aranea in special modo sembra ingenuamente presa da questa stupidata. Non ha mai indossato niente del genere al collo PRIMA che morisse. Ti domandi se la gente si sia appassionata a questa cosa cos&#236; tanto solo per infastidire Vantas. Sai che probabilmente lo ha fatto solo arrabbiare, vedere le persone indossarla tutto il tempo.</args>
     	</action>
     </sprite>
     <sprite class='chest4' name='thirdRoomChest4' x='1623' y='1150'>
-    	<action command='openChest' name='open'>
-    		<args>thirdRoomChest4,obj26,@! You got a WHOLE STACK OF BOONDOLLARS!
-      @!:#how-does-this-factor-into-the-big-silly-tumblr-metaphor#shrug Keep em coming! You'll be rich again in no time. Pretty soon you'll own this place. Right after you save it from destruction, of course.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>thirdRoomChest4,obj26,@! Hai ottenuto un'INTERA CATASTA DI BOONDOLLARI!
+      @!:#come-rientra-tutto-questo-nell'enorme-sciocca-metafora-tumblriana#bah Tienili! Sarai di nuovo ricca in men che non si dica. Presto comprerai questo posto. Appena dopo averlo salvato dalla distruzione, ovviamente.</args>
     	</action>
     </sprite>
     <sprite class='chest4' name='thirdRoomChest5' x='1794' y='1150'>
-    	<action command='openChest' name='open'>
-    		<args>thirdRoomChest5,obj27,@!:#mo-money#3B) You got a WHOLE HEAP OF BOONDOLLARS!
-      @!:#DWI Some of these messages don't really make sense unless you're being Meenah, but you're not going to let that bother you.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>thirdRoomChest5,obj27,@!:#mo-money#3B) Hai ottenuto un INTERO CUMULO DI BOONDOLLARI!
+      @!:#abituati Alcuni di questi messaggi non hanno davvero senso a meno che tu non stia essendo Meenah, ma non ti lascierai davvero infastidire da ci&#242;.</args>
     	</action>
     </sprite>
     <sprite class='chest4' name='thirdRoomChest6' x='1959' y='1150'>
-    	<action command='openChest' name='open'>
-    		<args>thirdRoomChest6,obj28, @! You got a RAGRIPPER!
-      @!:#lame-planet#lame-planet-names A popular model from the DEMONBANE line of chainsaws. At least, it was popular on Alternia. Your planet wasn't nearly badass enough for this thing to be sold legally. Beforus was so lame.
+    	<action command='openChest' name='Apri.'>
+    		<args>thirdRoomChest6,obj28, @! Hai ottenuto un LACERATORE!
+      @!:#pianeta-stupido#stupidi-nomi-per-pianeti Un modello popolare della linea DEMONIACO di motosega. Almeno, era popolare su Alternia. Il tuo pianeta non era nemmeno lontanamente figo abbastanza da far vendere queste robe legalmente. Beforus era cos&#236; stupido.
 </args>
     	</action>
     </sprite>
     <sprite class='chest5' name='thirdRoomChest7' x='320' y='2084'>
-    	<action command='openChest' name='open'>
-    		<args>thirdRoomChest7,obj29, @! You got some AUTHENTIC RELIGIOUS MEMORABILIA!
-      @!:#irons#sufferer#authentic#(or-as-authentic-as-phantom-ghost-memory-items-get) These were the doodads adult post-scratch Vantas was chained up with when he died. You bet Serket would fork over a ton of gold for this junk. Religious nuts are some of the biggest suckers around.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>thirdRoomChest7,obj29, @! Hai ottenuto degli AUTENTICI CIMELI RELIGIOSI!
+      @!:#catene#sofferente#autentici#(o-tanto-autentici-quanto-pu&#242;-esserlo-un-oggetto-memoria-fantasma) Questi sono gli aggeggi con cui il Vantas adulto post-graffio &#232; stato incatenato quando &#232; morto. Scommetti che Serket ti darebbe un sacco di denaro per questa spazzatura. I pazzi religiosi sono fra i pi&#249; grandi fessi che ci siano.</args>
     	</action>
     </sprite>
     <sprite class='chest5' name='thirdRoomChest8' x='2012' y='2092'>
-    	<action command='openChest' name='open'>
-    		<args>thirdRoomChest8,obj30,@! You got a JUJU!
-      @!:#ok-you-pried-one-hint-out-of-me#the-number-7 Looks like a magic EGG TIMER, which you can use to travel through time, haphazardly and stupidly. It's the type of item that's severely prone to making a mess of the timeline. Need a JUJU BREAKER to destroy such an item and repair the damage it's done. But that kind of thing is extremely rare-to-non-existent. You don't have a single good guess what form such an item could take.
+    	<action command='openChest' name='Apri.'>
+    		<args>thirdRoomChest8,obj30,@! Hai ottenuto un JUJU!
+      @!:#ok-hai-un-indizio-da-parte-mia#il-numero-7 Sembra un TIMER DA CUCINA magico, che puoi usare per viaggiare nel tempo, in modo casuale e stupido. &#200; il tipo di oggetto gravemente prono a creare un casino nella timeline. Hai bisogno di uno SFASCIA JUJU per distruggere un simile oggetto e riparare il danno fatto. Ma quel tipo di cosa &#232; estremamente raro-inesistente. Non hai la minima idea che tipo di forma potrebbe assumere un simile affare.
 </args>
     	</action>
     </sprite>
     <sprite class='chest4' name='thirdRoomChest9' x='2628' y='2620'>
-    	<action command='openChest' name='open'>
-    		<args>thirdRoomChest9,obj31,@! You got a PRETZELED HORSE HITCHER!
-      @!:#an-incredible-host Who could have done this to such a fine, cast iron steed? Whoever it was must have been incredibly strong, incredibly smug, and incredibly floppy when shaken.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>thirdRoomChest9,obj31,@! Hai ottenuto un BASTONE ANNODATO DI CAVALLO!
+      @!:#un-incredibile-anfitrione Chi potrebbe aver fatto una simile cosa a un tale amabile destriero di ghisa? Chiunque fosse doveva essere incredibilmente forte, incredibilmente pieno di s&#233;, e incredibilmente snodabile quando scosso.</args>
       	<action command='removeAction'>
-      		<args>andrew,Talk.</args>
+      		<args>andrew,Parla.</args>
       		<action command='addActions'>
       			<args>andrew,
       				<action class='andrewTalk2'/>
@@ -640,27 +640,27 @@
     	</action>
     </sprite>
     <sprite class='chest4' name='thirdRoomChest10' x='3156' y='2604'>
-    	<action command='openChest' name='open'>
-    		<args>thirdRoomChest10,obj32,@! You got a MAGIC CUE BALL!
-      @!:#right#...#maybe Hey, is this thing a juju too? It's a shame you can't see through its surface, or you'd be able to ask it yourself. This is another thing that's kind of unnerving to find here. Good thing it's only a memory object, right?</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>thirdRoomChest10,obj32,@! Hai ottenuto una PALLINA MAGICA!
+      @!:#giusto#...#forse Ehi, &#232; un juju anche questa? &#200; un peccato che tu non possa vedere attraverso la sua superficie, o glielo potresti chiedere tu stessa. Questa &#232; un&apos;altra di quelle cose che &#232; piuttosto irritante da trovare qui. Meno male che &#232; solo un oggetto ricordo, giusto?</args>
     	</action>
     </sprite>
     <sprite class='chest4' name='thirdRoomChest11' x='3232' y='2604'>
-    	<action command='openChest' name='open'>
-    		<args>thirdRoomChest11,obj33,@! You got a REGISICKLE!
-      @!:#troll-will-smith Perfect for threshing royalty with. You could almost say you could use it to... thresh princes.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>thirdRoomChest11,obj33,@! Hai ottenuto una REGIFALCE!
+      @!:#troll-will-smith Perfetta con cui falciare la nobilt&#224;. Potresti quasi dire che la useresti per... falciare principi.</args>
     	</action>
     </sprite>
     <sprite class='chest4' name='thirdRoomChest12' x='3936' y='2600'>
-    	<action command='openChest' name='open'>
-    		<args>thirdRoomChest12,obj34,@! You got a TROLL ROMANCE NOVEL!
-      @!:#LAAAAALOOOOONDE!!!!!!!!!! Wow, this sure is some steamy, trashy literature here. It's making you perspire a little, and you're only three sentences into the title. Doesn't seem like anyone's looking. Maybe you'll just take one little peek insi... Whoops, it just disappeared in a blur again. God damn it.</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>thirdRoomChest12,obj34,@! Hai ottenuto un ROMANZO ROSA TROLL!
+      @!:#LAAAAALOOOOONDE!!!!!!!!!! Wow, questa s&#236; che &#232; letteratura spinta scadente. Ti sta facendo perspirare un po&apos;, e sei soltanto alla terza frase del titolo. Non sembra che qualcuno stia guardando. Magari ci darai solo un piccolo sguardo den... Oops, &#232; appena sparito di nuovo con una macchia. Dannazione.</args>
     	</action>
     </sprite>
     <sprite class='chest5' name='thirdRoomChest13' x='2932' y='2120'>
-    	<action command='openChest' name='open'>
-    		<args>thirdRoomChest13,obj35,@! You got a bunch of LICORICE SCOTTIE DOGS!
-      @!:#except-you-just-ate-most-of-them#worth-it Oh man, these were a DELICACY on your planet. The most valuable treat per-pound by far. You have to be a very, very wealthy person to keep a great supply of these on hand. By selling these, you should be able to make most of your fortune back in one fell swoop!!!!!</args>
+    	<action command='openChest' name='Apri.'>
+    		<args>thirdRoomChest13,obj35,@! Hai ottenuto un MUCCHIO DI CANI SCOZZESI DI LIQUIRIZIA!
+      @!:#non-fosse-che-ne-hai-gi&#224;-mangiati-la-maggior-parte#ne-&#232;-valsa-la-pena Oh cielo, questi erano una DELICATEZZA sul tuo pianeta. Di gran lunga la delizia di maggior valore. Devi essere una persona davvero, davvero ricca per fornire queste. Vendendole, dovresti riuscire a riottenere la maggior parte della tua fortuna in un batter d'occhio!!!!!</args>
     	</action>
     </sprite>
     
