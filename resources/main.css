@@ -115,6 +115,7 @@ textarea {
 
    .instructions > .spoilers {
      font-family: "Courier New", Courier, monospace;
+     font-weight: bold;
      font-size: 14px;
      margin-left: auto;
      margin-right: auto;
