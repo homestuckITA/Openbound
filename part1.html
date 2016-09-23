@@ -10,20 +10,25 @@
 
 	<body onload="Sburb.initialize('JterniaDeploy','levels/openbound/openbound.xml','true');">
 		<!--[if lt IE 8]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+		<div class="frame clearfix">
+			<article class="page clearfix">
+				<h1 class="header">[S] Meenah: Be Cool, or whatever</h1>
 
-		<div id="JterniaDeploy" ></div>
-		<noscript>Your browser does not appear to support javascript, which this content requires</noscript>
+				<div class="content" id="JterniaDeploy"></div>
+				<noscript>Your browser does not appear to support javascript, which this content requires</noscript>
 
-		<div id="instructions" class="instructions">
-			<div class="button">
-				<button type="button" name="showSpoilers" onclick="toggleSpoilers()">Show Instructions</button>
-			</div>
-			<div class="spoilers hidden">
-				<p>
-					1. DO THIS</br>
-				  2. DO THAT
-				</p>
-			</div>
+				<div class="footer">
+					<div id="instructions" class="instructions">
+						<div class="button"><button type="button" name="showSpoilers" onclick="toggleSpoilers()">Show Instructions</button></div>
+						<div class="spoilers hidden"><p>
+							1. DO THIS</br>
+							2. DO THAT
+						</p></div>
+					</div>
+
+					<p class="next"><a href="/">==></a></p>
+				</div>
+			</article>
 		</div>
 
 		<script type="text/javascript">
