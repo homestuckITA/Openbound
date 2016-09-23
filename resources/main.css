@@ -98,6 +98,10 @@ textarea {
      content: "> ";
    }
 
+   .footer .links {
+     font-size: 10px;
+   }
+
    .instructions {
      border: 1px dashed grey;
      display: block;
