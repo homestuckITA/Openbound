@@ -80,11 +80,11 @@
   			<args>@! Usa le freccie o i tasti WASD per muoverti, e spazio per interagire.</args>
   		</action>
   	</spritebutton>
-  	<spritebutton name='saveButton' x='595' y='390' sheet='saveControl'>
+  	<!-- <spritebutton name='saveButton' x='595' y='390' sheet='saveControl'>
   		<action command='saveOrLoad' soft='true'>
   			<args></args>
   		</action>
-  	</spritebutton>
+  	</spritebutton> -->
 
 
 	<dialoger alertPos="56,120" talkPosRight="20,120" talkPosLeft="90,120" hiddenPos="-1000,120"
