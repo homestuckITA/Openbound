@@ -93,6 +93,7 @@ textarea {
    .page .footer {
      margin: 0 auto;
      max-width: 600px;
+     padding-bottom: 7px;
    }
 
    .footer .next {
