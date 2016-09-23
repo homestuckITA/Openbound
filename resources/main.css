@@ -60,10 +60,10 @@ textarea {
    }
 
    .frame {
-     text-align: center;
+     background-color: rgb(198, 198, 198);
      max-width: 950px;
      margin: 1em auto;
-     background-color: rgb(198, 198, 198);
+     text-align: center;
    }
 
    .page {
@@ -71,11 +71,12 @@ textarea {
      display: inline-block;
      font-family: Verdana, Arial, Helvetica, sans-serif;
      margin: 7px auto 1em auto;
-     text-align: left;
      min-width: 650px;
+     text-align: left;
    }
 
    .page .content {
+     background-color: black;
      min-height: 450px;
    }
 
@@ -90,8 +91,8 @@ textarea {
    }
 
    .page .footer {
-     max-width: 600px;
      margin: 0 auto;
+     max-width: 600px;
    }
 
    .footer .next {
@@ -104,6 +105,7 @@ textarea {
 
    .footer .links {
      font-size: 10px;
+     font-weight: bold;
    }
 
    .instructions {
