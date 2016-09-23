@@ -12,15 +12,18 @@
 		<!--[if lt IE 8]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
 		<div class="frame clearfix">
 			<article class="page clearfix">
-				<h1 class="header">[S] Meenah: Be Cool, or whatever</h1>
+				<h1 class="header">[S] ATTO 6 INTERMEZZO 3</h1>
 
 				<div class="content" id="JterniaDeploy"></div>
 				<noscript>Your browser does not appear to support javascript, which this content requires</noscript>
 
 				<div class="footer">
 					<div id="instructions" class="instructions">
-						<div class="button"><button type="button" name="showSpoilers" onclick="toggleSpoilers()">Show Instructions</button></div>
+						<div class="button"><button type="button" name="showSpoilers" onclick="toggleSpoilers()">Mostra Istruzioni</button></div>
 						<div class="spoilers hidden">
+							<p>
+								<a href="http://mspaintadventures.com/scraps2/a6i3map1.gif">MAPPA</a>
+							</p>
 							<p>
 								<span style="color: #D83C9C">Stanza 1</span><br>
 								Inizia andando a sud. Va dritto verso le scale e continua a est rispetto a Aradia. Dopo essere sceso un'altra rampa scale, fatti strada alla spiaggia in alto a destra.
@@ -49,9 +52,6 @@
 
 								Esci a nord-est.
 							</p>
-							<p>
-								<a href="http://mspaintadventures.com/scraps2/a6i3map1.gif">MAPPA</a>
-							</p>
 						</div>
 					</div>
 
@@ -65,9 +65,9 @@
 				button = document.getElementsByName('showSpoilers')[0];
 				spoilers = button.parentNode.parentNode.getElementsByClassName('spoilers')[0];
 				if(spoilers.classList.toggle('hidden')){
-					button.firstChild.data = "Show Instructions"
+					button.firstChild.data = "Mostra Istruzioni"
 				} else {
-					button.firstChild.data = "Hide Instructions"
+					button.firstChild.data = "Nascondi Ustruzioni"
 				}
 				return false;
 			}
