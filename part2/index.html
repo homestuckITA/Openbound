@@ -3,13 +3,14 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>[S] ATTO 6 INTERMEZZO 3</title>
+		<script src="/Openbound/common/toggleSpoilers.js" charset="utf-8"></script>
 		<!-- imports -->
 		<script type="text/javascript" src="/Openbound/common/Sburb.min.js"></script>
 		<link rel="stylesheet" href="/Openbound/common/normalize.min.css">
 		<link rel="stylesheet" href="/Openbound/common/main.css">
 	</head>
 
-	<body onload="Sburb.initialize('JterniaDeploy','levels/openbound/openbound.xml','true');">
+	<body onload="Sburb.initialize('JterniaDeploy','levels/init.xml','true');">
 		<!--[if lt IE 8]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
 		<div class="frame clearfix">
 			<article class="page clearfix">
@@ -33,22 +34,9 @@
 					</div>
 
 					<p class="next"><a href="http://mspfanventures.com/?s=817&id=5259">==></a></p>
-					<p class="links"><a href="http://mspfanventures.com/?s=817&p=1">Start Over</a> | <a href="http://mspfanventures.com?s=817&p=5258">Go Back</a>
+					<p class="links"><a href="http://mspfanventures.com/?s=817&p=1">Start Over</a> | <a href="http://mspfanventures.com?s=817&p=5279">Go Back</a>
 				</div>
 			</article>
 		</div>
-
-		<script type="text/javascript">
-			function toggleSpoilers() {
-				button = document.getElementsByName('showSpoilers')[0];
-				spoilers = button.parentNode.parentNode.getElementsByClassName('spoilers')[0];
-				if(spoilers.classList.toggle('hidden')){
-					button.firstChild.data = "Mostra Istruzioni"
-				} else {
-					button.firstChild.data = "Nascondi Istruzioni"
-				}
-				return false;
-			}
-		</script>
 	</body>
 </html>
