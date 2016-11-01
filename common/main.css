@@ -80,10 +80,6 @@ textarea {
      min-height: 450px;
    }
 
-   .archive .item .content {
-     max-width: 600px;
-   }
-
    .page .header {
      text-align: center;
      font-family: "Courier New", Courier, monospace;
