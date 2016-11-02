@@ -150,7 +150,7 @@
       @kankri_idle KANKRI: Ass9lutamente!
       @kankri_talk4 KANKRI: Davver9, n9n c&apos;&#232; fretta, i9 mi prender9&apos; il temp9 per preparare alcuni dei miei pr9l9ghi di apertura per c9ntestualizzare al megli9 le mie ramanzine pr9i6itivamente l9quaci. Ci9&#232; amichev9li chiacchierate.
       @meenah_creepy MEENAH: brb amico
-      <!-- then "Be Meenah?" prompt -->
+      <!-- then "Sii Meenah?" prompt -->
 </args></action>
 
 <action class='aradiaTalk1' command='talk' name='Parla.'><args>

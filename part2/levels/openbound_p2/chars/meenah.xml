@@ -11,7 +11,7 @@
 		
 	</character>
 	
-	<action class='beMeenah' name='Be Meenah.' command='changeChar'>
+	<action class='beMeenah' name='Sii Meenah.' command='changeChar'>
 		<args>meenah</args>
 		<action command='playSong'>
 			<args>hateYouSong</args>
