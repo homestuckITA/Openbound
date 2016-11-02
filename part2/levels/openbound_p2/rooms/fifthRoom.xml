@@ -44,7 +44,7 @@
   		<action class='karkatTalk1'>
   			<action command='presentActions'>
   				<args>
-  					<action class='beKarkat' name='Yes.'/>
+  					<action class='beKarkat' name='Sì.'/>
   					<action command='cancel' name='No.'/>
   				</args>
   			</action>
@@ -54,7 +54,7 @@
   	
   	<sprite name='crabdad' x='924' y='804' width='128' height='40' depthing='1' collidable='true'>
   		<animation sheet='crabdadIdle' x='-64' y='-158' length='4' frameInterval='8'/>
-  		<action name='Examine.' command='talk'>
+  		<action name='Esamina.' command='talk'>
   			<args>
   			@! GRUUUUUMMBLE
 				@!:#papà-granchio Sembra che il lusus di QUALCUNO sia di umore scorbutico oggi, così come tutti gli altri giorni.

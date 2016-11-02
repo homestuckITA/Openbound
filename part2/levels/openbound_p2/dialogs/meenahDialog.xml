@@ -1,7 +1,7 @@
 <sburb description='meenah dialogs'>
 	<classes>
 		<action sprite='mituna' class='meenahTalk1' command='talk' name='Parla con Meenah.'><args>
-      @meenah_talk MEENAH: MEENAH: amico prima che inizi con tutte le tue cazzate vorrei solo precisare che capisco a malapena una parola di tutto quello che dici
+      @meenah_talk MEENAH: amico prima che inizi con tutte le tue cazzate vorrei solo precisare che capisco a malapena una parola di tutto quello che dici
       @mituna_sad%alttextbox_4chan MITUNA: M1 D15P14C3
       @meenah_talk MEENAH: tipo tra il tuo quirk orripilante
       @meenah_talk MEENAH: e la tua varietà di problemi strani a parlare in conflitto
@@ -32,11 +32,11 @@
       @meenah_angrytalk MEENAH: non dire mai più un altra roba pesciosa o ti strangolo
       @cronus_huh CRONUS: sai, ti stai comportando un po da ipocrita adesso, non credi?
       @meenah_idle MEENAH: koisa
-      @cronus_talk CRONUS: darmi una lawvata di capo per awverla sfondata a captor, cosa assolutamente meritata.
+      @cronus_talk CRONUS: darmi una lavwata di capo per avwerla sfondata a captor, cosa assolutamente meritata.
       @cronus_smug CRONUS: come se tu non fossi ancora più colpewvole di awver abusato del powveretto.
       @meenah_fishtalk MEENAH: sei un tale glub di bugiardo
       @cronus_smug CRONUS: oh davvero?
-      @cronus_happytalk:#timoniere CRONUS: dimmi, dimmi prego, chi esattamente, in quale uniwverso alternatiwvo, ha usato per millenni captor adulto come propulsione a curwvatura wviwvente per la sua nawve spaziale.
+      @cronus_happytalk:#timoniere CRONUS: dimmi, dimmi prego, chi esattamente, in quale univwerso alternativwo, ha usato per millenni captor adulto come propulsione a curvwatura vwivwente per la sua navwe spaziale.
       @meenah_fish MEENAH: ehi quella non ero io
       @meenah_idle MEENAH: cioè
       @meenah_idle MEENAH: non ancora... uh
@@ -54,7 +54,7 @@
       @cronus_bored:#vwedi:-letteralmente-chiunque CRONUS: oh, come inizia a fluire la razionalizzazione quando si confà al tuo spropositato ego. così tipico di tutte le persone che mi rifiutano.
       @meenah_annoyedtalk MEENAH: almeno io non mi credo un aliena
       @cronus_huh CRONUS: cosa? di che stai parlando?
-      @meenah_annoyedtalk MEENAH: ma guardati coe te ne vai a spasso con quegli stupidi vestiti
+      @meenah_annoyedtalk MEENAH: ma guardati come te ne vai a spasso con quegli stupidi vestiti
       @meenah_annoyedtalk MEENAH: con quei capelli oliati e quella stupida piccola bacchetta in bocca
       @cronus_bored CRONUS: chiedo scusa. non è una bacchetta. sai perfettamente che ho lasciato alle spalle i miei giorni di mago. è chiamata "sigaretta umana" e a quanto pare le wva appiccato fuoco.
       @cronus_talk CRONUS: però se lo chiedi a me bruciarla sembra uno spreco di una "sigaretta" perfettamente sana e a posto.
@@ -66,7 +66,7 @@
       @cronus_surprised CRONUS: no, kankri... amico, non c è bisogno di irrompere qui e difendermi così. posso gestirmela.
       @meenah_annoyed MEENAH: eeeeee io vado
       @meenah_annoyedtalk MEENAH: voi bro potete risolvere i vostri sentimenti senza di me
-      @cronus_sad2 CRONUS:  meenah aspetta... oh, cavwoli. come niente fosse, è di nuovwo fuori dalla mia wvita. dovwevwi proprio wvenire qua e incasinare tutto per me, wvero? begli "amici" che ho.
+      @cronus_sad2 CRONUS: meenah aspetta... oh, cavwoli. come niente fosse, è di nuovwo fuori dalla mia wvita. dovwevwi proprio wvenire qua e incasinare tutto per me, wvero? begli "amici" che ho.
       @kankri_talk KANKRI: Senti, ti stav9 facend9 un fav9re. N9n hai 6is9gn9 di uscire c9n nessun9 che n9n ti p9ssa apprezzare per quell9 che sei, 9 più imp9rtante, per la versi9ne fantastica di te in cui ti identifichi maggi9rmente.
       @cronus_bored:#neanche-quelli-che-si-identificano-letteralmente-in-gatti CRONUS: già, forse hai ragione. lei non mi apprezza. così pochi fra wvoi mi apprezza, davwvwero.
       @cronus_upset2 CRONUS: ad essere onesti, potrebbe avwer ragione lei. a wvolte penso che forse sto davwvwero dicendo di essere un umano per attirare attenzione. forse dovwrei lasciar perdere.
@@ -93,7 +93,7 @@
       @meulin_worrytalk MEULIN: (^-人-^) &lt; SONO TUTTI COSI' PURRFETTAMENTE ADORABILI.
       @meulin_talk MEULIN: (^・ω・^ ) &lt; SONO LETTERALMENTE UNO PIU' ADORABILE E PERFETTO DELL ALTRO.
       @meenah_annoyedtalk MEENAH: se solo sentissi quanto suoni pazza
-      @meulin_worry:#M33NAH. MEULIN:  ~(=^‥^)/ &lt; M33NAH. M33NAH. NO.
+      @meulin_worry:#M33NAH. MEULIN: ~(=^‥^)/ &lt; M33NAH. M33NAH. NO.
       @meulin_worrytalk MEULIN: (^._.^)ﾉ &lt; TU NON CAPISCI.
       @meulin_worrytalk MEULIN: ヾ(=ﾟ･ﾟ=)ﾉ &lt; LORO SONO I MIEI BAMBINI.
       @meenah_annoyed MEENAH: cazzo sono i bambini
@@ -150,7 +150,7 @@
       </args>
 </action>
 
-<action sprite='terezi' class='meenahTalk5' command='talk' name='Talk to Meenah.'>
+<action sprite='terezi' class='meenahTalk5' command='talk' name='Parla con Meenah.'>
       <args>
       @terezi_idle TEREZI: OH... 3H1
       @terezi_idle TEREZI: S31 TU

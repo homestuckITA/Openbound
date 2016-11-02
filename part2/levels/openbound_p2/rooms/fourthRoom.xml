@@ -71,7 +71,7 @@
 			<action command='openChest' name='Apri.'>
 		  <args>fourthRoomChest19,obj19,
 		    @! Hai trovato una CASSA DI JUJU!
-		    @! Solo un cherubino può aprirla. Doppio-moriresti dalla voglia di sapere cosa c'è dentro, a eccezione del fatto che anche solo pensarci sia eresia. E ti morderesti la lingua per averlo pensato, se non l'avessi già masticato via tempo fa.
+		    @! Solo un cherubino può aprirla. Doppio-moriresti dalla voglia di sapere cosa c'è dentro, a eccezione del fatto che anche solo pensarci sia eresia. E ti morderesti la lingua per averlo pensato, se non l'avessi già masticata via tempo fa.
 		  </args>
 		  </action>
   	</sprite>

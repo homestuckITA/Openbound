@@ -32,7 +32,7 @@
   	
   	<sprite name='secondRoomProspitians' x='552' y='843' width='152' height='40' collidable='true' depthing='1'>
   		<animation sheet='prospitians' x='-70' y='-80'/>
-			<action command='talk' name='Examine.'>
+			<action command='talk' name='Esamina.'>
 				<args>
 				@! Questo è... che sia???
 				@! È COSÌ! SONO PROBLEM SLEUTH, ACE DICK E PICKLE INSPECTOR, NEL LORO ORIGINALE VESTIARIO DA PROSPITIANI! LO SAPEVI! SAPEVI CHE ALLA FINE LI AVRESTI TROVATI! È COSÌ FANTASTICO CHE...

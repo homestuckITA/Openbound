@@ -1,9 +1,9 @@
 <sburb description='exposition dialogs'>
 	<classes>
-		<action class='expoTalk0' command='talk' name='Chiedi a Aranea di Cherubquest..'>
+		<action class='expoTalk0' command='talk' name='Chiedi a Aranea di Cherubquest.'>
       <args>
       @aranea_surprised ARANEA: Io...
-      @aranea_think ARANEA: ARANEA: Non l'ho ancora trovata.
+      @aranea_think ARANEA: Non l'ho ancora trovata.
       @meenah_idle MEENAH: qualche pista o
       @aranea_idle ARANEA: Non proprio.
       @aranea_talk ARANEA: A quanto pare è molto 8en nascosta!
@@ -32,7 +32,7 @@
       @aranea_annoyed ARANEA: Io...
       @aranea_madtalk ARANEA: Guarda. Trovare questa cheru8ina sare88e comunque dovuta essere una missione lunga e difficile. È un intricato mistero a più strati che non si può affrettare. Ci sto lavorando!!!!!!!!
       @meenah_talk MEENAH: aranea serket ho una cosa da spiegarti a koisto zero
-      @meenah_happytalk MEENAH:  trovo che il tuo approccio esilarantemente non effettivo verso questa missione sia super adorabile
+      @meenah_happytalk MEENAH: trovo che il tuo approccio esilarantemente non effettivo verso questa missione sia super adorabile
       @aranea_facepalm ARANEA: 
       <!--  -->
       </args>

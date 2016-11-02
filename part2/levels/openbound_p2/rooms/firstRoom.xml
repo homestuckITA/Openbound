@@ -401,7 +401,7 @@
 			<action class='cronusTalk7'>
 				<action command='presentActions'>
 					<args>
-						<action name='Yes.' class='beCronus'>
+						<action name='Sì.' class='beCronus'>
 							<action command='playSong'>
 								<args>violetPrinceSong</args>
 								<action command='setGameState'>
@@ -422,7 +422,7 @@
   	</character>
   	
   	<sprite class='seahorsedad' x='1702' y='844' >
-			<action command='setGameState' name='Examine.'>
+			<action command='setGameState' name='Esamina.'>
 				<args>horseLook,true</args>
 			</action>
   	</sprite>
@@ -450,7 +450,7 @@
 		<sprite name='firstRoomGarbage' x='372' y='306' width='50' height='30' >
   		<action command='talk' name='Esamina.'>
 				<args>
-				@! Un'ordinaria CASSA DI RIFIUTI. È piena di spazzatura puzzolente, ma non è ancora stata portata fuori dall'anello. Forse il drone raccoglitore di rifiuto non ha in programma di passare stanotte?
+				@! Un'ordinaria CASSA DI RIFIUTI. È piena di spazzatura puzzolente, ma non è ancora stata portata fuori dall'anello. Che il drone raccogli rifiuti non abbia in programma di passare stanotte?
 				<!--  -->
 				</args>
 			</action>
@@ -502,7 +502,7 @@
 			<action command='openChest' name='Apri.'>
 					<args>firstRoomChest1,obj01,
 						@! Hai trovato una BIBITA ALTERNIANA!
-						@! Non sei davvero esperta di storia alterniana, ma a quanto pare a un certo punto l'imperatrice si è stancata della presa dei Sojjuglatori sul mercato della soda e ha rilasciato un drink che si diceva fosse più carico di zucchero anche dello stesso elisir malefico. Ma i Sanguepuro considerarono essere queste notizie di marketing delle bugie blasfeme. E avevano ragione. La bibita in realtà conteneva zero calorie, cosa che lei aveva segretamente imposto per mantenere la sua figura snella. Ma tutti gli scemi sanguesporco tracannavano miliardi di lattine senza alcun sospetto, mentre la furba Condesce nuotava nell'oro.
+						@! Non sei davvero esperta di storia alterniana, ma a quanto pare a un certo punto l'imperatrice si è stancata della presa dei Sojjugglatori sul mercato della soda e ha rilasciato un drink che si diceva fosse più carico di zucchero anche dello stesso elisir malefico. Ma i Sanguepuro considerarono essere queste notizie di marketing delle bugie blasfeme. E avevano ragione. La bibita in realtà conteneva zero calorie, cosa che lei aveva segretamente imposto per mantenere la sua figura snella. Ma tutti gli scemi sanguesporco tracannavano miliardi di lattine senza alcun sospetto, mentre la furba Condesce nuotava nell'oro.
 						@! Se qualcuno ti avesse effettivamente raccontato questa storia, avresti speso gli ultimi dieci minuti a fangirlare sul pavimento.
 					</args>
 			</action>
@@ -510,7 +510,7 @@
   	
   	<sprite class='chest2' name='firstRoomChest2' x='1194' y='1090'>
 			<action sprite='!cronus' command='talk' name='Apri.'>
-				<args> @! Can't open it! Maybe if you try with someone else...</args>
+				<args> @! Non si apre! Forse se provassi con qualcun altro...</args>
 			</action>
 			
 			<action sprite='cronus' command='openChest' name='Apri.'>
@@ -527,7 +527,7 @@
 						<action command='setGameState' noDelay='true'>
 							<args>hussieFollow,true</args>
 							<action command='removeAction' noDelay='true'>
-								<args>firstRoomChest1,Open.</args>
+								<args>firstRoomChest1,Apri.</args>
 							</action>
 						</action>
 					</action>
@@ -538,12 +538,12 @@
   	<sprite class='chest2' name='firstRoomChest3' x='2274' y='658'>
 			<action command='openChest' name='Apri.'>
 				<args>firstRoomChest3,obj03,
-				  @! Hai trovato una CHIAVE DI DIAMANTI!
+				  @! Hai trovato una CHIAVE DI QUADRI!
 				</args>
 				<action command='addAction'>
   				<args>megaDoor,
-  					<action name='Use diamond key.' command='removeAction'>
-  						<args>megaDoor,Usa chiave di diamanti.</args>
+  					<action name='Usa chiave di quadri.' command='removeAction'>
+  						<args>megaDoor,Usa chiave di quadri.</args>
   						<action command='setGameState'>
   							<args>diamondKeyUsed,true</args>
   							<action command='addSprite'>
@@ -606,7 +606,7 @@
 				</args>
 				<action command='addAction'>
   				<args>megaDoor,
-  					<action name='Use club key.' command='removeAction'>
+  					<action name='Usa chiave di fiori.' command='removeAction'>
   						<args>megaDoor,Usa chiave di fiori.</args>
   						<action command='setGameState'>
   							<args>clubKeyUsed,true</args>

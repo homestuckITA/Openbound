@@ -257,7 +257,7 @@
   		<action class='kurlozTalk5' >
   			<action command='presentActions'>
   				<args>
-  					<action command='setGameState' name='Yes.'>
+  					<action command='setGameState' name='Sì.'>
   						<args>givingCod,true</args>
   					</action>
   					<action command='cancel' name='No.' />
@@ -277,7 +277,7 @@
   	</sprite>
   	
   	<sprite name='thirdRoomBubble1' class='blueBubble' x='999' y='1875'>
-  		<action sprite='!meulin' command='talk' name='Examine.'>
+  		<action sprite='!meulin' command='talk' name='Esamina.'>
 				<args>
 				@! Questo non contiene un tuo ricordo. Solo Meulin ha accesso a questa bolla.
 				<!--  -->
@@ -308,14 +308,14 @@
   	</sprite>
   
   	<sprite name='thirdRoomBubble2' class='blueBubble' x='663' y='375'>
-  		<action sprite='!kurloz' command='talk' name='Examine.'>
+  		<action sprite='!kurloz' command='talk' name='Esamina.'>
 						<args>
 						@! Questo non contiene il tuo ricordo. Solo Kurloz può accedere a questa bolla.
 						<!--  -->
 						</args>
 			</action>
 			
-			<action sprite='kurloz' command='talk' name='Examine.'>
+			<action sprite='kurloz' command='talk' name='Esamina.'>
 				<args>
 				@! Hai tenuto molti segreti ai tuoi amici. I segreti per te sono sempre stati i più bei miracoli che ci siano. Sono le risposte private a un mucchio di indovinelli che nessuno hai mai chiesto.
 				@! Ma dal momento che questo posto è fatto di ricordi, hai dovuto essere molto cauto coi tuoi segreti. Hai scavato un network estensivo di catacombe virtuali lungo tutto l'oltretomba, che porta a tesori nascosti, oscure memorie, e forse uno o due punti di discesa illeciti.
@@ -368,7 +368,7 @@
 				</args>
 				<action command='addAction'>
   				<args>megaDoor,
-  					<action name='Use spade key.' command='removeAction'>
+  					<action name='Usa chiave di picche.' command='removeAction'>
   						<args>megaDoor,Usa chiave di picche.</args>
   						<action command='setGameState'>
   							<args>spadeKeyUsed,true</args>
@@ -422,7 +422,7 @@
 				</args>
 				<action command='addAction'>
   				<args>megaDoor,
-  					<action name='Use heart key.' command='removeAction'>
+  					<action name='Usa chiave di cuori.' command='removeAction'>
   						<args>megaDoor,Usa chiave di cuori.</args>
   						<action command='setGameState'>
   							<args>heartKeyUsed,true</args>

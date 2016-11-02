@@ -118,7 +118,7 @@
   	</character>
   	
   	<sprite class='chest8' name='sixthRoomChest1' x='970' y='211'>
-			<action command='openChest' name='Open.'>
+			<action command='openChest' name='Apri.'>
 		  	<args>sixthRoomChest1,item1,
 		 	 	@! Hai trovato un BASTONE DA PUGNALAZIONE!
 				@! Sarebbe davvero sfortunato essere ciechi e camminare in giro senza avere uno strumento affidabile che ti aiuti a pugnalare dove vai.
@@ -128,10 +128,10 @@
   	</sprite>
   	
   	<sprite class='chest8' name='sixthRoomChest2' x='956' y='1306'>
-			<action command='openChest' name='Open.'>
+			<action command='openChest' name='Apri.'>
 		  	<args>sixthRoomChest2,item2,
 		    @! Hai trovato un SACCHETTO DI SCARAFAGGI RUBATI!
-				@! È assolutamente la valuta perfetta per comprare procuratori corrotti quando ti trovi nei guai con la legge. I loro musi avido semplicemente non possono resistere. Assicurati solo che il terrificante mostro giudice non ti colga in flagrante! Devi aspettare che Sua Tirannia si distragga con qualcosa a parte i procedimenti giudiziari. Un'occorrenza ben lontana dall'infrequente.
+				@! È assolutamente la valuta perfetta per comprare procuratori corrotti quando ti trovi nei guai con la legge. I loro avidi musi semplicemente non possono resistere. Assicurati solo che il terrificante mostro giudice non ti colga in flagrante! Devi aspettare che Sua Tirannia si distragga con qualcosa che non siano i procedimenti giudiziari. Un'occorrenza ben lontana dall'infrequente.
 				</args>
 		  </action>
   	</sprite>

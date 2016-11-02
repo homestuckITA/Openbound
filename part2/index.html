@@ -25,16 +25,14 @@
 			<div class="footer">
 				<div id="instructions" class="instructions">
 					<div class="button"><button type="button" name="showSpoilers" onclick="toggleSpoilers()">Mostra Istruzioni</button></div>
-					<div class="spoilers hidden">
-						<img src="http://mspaintadventures.com/scraps2/a6i3map2.gif" alt="A6I3Mappa2" onclick="document.getElementById('modalMap').style.display='block'" class="w3-hover-opacity w3-image" />
-					</div>
+					<img src="http://mspaintadventures.com/scraps2/a6i3map2.gif" alt="A6I3Mappa2" onclick="document.getElementById('modalMap').style.display='block'" class="w3-hover-opacity map-preview spoilers hidden" />
 				</div>
 
 				<p class="next"><a href="http://mspfanventures.com/?s=817&id=5304">==></a></p>
 				<p class="links"><a href="http://mspfanventures.com/?s=817&p=1">Start Over</a> | <a href="http://mspfanventures.com?s=817&p=5302">Go Back</a>
 			</div>
 		</article>
-		<div id="modalMap" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
+		<div id="modalMap" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'" style="z-index:500">
 			<img class="w3-modal-content" src="http://mspaintadventures.com/scraps2/a6i3map2.gif">
 		</div>
 	</div>
