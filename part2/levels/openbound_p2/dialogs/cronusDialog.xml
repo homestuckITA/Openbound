@@ -1,0 +1,157 @@
+<sburb description='cronus dialogs'>
+	<classes>
+		<action sprite='meenah' class='cronusTalk1' command='talk' name='Parla con Cronus.'><args>
+      @cronus_happytalk CRONUS: wvell vwell wvelvlw...
+      @meenah_annoyed MEENAH: ...
+      @cronus_huh CRONUS: SFERE.
+      @meenah_annoyed:#38? MEENAH: koisa
+      @cronus_bored CRONUS: awvewvo wvisto che stavwi wvenendo wverso di me e avwevwo una bella frase tutta pronta.
+      @cronus_angry CRONUS: ma per qualche ragione ho deciso di aprirla con uno scioglilingua.
+      @cronus_upset2:#le-W-sono-difficili#sono-difficili-e-nessuno-lo-capisce#(anche-le-V) CRONUS: davwvwero bravwo ampora, iniziare la tua magnifica frase con tre parole di fila con la 'w'.
+      @meenah_idle MEENAH: come uh
+      @meenah_talk MEENAH: come avrebbe dovuto essere la tua magnifica frase da rimorchio
+      @meenah_annoyed:#no MEENAH: o forse non dovrei chiederlo
+      @cronus_bored:#davwvwero-NEANCHE-importa CRONUS: sigh, guarda neanche IMPORTA, è completamente rovwinata adesso.
+      @cronus_talk CRONUS: è che ti ho wvisto dirigerti nella mia direzione, con la tua travwolgente autostima e sangue freddo, per la prima wvolta dopo quanto tempo?
+      @cronus_bored CRONUS:  e mi sono emozionato un po. stavwo per farti saltare fuor d acqua con quella frase, ma credo che non sia cambiato nulla.
+      @meenah_idle MEENAH: suppongo di no
+      @meenah_happytalk MEENAH: sembra che tu sia ancora il bardo del provarci troppo
+      @cronus_angry CRONUS: oh, bello. sai sempre come rigirare il forcone nella piaga.
+      @cronus_angry:#utensilkind CRONUS: in realtà, tutte wvoi ragazze siete abbastanza abili a rigirare i wvostri rispettivwi utensili.
+      @cronus_sad2 CRONUS: i ragazzi anche, ora che ci penso. posso farti una domanda? perché tutti wvoi tipetti presuntuosi alla moda wvi divwertite ad essere così crudeli con le persone particolarmente sensibili e artistiche?
+      @meenah_talk MEENAH: quindi ho capito anche dopo miliardi di orbite in questo posto con una barconnellata di bei sinistri candidati con cui intrallazzarsi
+      @meenah_wink MEENAH: non hai ancora fatto nulla con nessuno
+      @cronus_huh CRONUS: prima rigiri il forcone, poi lo usi per punzecchiare nella mia wvita privwata? davvero fantastico da parte tua, meenah.
+      @cronus_bored CRONUS: senza commentare specificatamente quello, (perché seriamente, COME SCUSA? che sgarbata), ti dirò che divwenta dawvwvero frustrante dopo le prime epoche cercare di raccapezzare qualcosa di quello che gli altri WVOGLIONO. wvoglio dire, in OGNI quadrante.
+      @cronus_talk CRONUS: ora per favwore non dire a nessuno che l ho detto, ma sia tu che io sappiamo entrambi molto bene che praticamente tutti quanti qui si sentirebbero onorati ad uscire con un ragazzo come me.
+      @cronus_smug:#dovwresti-puntare-il-tuo-forcone-su-QUELLO CRONUS: sai essendo nobile e tutto il resto, e affatto scoraggiato all idea di avwere appuntamenti con gente in basso nell emospettro. cioè, davwvwero, come potrei rendere più ovwvwio di così per tutti quanti che sono un tipo figo, progressista e alla mano, che non prende seriamente l ordine sociale e non crede a nessuno degli stereotipi? tanto per cominciare, come se il fattore emospettro non fosse DI MOLTO superato.
+      @cronus_talk:#o-almeno-io-ERO-SOLITO-ascoltare-musica-che-ti-piace#conta-questo? CRONUS: come se ne PARLASSI, POI, del mio alto stato sociale. non potrebbe essere d importanza MINORE per me, ma credo che forse le persone ne siano ancora intimidite. probabilmente mi considerano superiore, nonostante le mie tranquille rassicurazioni che il mio lignaggio reale sia una cosa a cui NEMMENO PENSO MAI. tipo, no amico, sono proprio come te. ridiamo alle stesse battute, ascoltiamo, beh, fino a un certo punto, la stessa musica...
+      @cronus_angry:#selvwaggi#giovwani#stravwaganti#reietti#provwato CRONUS: tutti questi giovwani selvwaggi, te lo dico io. sono sempre attratti dagli strawvaganti e i reietti. dewvi essere PROWVATO in qualche modo da qualcosa per awvere una qualche attenzione concupiscente.
+      @cronus_sad2:#sensibile#ascolta#poesia#musica#lì-per-loro CRONUS: non sembrano wvoler dare il tempo di un giorno a un ragazzo sensibile, che ascolta le persone, che porta avwanti la propria poesia e musica, e credo... solo uno che wvuole essere lì per loro.
+      @cronus_happytalk CRONUS: comunque, il lato positivwo di tutti i miei rifiuti è che mi hanno aiutato a creare una personale lista di persone che sono oggettivwamente e fottutamente terribili, che mi piacerebbe condivwidere c...
+      @cronus_surprised CRONUS: meenah? dovwe sei andata?
+      @cronus_huh CRONUS: cacchio, se n è andata wvia mentre dicewvo roba.
+      @cronus_sad2 CRONUS: liquidato in tempo di record.
+      </args>
+</action>
+
+
+<action sprite='meenah' class='cronusTalk2' command='talk' name='Chiedi a Cronus di unirsi.'><args>
+      @meenah_annoyed MEENAH: la farò breve
+      @meenah_annoyedtalk MEENAH: e questo non è un trampolino da cui farti tuffare nei tuoi sentimenti e problemi rombantici
+      @meenah_annoyedtalk MEENAH: dammi solo una risposta diretta
+      @meenah_fish:#yolo#anche-se#potresti morire di nuovo??#vbb MEENAH: sto radunando na squadra insieme per uccidere un mostro invincibile sei dentro si/no
+      @cronus_happytalk CRONUS: vwowv, FORTE. sei appena arriwvata e già fai la diabolica, davwvwero ben fatto.
+      @cronus_talk CRONUS: mi piacerebbe aiutare. sai come mi piace aiutare, e essere presente per le persone attraenti. è un po il mio forte sai?
+      @cronus_idle CRONUS: ma...
+      @meenah_wut2 MEENAH: ugh ci risiamo
+      @cronus_upset2 CRONUS: meenah, non penso di essere in wvena per quel tipo di cose ora nella mia wvita. o morte, intendo.
+      @meenah_wut MEENAH: che cose
+      @cronus_upset2:#ungere-i-miei-capelli CRONUS: cose aggressiwve. ho cercato di tranquillizzarmi, essere più introspettivwo, cercare i miei sentimenti, lavworare sulla mia musica.
+      @cronus_upset2 CRONUS: non penso che sarei molto brawvo in battaglia. ho provato a cercare chi, o forse cosa, sono wveramente, e penso di avwer fatto delle belle scoperte.
+      @cronus_upset CRONUS: te lo dico in confidenza, ma credo di starmi avwvwicinando a una sorta di risvweglio, specialmente da quando ho scoperto degli umani. penso che in realtà potrei essere...
+      @meenah_annoyed MEENAH: nope
+      @meenah_wut:#uh-uh MEENAH: nope nope nope nopenopenope
+      @meenah_annoyedtalk MEENAH: smettila di dire qualunque cosa fosse quella non mi importa
+      @cronus_bored CRONUS: hai ragione, non dovwrei farti pesare i miei problemi.
+      @cronus_talk:#e-con-questo-intendo-due-persone-che-possono-liberamente-improvwvwisare-rapporti-sessuali CRONUS: dimentica che abbia detto qualcosa. non wvorrei compromettere la nostra amicizia, per non parlare della nostra possibilità di poter sfociare in qualcosa di più grande di un amicizia.
+      @cronus_happytalk CRONUS: oh, GIUSTO. mi hai chiesto come stesse andando la mia musica in questi giorni, wvero?
+      @meenah_idle MEENAH: no
+      @cronus_smug:#se-non-la-forma-della-stessa-quanto-meno CRONUS: sta andando piuttosto bene, credo. ho pasticciato un po con delle onde sonore a mo di denti di sega, penso che potrei dawvwvero star trovwando la mia firma musicale.
+      @cronus_idle CRONUS: tieni, ascolta questa track. l ho scritta in anticipazione del tuo arrivwo.
+      @cronus_idle~dialogimg_cronus1 CRONUS:
+      @meenah_annoyed MEENAH: non lo clicco
+      @cronus_upset CRONUS: um, ho capito. allora che ne dici di...
+      @cronus_idle~dialogimg_cronus2 CRONUS:
+      @meenah_annoyed MEENAH: nah
+      @cronus_smug~dialogimg_cronus3 CRONUS:
+      @meenah_wut:#creep MEENAH: ew
+      @cronus_huh CRONUS: aspetta... forse non avwrei dovwuto farti wvedere quelle lì. ok, aspetta. so di avwere qualcosa qui che adorerai.
+      @cronus_happy~dialogimg_cronus4 CRONUS:
+      @meenah_talk MEENAH: quindi allora quello era un no al mio invito
+      @meenah_talk MEENAH: che era stato declinato a metà di questa interazione in ogni caso
+      @meenah_talk MEENAH: meglio filare via prima che mi rifili altra roba tua
+      </args>
+</action>
+
+
+<action sprite='meenah' class='cronusTalk3' command='talk' name="Dov'è Karkat?"><args>
+      @cronus_huh CRONUS: oh, quello che somiglia a wvantas?
+      @cronus_bored:#ho-a-malapena-avwuto-la-chance-di-flirtare-con-lui#maleducato CRONUS: si, è arrivwato da queste parti. ho cercato di iniziare una convwersazione amichevwole con lui, ma mi ha solo fatto il dito medio e si è rinchiuso in quell alvweare lì.
+      @cronus_upset2 CRONUS: sembra che abbia fatto comparire la memoria di una sorta di complicata porta con un puzzle di antiche rovwine. ho cercato di aprirla ma sembra completamente impossibile. sa proprio come snobbarti il ragazzo.
+      @cronus_idle CRONUS: cosa wvuoi da lui comunque?
+      @meenah_annoyed MEENAH: niente ciao
+      @cronus_huh CRONUS: ah. ho capito com è. cronus prende il due di picche, mentre tu wvai a flirtare con uno sbruffone infantile. perchè non sono sorpreso?
+      @cronus_angry CRONUS: suppongo di non essere sufficientemente instabile di testa o uno stronzo abbastanza grande per attirare la tua attenzione. sai che problema, metterò i miei sentimenti a riguardo su carta un po di poesia slam e bubblerò il mio dolore attravwerso... e, già. sembra che stia di nuovwo parlando da solo. è andata.
+      </args>
+</action>
+
+<action sprite='meenah' class='cronusTalk4' command='talk' name='Sii Cronus.'><args>
+      @! Ew, no. Non c'è una sola possibilità all'oltretomba che tu diventi questo tizio.
+      </args>
+</action>
+
+
+<!--@ CRONUS AFTER MEENAH RETURNS-->
+
+<action sprite='meenah' class='cronusTalk5' command='talk' name='Parla con Cronus.'>
+	<args>
+      @meenah_annoyed MEENAH: nope
+  </args>
+</action>
+
+<!-- mituna -->
+
+<action sprite='mituna' class='cronusTalk7' command='talk' name='Parla con Cronus.'><args>
+      @cronus_talk CRONUS: ehi, capo. stai bene oggi. è un casco nuowvo quello?
+      @mituna_idle%alttextbox_4chan:#1GLVNWLDN01Z1XJ01N0V4 MITUNA: N0 8RU770 57RR70N0Z0N0
+      @cronus_smug CRONUS: calmati, era uno scherzo. ovwvwiamente non è un casco nuowvo. cos è, credi che sia ritard... um, una persona poco attenta?
+      @mituna_idle%alttextbox_4chan MITUNA: N0
+      @cronus_idle CRONUS: hai wvisto meenah passare?
+      @mituna_idle%alttextbox_4chan MITUNA: N0
+      @cronus_bored CRONUS: è andata da quella parte, wvero?
+      @mituna_idle%alttextbox_4chan MITUNA: N0
+      @cronus_bored CRONUS: sei sicuro?
+      @mituna_idle%alttextbox_4chan MITUNA: N0
+      @cronus_talk:#liar CRONUS: senti amico, non ho intenzione di darti del bugiardo, ma l ho wvista camminare wverso di te. 
+      @mituna_idle%alttextbox_4chan:#N0 MITUNA: N0
+      @cronus_happytalk CRONUS: wvi stavwo spiando entrambi da dietro l alvweare laggiù. ti ho wvisto fare un face plant davwvwero fico sulla ringhiera.
+      @mituna_talk%alttextbox_4chan:#N0#N0#N0#N0#N0#N0#N0#N0#N0#N0#N0 MITUNA: N0 N0 N0 N0 N0 N0 N0 N0 N0 N0 N0 N0 N0 N0 
+      @cronus_talk CRONUS: hahaha. sei davwvwero buffissimo captor, ti ho mai detto che razza di gatto figo penso che tu sia?
+      @mituna_idle%alttextbox_4chan MITUNA: P3RCH3 M1 5714 70C4ND0
+      @cronus_talk CRONUS: mi sento davwvwero come se fossi una delle poche persone con cui posso aprirmi con i miei sentimenti. suppongo aiuti davwvwero confidare in qualcuno cui praticamente manca l abilità di ripetere quello che dici senza alcuna chiarezza o coerenza, o anche solo capire quello che dici in generale.
+      @mituna_talk%alttextbox_4chan MITUNA: M1 ST41 T0C0C4ND0 3 N0N C4P15C0 CH3 574 SUC3D3ND0
+      @cronus_talk CRONUS: ma a dire la verità, mi sono sempre sentito così nei tuoi confronti anche prima che tu iniziassi ad avwere, beh, i tuoi problemi. abbiamo sempre avwuto un bel rapporto, wvero?
+      @mituna_idle%alttextbox_4chan MITUNA: N0N V0GL10 L4 TU4 M4N0 L1
+      @cronus_talk CRONUS: non fraintendermi, so che tu e latula siete in una compagnanimità molto seria, ma diciamocela tutta, lei potrebbe ovwvwiamente avwere di meglio. e wvoglio dire molto meglio. davwvwero gioca in tutta un altra lega, è fantastica e carismatica, mentre tu sei... beh, tu, purtroppo. e non oserei intromettermi nella tua duratura moiralleanza con kurloz, e non perché lui me le faccia sotto. sembra semplicemente che funzioni, tu e lui, o no? non gli do neanche un occhiata ovwvwiamente, anche se sono super gentile e complimento i suoi orrendi capelli, e ovwvwiamente non ricevwo altro che disgustose stronzate dalla sua bocca ogni wvolta che la apri. ma è come se uno tirasse fuori le buone qualità dell altro, no? è wvero il rumor che sei effettivwamente lucido quando parli con lui, inwvece che comportarti come un imbecille blaterante e confuso?
+      @mituna_sad%alttextbox_4chan:#8( MITUNA: M4 P3RCH3 L0 S7R4N0 P4LP4M3TN0 N0N 5M3TT3
+      @cronus_talk:#friendship CRONUS: ma quello che sto cercando di dire è che non giudichi come gli altri. beh, ok, lo fai, ma non riesco davwvwero a prendere troppo sul serio le tue parole perchè sei così chiaramente ritar... reticente con le tue wvere emozioni. per esempio, a chi potrei confidare di quando ho iniziato ad accettare questo sospetto nel profondo di essere in realtà un umano "nato" nel corpo di un troll, ma di non avwerlo mai realizzato finché non ho scoperto degli umani? nessuno. a parte te, ovwvwiamente. a te non importa che io sia un umanokin.
+      @mituna_talk%alttextbox_4chan MITUNA: V0GL10 CH3 L4 7U4 M4N0N 0N 5T14 5UL M10 C0RP0 P3R F4V0R3
+      @cronus_smug CRONUS: cosa? no, suvwvwia amico. ti sto solo dando un amichevole massaggio alle spalle, con una mano, così. vedi? in un molto casual, come fanno i “bro”. ti prego di non renderlo più strano di quanto dovwrebbe essere.
+      @mituna_sad%alttextbox_4chan MITUNA: M1 D15P14C3
+      @cronus_idle CRONUS: ti perdono.
+      @cronus_talk:#bellosfregio CRONUS: ora aspetta un attimo. wvado a wvedere se posso raggiungere meenah. non mi seguire, perchè ovwvwiamente mi rovwineresti l entrata. come stanno i miei capelli? non importa, non hai idea di cosa stai parlando, userò il riflesso del tuo wvisore per darmi un occhiata. sì, ho un aspetto magnifico.
+      @mituna_happy%alttextbox_4chan MITUNA: P0SS0 V3N1R3 C0N73
+      @cronus_huh CRONUS: santi numi, sei un ragazzo dalla testa dura. ti ho appena detto di stare qui. sto per andare a provware delle mosse particolarmente sfacciate su peixes laggiù, spegneresti l atmosfera, capisci? non credo di dovwerti ricordare che la tua presenza sarebbe come appestare l ambiente di libidocidio.
+      @mituna_happy%alttextbox_4chan MITUNA: C054
+      @cronus_smug:#wvera#fottuta#disgrazia CRONUS: uh, beforus chiama captor. ehi, questa è una missione di controllo, sta entrando qualcosa da quel casco? sto dicendo che la tua presenza è wveleno per sesso, e se ti metti a fare il perdente in giro mentre chiacchiero con lei, lei si distrarrà ed awvrà problemi a spogliarmi mentalmente. come spalla, devwo dirlo, sei una wvera fottuta disgrazia.
+      @mituna_sad%alttextbox_4chan:#8( MITUNA: M1 D15P14C3
+      @cronus_bored CRONUS: ti prego smettila di scusarti così tanto, è davwvwero sgradevwole. a questo punto nemmeno IO so più se wvoglio andare a letto con te.
+      @cronus_happytalk CRONUS: ora prima di andare, devwo solo pensare a un buon modo di rompere il ghiaccio. oh, ce l ho! inizierò con delle battute su quanto è stato divwertente quando sei caduto di faccia laggiù, e quanto tu sia un completo casino sotto ogni aspetto.
+      @cronus_idle CRONUS: grazie per l ispirazione, amico.
+      @! Sii Cronus?
+      <!--Yes. / No. -->
+	</args>
+	
+</action>
+
+<!-- @ CRONUS AFTER MEENAH RETURNS -->
+
+<action sprite='mituna' class='cronusTalk8' command='talk' name='Parla con Cronus.'><args>
+      @mituna_happytalk%alttextbox_4chan MITUNA: 3HY 8R0 VU10 5HN71R3 D31 P03M1 57HL4M CH3 H0 F470
+      @mituna_sad%alttextbox_4chan MITUNA: M1 H4 4P3N4 R0770 L0 5K473804RD 1N DU3 3 S3 N3 4ND470
+</args>
+</action>
+
+	</classes>
+</sburb>

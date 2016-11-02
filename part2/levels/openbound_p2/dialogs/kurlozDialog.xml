@@ -1,0 +1,107 @@
+<sburb description='kurloz dialogs'>
+	<classes>
+		<action sprite='meenah' class='kurlozTalk1' command='talk' name='Parla con Kurloz.'>
+      <args>
+      @meenah_idle MEENAH: ehi frichettone ti ricordi di me
+      @kurloz_smile:#:o) KURLOZ: 
+      @meenah_idle MEENAH: allora
+      @meenah_talk MEENAH: che tipo di conversazione potremmo avere che non sia strana e imbarazzante
+      @kurloz_smile:#:o) KURLOZ: 
+      @meenah_idle MEENAH: capisco
+      @meenah_talk MEENAH: hai nient altro per me che non sia uno sguardo angosciante e uno schifoso sorriso stampato in faccia
+      @kurloz_smile:#:o) KURLOZ: 
+      @meenah_talk MEENAH: whats qual è la parola maledetta in questi giorni
+      @kurloz_finger:#:o) KURLOZ: 
+      @meenah_annoyed MEENAH: sei proprio freddino socio
+      <!--  -->
+      </args>
+		</action>
+
+		<action sprite='meenah' class='kurlozTalk2' command='talk' name='Chiedi a Kurloz di unirsi.'>
+      <args>
+      @meenah_talk MEENAH: quindi credo di volere che tu ti unisca al mio esercito
+      @meenah_idle MEENAH: forse
+      @meenah_talk MEENAH: se prometti di non essere troppo capriccioso o clown-schizzato totale o quello che è
+      @kurloz_no:#:o) KURLOZ: 
+      @meenah_talk MEENAH: beh almeno sei sincero
+      @meenah_talk MEENAH: hai qualche folle suggerimento ghignovudù per uccidere cherubini?
+      @kurloz_shrug:#:o) KURLOZ: 
+      @meenah_idle MEENAH: quindi
+      @meenah_talk MEENAH: niente da dire come sempre allora
+      @kurloz_zip:#:o) KURLOZ: 
+      @meenah_talk MEENAH: è fantastico aver fatto questa chiacchiarata
+      <!--  -->
+      </args>
+		</action>
+
+		<action sprite='meenah' class='kurlozTalk3' command='talk' name='Sii Kurloz.'>
+      <args>
+      @! Non sapresti nemmeno da dove INIZIARE per essere questo tipo strano. Meglio lasciarlo da solo e basta.
+      <!--  -->
+      </args>
+		</action>
+
+
+		
+		
+		<action sprite='meulin' class='kurlozTalk5' command='talk' name='Parla con Kurloz.'>
+      <args>
+      @meulin_mime4~meme10  
+      @kurloz_mime1~kurmeme1:#:o)  
+      @meulin_mime2~meme11  
+      @kurloz_mime2~kurmeme2:#:o)  
+      @meulin_mime3~meme12  
+      @kurloz_mime3~kurmeme3:#:o)  
+      @meulin_mime5~meme13  
+      @meulin_mime5~meme14  
+      @kurloz_mime1~kurmeme4:#:o)  
+      @kurloz_mime2~kurmeme5:#:o)  
+      @! Dai a Kurloz il COD PIECE?
+      <!-- y/n -->
+      </args>
+		</action>
+		
+		<action class='kurlozTalk6' command='talk'>
+			<args>
+			@kurloz_hypno2%kurbox~kurtalk1  
+      @kurloz_hypno2%kurbox~kurtalk2  
+      @kurloz_hypno2%kurbox~kurtalk3  
+      @meulin_hypno%kurbox:#OTM#ORGOGLIO-RYDAS-E-NINJETTES MEULIN: (=ﾟ･ﾟ=) &lt; LODE ALL UNICO VERO MESSIA.
+      @kurloz_hypno2%kurbox~kurtalk4  
+      @meulin_hypno%kurbox:#TANTO-AMORE-CLOWN MEULIN: (=ﾟ･ﾟ=) &lt;  CHE I BRUTALI GRAFFIOOVUDU' DEL BARDO POSSANO ISPIRARE INCUBI IN TUTTI COLORO CHE SI OPPONGONO A CALICORN, E POSSA LA SCHERZOSITA' DEL SUO VASTO HONK SUONARE FORTE E FOTTUTAMENTE CHIARA FINO A SHANGRI LOL.
+      @kurloz_hypno1%kurbox~kurtalk5  
+      @kurloz_hypno1%kurbox~kurtalk6  
+      @meulin_hypno%kurbox MEULIN: (=ﾟ･ﾟ=) &lt; CHE QUESTO RIDICOLO PAIO DI SHORTS ASSISTA LA SUA SACRA MISSIONE, E CONFONDA TUTTI COLORO CHE GETTERANNO IL PROPRIO INDEGNO SGUARDO SULLA SUA FRESCA CAZZO DI PROTUBERANZA.
+      @kurloz_hypno1%kurbox~kurtalk7  
+      <!--  --> 
+      </args>
+		</action>
+		
+		<action class='kurlozTalk7' command='talk' >
+		  <args>
+		  @kurloz_angry%kurbox~kurtalk8  
+		  @kurloz_annoyed%kurbox~kurtalk9  
+		  @kurloz_dead%kurbox~kurtalk10  
+		  @kurloz_fist%kurbox~kurtalk11  
+		  @kurloz_hypno2%kurbox~kurtalk12  
+		  <!--  -->
+		  </args>
+		</action>
+		
+		<action class='kurlozTalk8' command='talk'>
+      <args>
+      @kurloz_angry%kurbox~kurtalk13  
+      @kurloz_angry%kurbox~kurtalk14  
+      @kurloz_angry%kurbox~kurtalk15  
+      @kurloz_angry%kurbox~kurtalk16  
+      @kurloz_angry%kurbox~kurtalk17  
+      @kurloz_angry%kurbox~kurtalk18  
+      @kurloz_smile%kurbox~kurtalk19:#:o)  
+      @gamzee_idle%kurbox GAMZEE: chiudi quella stracazzo di bocca e dammi il cod piece
+      @kurloz_zip%kurbox KURLOZ:
+      <!--  -->
+      </args>
+		</action>
+		
+	</classes>
+</sburb>

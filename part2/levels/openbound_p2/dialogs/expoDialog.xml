@@ -1,0 +1,119 @@
+<sburb description='exposition dialogs'>
+	<classes>
+		<action class='expoTalk0' command='talk' name='Chiedi a Aranea di Cherubquest..'>
+      <args>
+      @aranea_surprised ARANEA: Io...
+      @aranea_think ARANEA: ARANEA: Non l'ho ancora trovata.
+      @meenah_idle MEENAH: qualche pista o
+      @aranea_idle ARANEA: Non proprio.
+      @aranea_talk ARANEA: A quanto pare è molto 8en nascosta!
+      @meenah_idle MEENAH: um si certo
+      @meenah_idle MEENAH: ma
+      @meenah_talk MEENAH: sei andata effettivamente a cercare?
+      @aranea_idle ARANEA: Um...
+      @meenah_happytalk MEENAH: o sei stata tutto il tempo in giro a cazzeggiare col tuo piccolo stand?
+      @aranea_annoyedtalk ARANEA: Ho diviso il mio tempo in modo efficiente. Ma grazie per la preoccupazione. 
+      @meenah_talk MEENAH: non è stato nemmeno tanto tempo fa che abbiamo parlato di altra roba noiosa
+      @meenah_talk MEENAH: hai dovuto spostare il tuo stand fino alla cima di questo albero
+      @meenah_talk MEENAH: tipo ben intenta ad aspettarmi qui
+      @meenah_fish MEENAH: quanto ci hai messo
+      @aranea_angrytalk ARANEA: Non ha importanza!
+      @aranea_madtalk ARANEA: E sì, mi sono fermata lungo la strada per spiegare cose importanti alla gente.
+      @aranea_annoyedtalk ARANEA: Le persone sono curiose di informazioni, Meenah. Vogliono SAPERE le cose, capito?
+      @meenah_idle MEENAH: vogliono sapere...
+      @meenah_happy MEENAH: o tu vuoi dirle a loro?
+      @aranea_angry ARANEA: Entram8i!!!!!!!!
+      @meenah_idle MEENAH: ok fammiti chiedere questo
+      @meenah_talk MEENAH: li hai pagati per farti chiedere roba?
+      @aranea_annoyed ARANEA: ...
+      @aranea_annoyed ARANEA: Sì.
+      @aranea_facepalm ARANEA: QUINDI????????
+      @meenah_annoyedtalk MEENAH: quindi quanto tempo puoi stimare che hai speso a caccia di cherubini in mezzo alle tue spiegazioni?
+      @aranea_annoyed ARANEA: Io...
+      @aranea_madtalk ARANEA: Guarda. Trovare questa cheru8ina sare88e comunque dovuta essere una missione lunga e difficile. È un intricato mistero a più strati che non si può affrettare. Ci sto lavorando!!!!!!!!
+      @meenah_talk MEENAH: aranea serket ho una cosa da spiegarti a koisto zero
+      @meenah_happytalk MEENAH:  trovo che il tuo approccio esilarantemente non effettivo verso questa missione sia super adorabile
+      @aranea_facepalm ARANEA: 
+      <!--  -->
+      </args>
+      <action command='setGameState'>expo,true</action>
+</action>
+
+
+
+
+<action class='expoTalk1' command='talk' name='Parlami di Cronus Ampora.'>
+      <args>
+      @aranea_happytalk ARANEA: Il 8ardo della speranza potrà sem8rare un po' giù di tono in questi giorni, ma nutriva un tempo un credo profondamente radicato nella magia. Crede di essersi schiuso con lo scopo di sconfiggere un mago eccezionalmente potente, uno di cui giura di essere stato avvisato dagli angeli. Pur avendo fatto pressa per sapere il nome dell'uomo, lui disse che non l'avre88e nominato, dicendo che anche quello sare88e stato troppo pericoloso da fare. Secondo parte del suo mito di esaltazione questo mago un tempo cercò di ucciderlo in tenera età, così che non avre88e mai dovuto affrontarlo. Ma l'incantesimo malvagio fu deviato su di lui, sigillando lo spirito del mago in una serie di oggetti poco appariscenti, finché egli non sare88e riuscito a trovare nuovi scaltri sistemi per entrare nel nostro universo. L'attacco lo ha lasciato presumi8ilmente con la sua cicatrice distintiva, che non si fece scrupoli a mettere in mostra provandoci con me. Uh, volevo dire, che non si fece scrupoli a mettere in mostra durante conversazioni del più e del meno.
+      @aranea_happytalk ARANEA: Ma a un certo punto si è stancato della magia. Se mai ci fosse stata della verità nella sua 8en costruita visione, l'eredità del dover sconfiggere il mago malvagio è pro8a8ilmente passata al suo discendente, o se il suo discendente si fosse rivelato altrettanto un fallimento, allora forse a qualche altro Eroe della Speranza. Non so perché a88ia sofferto questa crisi nelle sue credenze, a parte le ovvie ragioni che hanno a che fare con una totale mancanza di carattere, o di altre qualità di compensazione. Forse qualcuno lo ha dissuaso dal suo credo. Forse un amico vicino a lui. O, se uno volesse credere che ci fosse del vero nelle sue fantasie, forse qualcuno che era alleato del mago malvagio. Qualunque sia il caso, è forse stato meglio così, dal momento che praticamente chiunque fosse in possesso di mezza pensatrice riteneva che fosse tutto un ammasso di ridicolo non senso.
+      @meenah_talk MEENAH: serket ma perchè devi buttare odio sulla religione altrui
+      @meenah_fish MEENAH: non lo sai che sono un fiotto di fesserie fasulle esattamente quanto le tue merdate spirituali?
+      @aranea_surprised ARANEA: Ma io........
+      @aranea_think ARANEA: Sì, suppongo fosse un po' troppo.
+      @aranea_madtalk ARANEA: Scusa, stavo solo cercando di sfogarmi un po' su questa conoscenza sgradita che a88iamo in comune. È davvero così male? Perché devi cogliere ogni opportunità per attaccare le mie credenze personali?
+      @aranea_annoyed ARANEA: Sai essere davvero cattiva a volte.
+      @meenah_idle MEENAH: posso avere i miei soldi adesso
+      @aranea_angry ARANEA: Sì, eccoli.
+      <!--  -->
+      </args>
+      <action command='setGameState'>expo,true</action>
+</action>
+
+
+<action class='expoTalk2' command='talk' name='Parlami di Mituna Captor.'>
+      <args>
+      @aranea_happytalk ARANEA: L'Erede del Destino era un tempo un potente psichico. Aveva il dono della doppia visione, e di forti, profetiche intuizioni quando c'era di mezzo di un futuro cupo. E88e molto da dire quando ci avvertì del cammino di distruzione e sorte avversa verso cui ci stavamo dirigendo, ma nessuno lo prese molto sul serio. Un giorno, egli perse tutte le sue a8ilità sovraffaticandosi mentre le usava. È difficile comprendere qualunque dettaglio con lui, ma l'impressione è che a88ia applicato ogni suo singolo residuo di energia per compiere un atto di grande eroismo, salvandoci tutti da una minaccia incom8ente. Non solo il suo sforzo ha distrutto ogni sua a8ilità psichica, ma lo ha reso anche in qualche modo... er, incoerente.
+      @meenah_talk MEENAH: si mi sono sempre chiesta che è successo lì
+      @meenah_talk MEENAH: è arrivato mai qualcuno a capirlo?
+      @aranea_talk ARANEA: No. L'intero incidente è avvolto nel mistero. Dai suoi limitati e sporadici resoconti su quanto accaduto, pare molto pro8a8ile che Kurloz fosse con lui in quel momento, come unico testimone visivo. E ovviamente è impossi8ile avere qualche informazione affida8ile da parte sua. Purtroppo, temo che non lo sapremo mai.
+      @meenah_talk MEENAH: ehi questo in realtà era piuttosto interessante
+      @meenah_meenah_creepylaughidle MEENAH: è stata una BUONA idea ricevere dei soldi per venirlo a sentire
+      @aranea_happier ARANEA: Concordo! ::::D
+      <!--  -->
+      </args>
+      <action command='setGameState'>expo,true</action>
+</action>
+
+
+
+<action class='expoTalk3' command='talk' name='Parlami di Kurloz Makara.'>
+      <args>
+      @aranea_happytalk ARANEA: Il Principe della Ra88ia in realtà era solito essere molto logorroico. Finché un giorno non e88e un incu8o che diede inizio a un 8izzarro incidente, dopo il quale egli non parlò mai più. Fece una sorta di voto spirituale di silenzio, che sono sicura fosse legato al suo credo esoterico. Dopo questo, divenne enigmatico in modo esasperante. Ho trovato impossi8ile carpire da lui qualunque informazione, fra i suoi am8igui meme e l'inclinazione a fare indovinelli. È davvero frustrante, soprattutto per una come me, che ha una passione per il raccogliere quanti più fatti possi8ile sulla nostra storia.
+      @aranea_annoyedtalk ARANEA: Vuoi sapere un segreto? Per favore non dirlo a nessuno, ma non sopporto davvero quel tipo.
+      @aranea_talk ARANEA: Pro8a8ilmente sono ingiusta verso di lui perché è chiaramente un ragazzo tanto dolce e innocente. Ma c'è qualcosa in lui che non mi piace proprio. Credo di essere semplicemente un po' meschina a volte.
+      @meenah_idle MEENAH: già...
+      @meenah_wut MEENAH: wow serket
+      @meenah_annoyed MEENAH: cioè wow che cattiveria
+      @meenah_fish MEENAH: povero clown
+      @aranea_angrytalk ARANEA: Non venire a criticare! Mi sem8ra di ricordarti tenere in ser8o più che una manciata di parole poco gentili per lui, alle sue spalle.
+      @meenah_creepy MEENAH: si volevo punzecchiarti lo odio
+      @meenah_idle MEENAH: quindi
+      @meenah_idle MEENAH: finita qui?
+      @aranea_happy ARANEA: Sì.
+      @meenah_annoyed MEENAH: ka
+      @meenah_annoyed MEENAH: ching
+      <!--  -->
+      </args>
+      <action command='setGameState'>expo,true</action>
+</action>
+
+
+
+<action class='expoTalk4' command='talk' name='Parlami di Meulin Leijon.'>
+      <args>
+      @aranea_happytalk ARANEA: La Maga del Cuore, come tu sai, è un'ardente discepola delle scienze romantiche. Cova una 8en guadagnata reputazione da creatrice di miracoli quando si tratta di com8inare insieme le persone. Ma la sua personale storia romantica è stata ironicamente pervasa da pro8lemi e cuori infranti.
+      @aranea_happytalk ARANEA: Un tempo, molto prima che la nostra sessione iniziasse, lei e Kurloz erano compagnanime molto unite. Sem8rava a tutti che fossero fatti l'uno per l'altra. Un giorno, si addormentarono insieme. Kurloz fece un incu8o così terrificante, che rilasciò il suono più spaventoso mai udito. Era davvero un eco dello stesso Vasto Honk. Il rumore fu così forte e terri8ile che Meulin diventò completamente sorda, e le sue orecchie non guarirono mai. Kurloz rimase indu88iamente devastato da quello che le aveva fatto. Rimase così sconvolto che cucì la sua 8occa e non proferì mai più una parola.
+      @aranea_happytalk ARANEA: Anche se non furono più compagnanime, Meulin non l'e88e mai con lui, e parve anche trarre piacere dal cercare nuovi modi di comunicare. Continuarono a rimanere molto vicini, fino a oggi. Forse un po' troppo vicini, se lo chiedi a me. È chiaro che le sue simpatie si siano gradualmente spostate, visto che a volte si lascia sfuggire qualche dottrina allegra. Suppongo non dovrei esserne troppo preoccupata però, dal momento che è quasi certamente solo un sacco di superstizione.
+      @meenah_creepy MEENAH: )(ONK
+      @aranea_happier ARANEA: Honk honk! ::::)
+      @meenah_happytalk MEENAH: lol sono grata che possiamo entrambe concordare che il fottuto culto soda clown sia la merda più stupida che esista
+      @aranea_happy ARANEA: Sì. Ora ecco i tuoi soldi. Grazie per aver ascoltato!
+      @meenah_happytalk MEENAH: serk hai idea di quanto sei scema?
+      @meenah_happy MEENAH: &lt;3
+      <!--  -->
+      </args>
+      <action command='setGameState'>expo,true</action>
+</action>
+
+	</classes>
+</sburb>
