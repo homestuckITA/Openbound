@@ -25,12 +25,7 @@ hr {
     padding: 0;
 }
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
     vertical-align: middle;
 }
 
@@ -55,99 +50,111 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   html {
-     background-color: #5a5a5a;
-   }
 
-   .frame {
-     background-color: rgb(198, 198, 198);
-     max-width: 950px;
-     margin: 1em auto;
-     text-align: center;
-   }
+html {
+    background-color: #5a5a5a;
+}
 
-   .page {
-     background-color: rgb(238, 238, 238);
-     display: inline-block;
-     font-family: Verdana, Arial, Helvetica, sans-serif;
-     margin: 7px auto 1em auto;
-     min-width: 650px;
-     text-align: left;
-   }
+.frame {
+    background-color: rgb(198, 198, 198);
+    max-width: 950px;
+    margin: 1em auto;
+    text-align: center;
+}
 
-   .page .content {
-     background-color: black;
-     min-height: 450px;
-   }
+.page {
+    background-color: rgb(238, 238, 238);
+    display: inline-block;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 7px auto 1em auto;
+    min-width: 650px;
+    text-align: left;
+}
 
-   .page .header {
-     text-align: center;
-     font-family: "Courier New", Courier, monospace;
-     color: black;
-   }
+.page .content {
+    background-color: black;
+    min-height: 450px;
+}
 
-   .page .footer {
-     margin: 0 auto;
-     max-width: 600px;
-     padding-bottom: 7px;
-   }
+.page .header {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+    font-weight: bold;
+}
 
-   .footer .next {
-     font-size: 24px;
-   }
+.page .footer {
+    margin: 0 auto;
+    max-width: 600px;
+    padding-bottom: 7px;
+}
 
-   .footer .next::before {
-     content: "> ";
-   }
+.footer .next {
+    font-size: 24px;
+}
 
-   .footer .links {
-     font-size: 10px;
-     font-weight: bold;
-   }
+.footer .next::before {
+    content: "> ";
+}
 
-   .instructions {
-     border: 1px dashed grey;
-     display: block;
-     margin-top: 1em;
-     margin-left: auto;
-     margin-right: auto;
-     max-width: 600px;
-   }
+.footer .links {
+    font-size: 10px;
+    font-weight: bold;
+}
 
-   .instructions > .button {
-     font-size: 13.333px;
-     text-align: center;
-     width: 100%;
-   }
+.instructions {
+    border: 1px dashed grey;
+    display: block;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
 
-   .instructions > .spoilers {
-     font-family: "Courier New", Courier, monospace;
-     font-weight: bold;
-     font-size: 14px;
-     margin-left: auto;
-     margin-right: auto;
-     width: 90%;
-   }
+.instructions>.button {
+    font-size: 13.333px;
+    text-align: center;
+    width: 100%;
+}
 
-   .map-preview {
-     width: 100%;
-     max-width: 100px;
-   }
+.instructions>.spoilers {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.pesterlog {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.map-preview, .map-preview-big {
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.map-preview {
+    max-width: 100px;
+}
+
+.map-preview-big {
+    max-width: 300px;
+}
+
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 35em) {}
 
-}
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {}
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
-}
 
 /* ==========================================================================
    Helper classes
@@ -169,8 +176,7 @@ textarea {
     width: 1px;
 }
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -183,8 +189,7 @@ textarea {
     visibility: hidden;
 }
 
-.clearfix:before,
-.clearfix:after {
+.clearfix:before, .clearfix:after {
     content: " ";
     display: table;
 }
@@ -197,66 +202,48 @@ textarea {
     *zoom: 1;
 }
 
+
 /* ==========================================================================
    Print styles
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after {
+    *, *:before, *:after {
         background: transparent !important;
         color: #000 !important;
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
-    a,
-    a:visited {
+    a, a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    a[href^="#"]:after, a[href^="javascript:"]:after {
         content: "";
     }
-
-    pre,
-    blockquote {
+    pre, blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     thead {
         display: table-header-group;
     }
-
-    tr,
-    img {
+    tr, img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
-    p,
-    h2,
-    h3 {
+    p, h2, h3 {
         orphans: 3;
         widows: 3;
     }
-
-    h2,
-    h3 {
+    h2, h3 {
         page-break-after: avoid;
     }
 }
