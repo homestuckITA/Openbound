@@ -120,8 +120,8 @@
   	<sprite class='chest8' name='sixthRoomChest1' x='970' y='211'>
 			<action command='openChest' name='Open.'>
 		  	<args>sixthRoomChest1,item1,
-		 	 	@! You got a STABBING CANE!
-				@! It would be really unfortunate to be blind and walk around without having a reliable instrument to help you stab where you're going.
+		 	 	@! Hai trovato un BASTONE DA PUGNALAZIONE!
+				@! Sarebbe davvero sfortunato essere ciechi e camminare in giro senza avere uno strumento affidabile che ti aiuti a pugnalare dove vai.
 
 		 	 </args>
 		  </action>
@@ -130,8 +130,8 @@
   	<sprite class='chest8' name='sixthRoomChest2' x='956' y='1306'>
 			<action command='openChest' name='Open.'>
 		  	<args>sixthRoomChest2,item2,
-		    @! You got a sack full of EMBEZZLED BEETLES!
-				@! It is the absolute perfect currency for bribing corrupt prosecutors when you find yourself in the hot seat with the law. Their greedy snouts simply cannot resist. Just make sure the terrifying brainless monster judge doesn't catch you in the act! You have to wait for His Tyranny to be distracted by something besides the judicial proceedings. This is an occurrence that is far from infrequent.
+		    @! Hai trovato un SACCHETTO DI SCARAFAGGI RUBATI!
+				@! È assolutamente la valuta perfetta per comprare procuratori corrotti quando ti trovi nei guai con la legge. I loro musi avido semplicemente non possono resistere. Assicurati solo che il terrificante mostro giudice non ti colga in flagrante! Devi aspettare che Sua Tirannia si distragga con qualcosa a parte i procedimenti giudiziari. Un'occorrenza ben lontana dall'infrequente.
 				</args>
 		  </action>
   	</sprite>

@@ -57,7 +57,7 @@
   		<action name='Examine.' command='talk'>
   			<args>
   			@! GRUUUUUMMBLE
-				@!:#crab-dad Looks like SOMEONE'S custodian is in a permanently surly mood today, as well as all other days.
+				@!:#papà-granchio Sembra che il lusus di QUALCUNO sia di umore scorbutico oggi, così come tutti gli altri giorni.
 				</args>
   		</action>
   	</sprite>

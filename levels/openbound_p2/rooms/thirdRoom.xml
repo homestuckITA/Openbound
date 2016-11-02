@@ -168,10 +168,10 @@
 </sprite>
 
 <sprite class='chest3' name='thirdRoomChest10' x='1365' y='2109'>
-  <action sprite='meulin' command='openChest' name='Open.'>
+  <action sprite='meulin' command='openChest' name='Apri.'>
 		<args>thirdRoomChest10,obj10,
-			@! You got a COD PIECE!
-			@! So soft, so inviting... you are fighting the temptation to wear it right now with all your might. If the crotch was any more forgiving, it would be canonized by the Vatican.
+			@! Hai trovato un COD PIECE!
+			@! Così soffice, così invitante... stai combattendo la tentazione di indossarlo proprio adesso in tutta la sua grandezza. Se i genitali fossero stati un altro po' più indulgenti, verrebbe canonizzato dal Vaticano.
 		</args>
 		<action command='setGameState'>
 			<args>hasCod,true</args>
@@ -202,7 +202,7 @@
   				<args>givingCod,false</args>
 					<action command='talk'>
 						<args>
-							@! You don't have a COD PIECE! You have not obtained such exquisite finery yet. Perhaps you should do a bit more treasure hunting?
+							@! Non hai un COD PIECE! Non hai ancora ottenuto un tale squisito vestiario. Forse dovresti fare un po' più caccia al tesoro.
 						</args>
 					</action>
 				</action>
@@ -268,9 +268,9 @@
   
   	<sprite name='catLusus' x='246' y='831' width='160' height='120' collidable='true'>
   		<animation sheet='catLusus' x='-80' y='-60' length='12' frameInterval='4'/>
-  		<action command='talk' name='Examine.'>
+  		<action command='talk' name='Esamina.'>
 						<args>
-						@!:#cat-mom mrrrrr...
+						@!:#mamma-gatto mrrrrr...
 						<!--  -->
 						</args>
 			</action>
@@ -279,14 +279,14 @@
   	<sprite name='thirdRoomBubble1' class='blueBubble' x='999' y='1875'>
   		<action sprite='!meulin' command='talk' name='Examine.'>
 				<args>
-				@! This does not contain your memory. Only Meulin can access this bubble.
+				@! Questo non contiene un tuo ricordo. Solo Meulin ha accesso a questa bolla.
 				<!--  -->
 				</args>
 			</action>
 			
-			<action sprite='meulin' command='talk' name='Examine.'>
+			<action sprite='meulin' command='talk' name='Esamina.'>
 				<args>
-				@! You remember spending a fair amount of your time hopping around these lily pads. Once you stumbled on a treasure so rare, so incredible, you could find neither the words nor the mimes to describe it. Alas, you lost it. Could this be the gateway to that special memory?
+				@! Ricordi di aver speso un bel po' di tempo saltellando in giro per queste foglie di ninfea. Un giorno sei incappata in un tesoro così raro, così incredibile, che non potesti trovare le parole né i meme per descriverlo. Ahitè, lo hai perso. Che questo sia il ponte per quello speciale ricordo?
 				<!-- stairs appear -->
 				</args>
 				<action command='addWalkable'>
@@ -310,15 +310,15 @@
   	<sprite name='thirdRoomBubble2' class='blueBubble' x='663' y='375'>
   		<action sprite='!kurloz' command='talk' name='Examine.'>
 						<args>
-						@! This does not contain your memory. Only Kurloz can access this bubble.
+						@! Questo non contiene il tuo ricordo. Solo Kurloz può accedere a questa bolla.
 						<!--  -->
 						</args>
 			</action>
 			
 			<action sprite='kurloz' command='talk' name='Examine.'>
 				<args>
-				@! You've kept many secrets from your friends. Secrets to you were always the most beautiful miracles of all. They are the private answers to a bunch of riddles no one ever asked.
-				@! But since this place is made of memories, you've had to be extra careful with your secrets. You've carved out an extensive network of virtual catacombs throughout the bubbles, leading to hidden treasures, black recollections, and perhaps one or two illicit dropoff points.
+				@! Hai tenuto molti segreti ai tuoi amici. I segreti per te sono sempre stati i più bei miracoli che ci siano. Sono le risposte private a un mucchio di indovinelli che nessuno hai mai chiesto.
+				@! Ma dal momento che questo posto è fatto di ricordi, hai dovuto essere molto cauto coi tuoi segreti. Hai scavato un network estensivo di catacombe virtuali lungo tutto l'oltretomba, che porta a tesori nascosti, oscure memorie, e forse uno o due punti di discesa illeciti.
 				<!--  -->
 				</args>
 				<action command='addUnwalkable'>
@@ -340,10 +340,10 @@
   	</sprite>
   	
   	<sprite class='chest3' name='thirdRoomChest9' x='855' y='2646'>
-			<action command='openChest' name='Open.'>
+			<action command='openChest' name='Apri.'>
 		  <args>thirdRoomChest9,obj09,
-		    @! You got a TAROT DECK!
-		    @!:#highly-desirable-merchandise Any aspiring seer would be crazy not to keep one of these on hand. Maybe you'll try selling it to Kankri later, or that talkative broad in the orange nightgown.
+		    @! Hai trovato una SCATOLA DI TAROCCHI!
+		    @!:#merce-altamente-desiderabile Qualunque aspirante veggente sarebbe pazzi a non tenere una di queste in mano. Magari proverai a venderla a Kankri più tardi, o la sciaquetta chiacchierona con la camicia da notte arancione.
 		  </args>
 		  </action>
   	</sprite>
@@ -351,25 +351,25 @@
   	
   	
   	<sprite class='chest3' name='thirdRoomChest11' x='186' y='1680'>
-			<action command='openChest' name='Open.'>
+			<action command='openChest' name='Apri.'>
 				<args>thirdRoomChest11,obj11,
-				  @! You got a JUJU!
-				  @! A VOODOO DOLL to be exact. You wonder what happens if you pull one of these pins...
-				  @! Nah, better leave them be. Got a bad feeling about this thing. Really bad, uh... what's the word you're looking for. Bad...
-				  @!:#whatever-you-say Mojo?
+				  @! Hai trovato un JUJU!
+				  @! Una bambola VOODOO ad essere esatti. Ti domandi cosa accada se rimuovi uno di questi aghi...
+				  @! Nah, meglio lasciarli stare. Hai un brutto presentimento. Molto brutto, uh... qual è la parola che stai cercando? Brutto...
+				  @!:#quello-che-ti-pare Mojo?
 				</args>
 			</action>
   	</sprite>
   	
   	<sprite class='chest3' name='thirdRoomChest12' x='921' y='1539'>
-			<action command='openChest' name='Open.'>
+			<action command='openChest' name='Apri.'>
 				<args>thirdRoomChest12,obj12,
-					@! You got a SPADE KEY!
+					@! Hai trovato una CHIAVE DI PICCHE!
 				</args>
 				<action command='addAction'>
   				<args>megaDoor,
   					<action name='Use spade key.' command='removeAction'>
-  						<args>megaDoor,Use spade key.</args>
+  						<args>megaDoor,Usa chiave di picche.</args>
   						<action command='setGameState'>
   							<args>spadeKeyUsed,true</args>
   							<action command='addSprite'>
@@ -386,44 +386,44 @@
   	</sprite>
   	
   	<sprite class='chest3' name='thirdRoomChest13' x='228' y='570'>
-			 <action command='openChest' name='Open.'>
+			 <action command='openChest' name='Apri.'>
 		  <args>thirdRoomChest13,obj13,
-		    @! You got an OLIVE POTION!
-		    @! This is supposed to be a love potion. Just one sip and AUGH, IT'S JUST MORE NASTY TROLL BLOOD. What the hell is going on here? Who is even bottling this stuff?
-		    @!:#hustlin Oh well, you'll hang on to it anyway. Maybe you'll be able to con some lovestruck sucker out of a whole mess of boonies for this slop.
-		    @!: (OTOH, if you're not Meenah right now you just chuck it off the lily pad.)
+		    @! Hai trovato una POZIONE OLIVA!
+		    @! Questa dovrebbe essere una pozione d'amore. Solo un sorso e AUGH, È SOLO ALTRO SANGUE TROLL SCHIFOSO. Che diavolo ci sta facendo qui? E chi sta imbottigliando questa roba?
+		    @!:#fischiettando Oh beh, te lo terrai comunque. Magari sarai in grado di separare qualche perdente innamorato da un bel po' di quattrini con questa sbobba.
+		    @!: (d'altro canto, se in questo momento non sei Meenah la butti semplicemente giù dalla ninfea.)
 		  </args>
 		  </action>
   	</sprite>
   	
   	<sprite class='chest3' name='thirdRoomChest14' x='288' y='543'>
-			 <action command='openChest' name='Open.'>
+			 <action command='openChest' name='Apri.'>
 		  <args>thirdRoomChest14,obj14,
-		    @! You got a TEA POT!
+		    @! Hai trovato una TEIERA!
 		    @! mmmm
-		    @!:#:3 chameowmile
+		    @!:#:3 camiaomilla
 		  </args>
 		  </action>
   	</sprite>
   	
   	<sprite class='chest3' name='thirdRoomChest15' x='348' y='528'>
-			  <action command='openChest' name='Open.'>
+			  <action command='openChest' name='Apri.'>
 				<args>thirdRoomChest15,obj15,
-				  @! You got a pair of ACTION CLAWS!
-				  @! Whoa, easy there... you could accidentally grab one of them firmly, and then drag it across your face diagonally if you're not careful.
+				  @! Hai trovato un paio di ARTIGLI D'AZIONE!
+				  @! Whoa, sta attento... potresti accidentalmente afferrarne uno con fermezza, per poi trascinartelo diagonalmente lungo la faccia, se non fai attenzione.
 				</args>
 				</action>
   	</sprite>
   	
   	<sprite class='chest3' name='thirdRoomChest16' x='936' y='393'>
-		  <action command='openChest' name='Open.'>
+		  <action command='openChest' name='Apri.'>
 				<args>thirdRoomChest16,obj16,
-					@! You got a HEART KEY!
+					@! Hai trovato una CHIAVE DI CUORI!
 				</args>
 				<action command='addAction'>
   				<args>megaDoor,
   					<action name='Use heart key.' command='removeAction'>
-  						<args>megaDoor,Use heart key.</args>
+  						<args>megaDoor,Usa chiave di cuori.</args>
   						<action command='setGameState'>
   							<args>heartKeyUsed,true</args>
   							<action command='addSprite'>
@@ -440,11 +440,11 @@
   	</sprite>
   	
   	<sprite class='chest3' name='thirdRoomChest17' x='681' y='1155'>
-			 <action command='openChest' name='Open.'>
+			 <action command='openChest' name='Apri.'>
 				<args>thirdRoomChest17,obj17,
-				  @! You got a JUJU!
-				  @! Looks to be a CHESS SET, to be specific. It's quite lovely. But...
-				  @! A bunch of the pieces are missing. :(
+				  @! Hai trovato un JUJU!
+				  @! Sembra che sia un SET DA SCACCHI, per essere specifici. È piuttosto carino. Ma...
+				  @! Un mucchio di pezzi sono mancanti. :(
 				</args>
 			</action>
   	</sprite>

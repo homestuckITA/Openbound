@@ -269,13 +269,13 @@
   			<args>gameState,meenahGone=true</args>
   			<args>spriteProperty,cronus,x &gt; 5300</args>
   			<action command='talk'>
-  				<args>@!:#story-of-your-life#this-is-probably-CAPTAIN-HELMET'S-fault#you-should-go-grill-him Wait... where'd she go? Dang it. Looks like she ditched you again.</args>
+  				<args>@!:#storia-della-tua-vita#questo-è-probabilmente-colpa-di-CAPITAN-ELMETTO#dovresti-andare-a-torchiarlo Aspetta... dov'è andata? Dannazione. Sembra che ti abbia bidonato di nuovo.</args>
   				<action command='setGameState'>
   					<args>meenahGone,false</args>
   					<action command='removeActions'>
-  						<args>mituna,Talk to Mituna.,Talk to Mituna.</args> <!-- yes, twice! -->
+  						<args>mituna,Parla con Mituna.,Parla con Mituna.</args> <!-- yes, twice! -->
   						<action command='removeActions'>
-								<args>cronus,Talk to Cronus.,Ask Cronus to join.,Where's Karkat?,Talk to Cronus.</args> <!-- yes, twice! -->
+								<args>cronus,Parla con Cronus.,Chiedi a Cronus di unirsi.,Dov'è Karkat?,Parla con Cronus.</args> <!-- yes, twice! -->
 								<action command='addAction'>
 									<args>mituna,
 										<action class='mitunaTalk6'>
@@ -292,7 +292,7 @@
 																<action class='beMituna'/>
 															</args>
 															<action command='removeAction' noDelay='true'>
-																<args>mituna,Grill Mituna.</args>
+																<args>mituna,Torchia Mituna.</args>
 																<action command='addActions' noDelay='true'>
 																	<args>cronus,
 																		<action class='cronusTalk5'/>
@@ -323,9 +323,9 @@
   			<args>gameState,horseLook=true</args>
   			<action command='setGameState' noDelay='true'>
   				<args>horseLook,false</args>
-					<action command='talk' name='Examine.'>
+					<action command='talk' name='Esamina.'>
 						<args>
-						@!:#seahorse-dad The hovering maritime stallion issues a stern, fatherly neigh.
+						@!:#papà-cavalluccio-marino Il volteggiante stallone marittimo emette un austero neigh paterno.
 						<!--  -->
 						</args>
 					</action>
@@ -340,8 +340,8 @@
   				<args>horseLook,false</args>
 					<action command='talk'>
 						<args>
-						@! Sorry bro, I was only using you to get close to your beautiful floating seahorse!
-	    			@!:#NYEIGH Giddyup, seahorse dad. Up, up, and away!
+						@! Scusa fra, ti stavo soltanto usando per avvicinarmi a questo bellissimo cavalluccio marino fluttuante!
+	    			@!:#NYEIGH Al galoppo, papà cavalluccio marino. Su, su, andiamo via!
 						</args>
 						<action command='waitFor'>
   						<args>noActions</args>
@@ -356,7 +356,7 @@
   										<action command='removeSprite' noWait='true'>
   											<args>seahorsedad,firstRoom</args>
   											<action command='talk' noWait='true'>
-  												<args>@cronus_sad2 CRONUS: this is literally the vworst case scenario for my feelings.</args>
+  												<args>@cronus_sad2 CRONUS: questo è letteralmente il peggior scenario per i miei sentimenti.</args>
   											</action>
   										</action>
   									</action>
@@ -385,7 +385,7 @@
 			<action class='meenahTalk5'>
 				<action command='presentActions'>
 					<args>
-						<action class='beMeenah' name='Yes.'/>
+						<action class='beMeenah' name='Sì.'/>
 						<action command='cancel' name='No.'/>
 					</args>
 				</action>
@@ -409,7 +409,7 @@
 									<action command='removeSprite'>
 										<args>meenah,firstRoom</args>
 										<action command='removeActions'>
-											<args>mituna,Be Mituna.</args>
+											<args>mituna,Sii Mituna.</args>
 										</action>
 									</action>
 								</action>
@@ -428,66 +428,66 @@
   	</sprite>
   	
   	<sprite class='bicyclops' x='5173' y='627' >
-			<action command='talk' name='Examine.'>
+			<action command='talk' name='Esamina.'>
 						<args>
-						@!:#biclops-dad This custodian really has his hands full, taking care of that guy. You kind of feel for the hideous monster.
-						@!:#but-what-if-im-cronus?#lets-not-worry-about-that-ok Or at least that's your observation if you're being Meenah right now. If you're being Mituna, you beg your enormous parental unit for some mind honey. The huge beast grunts dismissively and bops you on the helmet. You fall on your ass and throw a tantrum.
+						@!:#papà-biclope Questo custode ha davvero le mani piene, a prendersi cura di quel tizio. Hai un po' pietà di questo mostro orribile.
+						@!:#ma-fossi-cronus?#non-preoccupiamoci-di-quello-ok? O almeno questa è la tua osservazione se sei Meenah. Se sei Mituna, preghi la tua enorme unità parentale di darti del cibo. L'enorme bestia grugnisce sprezzante e ti dà un colpetto sull'elmetto. Cadi sul tuo culo e fai i capricci.
 						<!--  -->
 						</args>
 			</action>
   	</sprite>
   	
   	<sprite name='firstRoomDoor1' x='620' y='324' width='80' height='20' >
-  		<action command='talk' name='Examine.'>
+  		<action command='talk' name='Esamina.'>
 		    <args>
-		    @! The door is locked. You knock, but no one answers.
-		    @! This seems to be an Alternian neighborhood. Aside from all the violence, Alternian culture seems like it must have been pretty similar to life on Beforus, lawn rings and all. Then again, as a spoiled runaway princess, you never did spend much time in the burbs, so what do you know.
+		    @! La porta è serrata. Bussi, ma non risponde nessuno.
+		    @! Questo sembra essere un vicinato alterniano. A parte tutta la violenza, la cultura alterniana sembra essere simile alla vita su Beforus, pratanelli e tutto il resto. Ma ancora, in qualità di principezza viziata fuggita di casa, non hai mai speso molto tempo nei suburb, quindi cosa puoi saperne.
 		    <!--  -->
 		    </args>
 			</action>
   	</sprite>
 		
 		<sprite name='firstRoomGarbage' x='372' y='306' width='50' height='30' >
-  		<action command='talk' name='Examine.'>
+  		<action command='talk' name='Esamina.'>
 				<args>
-				@! An ordinary domestic DROSS COFFER. It's full of smelly garbage, but it hasn't been dragged outside the ring yet. Maybe the waste collection drone isn't scheduled to make a pickup tonight?
+				@! Un'ordinaria CASSA DI RIFIUTI. È piena di spazzatura puzzolente, ma non è ancora stata portata fuori dall'anello. Forse il drone raccoglitore di rifiuto non ha in programma di passare stanotte?
 				<!--  -->
 				</args>
 			</action>
   	</sprite>
   	
   	<sprite name='firstRoomHose' x='237' y='308' width='100' height='38' >
-			<action command='talk' name='Examine.'>
+			<action command='talk' name='Esamina.'>
 				<args>
-				@! No self respecting Alternian troll kid would dare keep a dry, unwatered lawn ring. Letting the grass outside your hive turn yellow is just begging to get yourself culled. Harsh, but fair, you think. God life on Alternia was so great.
+				@! Nessuno ragazzino alterniano che si rispetti manterrebbe un pratanello secco e senz'acqua. Lasciare che il prato fuori dal tuo alveare diventi giallo è praticamente un richiamo per essere raccolti. Duro, ma giusto, pensi. Dio la vita su Alternia era così fantastica.
 				<!--  -->
 				</args>
 			</action>
   	</sprite>
   	
   	<sprite name='firstRoomPlant' x='1118' y='304' width='100' height='40' >
-			<action command='talk' name='Examine.'>
+			<action command='talk' name='Esamina.'>
 						<args>
-						@! Better leave it alone. Might have the troll rabies.
+						@! Meglio lasciarlo stare. Potrebbe avere la rabbia troll.
 						<!--  -->
 						</args>
 			</action>
   	</sprite>
   	
   	<sprite name='firstRoomGrub' x='2576' y='578' width='115' height='100' >
-			<action command='talk' name='Examine.'>
+			<action command='talk' name='Esamina.'>
 						<args>
-						@! What?? Some careless soul has left this poor infant grub all alone to fend for itself!
-						@! So in other words, just like all grubs on Alternia. Big whoop.
+						@! Cosa?? Qualche troll senz'anima ha lasciato questa povera larva infante tutta da sola a badare a se stessa!
+						@! Quindi in altre parole, come tutte le larve su Alternia. Che shock.
 						<!--  -->
 						</args>
 			</action>
   	</sprite>
   	
   	<sprite name='firstRoomDoor2' x='3348' y='298' width='100' height='40' >
-			<action command='talk' name='Examine.'>
+			<action command='talk' name='Esamina.'>
 						<args>
-						@! BANG BANG BANG! Is anybody home??? you say. But of course no one is, because most of these hives are just memory projections.
+						@! BANG BANG BANG! C'è nessuno qui??? dici. Ma ovviamente non c'è nessuno, dal momento che la maggior parte di questi alveari sono solo proiezioni mnemoniche.
 						<!--  -->
 						</args>
 			</action>
@@ -499,26 +499,26 @@
   	</sprite>
   	
   	<sprite class='chest2' name='firstRoomChest1' x='1230' y='208'>
-			<action command='openChest' name='Open.'>
+			<action command='openChest' name='Apri.'>
 					<args>firstRoomChest1,obj01,
-						@! You got an ALTERNIAN SOFT DRINK!
-						@! You're not really up on Alternian history, but apparently at some point the empress got fed up with the Subjugglators' stranglehold on the soda market, and released a drink that was said to be more loaded with sugar than even the wicked elixir itself. The Highbloods considered such marketing reports to be blasphemous lies, however. And they were right. The beverage actually contained zero calories, which she secretly mandated so as to preserve her slim figure. But all the lowblood suckers guzzled cans down by the billions none the wiser, while the crafty Condesce raked in the cash.
-						@! If someone actually told you this story, you'd spend the next ten minutes fangirling on the floor.
+						@! Hai trovato una BIBITA ALTERNIANA!
+						@! Non sei davvero esperta di storia alterniana, ma a quanto pare a un certo punto l'imperatrice si è stancata della presa dei Sojjuglatori sul mercato della soda e ha rilasciato un drink che si diceva fosse più carico di zucchero anche dello stesso elisir malefico. Ma i Sanguepuro considerarono essere queste notizie di marketing delle bugie blasfeme. E avevano ragione. La bibita in realtà conteneva zero calorie, cosa che lei aveva segretamente imposto per mantenere la sua figura snella. Ma tutti gli scemi sanguesporco tracannavano miliardi di lattine senza alcun sospetto, mentre la furba Condesce nuotava nell'oro.
+						@! Se qualcuno ti avesse effettivamente raccontato questa storia, avresti speso gli ultimi dieci minuti a fangirlare sul pavimento.
 					</args>
 			</action>
   	</sprite>
   	
   	<sprite class='chest2' name='firstRoomChest2' x='1194' y='1090'>
-			<action sprite='!cronus' command='talk' name='Open.'>
+			<action sprite='!cronus' command='talk' name='Apri.'>
 				<args> @! Can't open it! Maybe if you try with someone else...</args>
 			</action>
 			
-			<action sprite='cronus' command='openChest' name='Open.'>
+			<action sprite='cronus' command='openChest' name='Apri.'>
 				<args>firstRoomChest2,obj02,
-				  @! Hey Eridan! Or whatever your name is! I'll go on a date with you!!!
-				  @cronus_surprised CRONUS: you vwill?
-				  @! Absolutely. I find you attractive, and your personality is basically tolerable to me.
-				  @cronus_huh CRONUS: um... alright, sure. guess beggars cant be choosers.
+				  @! Ehi Eridan! O qualunque sia il tuo nome! Verrò io a un appuntamento con te!!!
+				  @cronus_surprised CRONUS: davwvwero?
+				  @! Assolutamente. Ti trovo attraente, e la tua personalità è praticamente tollerabile per me.
+				  @cronus_huh CRONUS: um... va bene, come no. suppongo che un mendicante non possa scegliere queste cose.
 				</args>
 				<action command='addSprite'>
 					<args>andrew,firstRoom</args>
@@ -536,14 +536,14 @@
   	</sprite>
   	
   	<sprite class='chest2' name='firstRoomChest3' x='2274' y='658'>
-			<action command='openChest' name='Open.'>
+			<action command='openChest' name='Apri.'>
 				<args>firstRoomChest3,obj03,
-				  @! You got a DIAMOND KEY!
+				  @! Hai trovato una CHIAVE DI DIAMANTI!
 				</args>
 				<action command='addAction'>
   				<args>megaDoor,
   					<action name='Use diamond key.' command='removeAction'>
-  						<args>megaDoor,Use diamond key.</args>
+  						<args>megaDoor,Usa chiave di diamanti.</args>
   						<action command='setGameState'>
   							<args>diamondKeyUsed,true</args>
   							<action command='addSprite'>
@@ -560,39 +560,39 @@
   	</sprite>
   	
   	<sprite class='chest2' name='firstRoomChest4' x='2364' y='236'>
-			<action command='openChest' name='Open.'>
+			<action command='openChest' name='Apri.'>
 				<args>firstRoomChest4,obj04,
-					@! You got a CLAWSICKLE!
-					@!:#so,#there's-that-too You absolutely love this due to its nautical nature. Also, hoarding items such as this will nicely complement your increasingly manic obsession with Karkat.
+					@! Hai trovato un'ARTIGLIOFALCE!
+					@!:#quindi,#c'è-anche-quello L'adori assolutamente a causa del suo tema nautico. Inoltre, ammucchiare oggetti come questo è graziosamente in tono con la tua ossessione sempre più maniacale per Karkat.
 				</args>
     	</action>
   	</sprite>
   	
   	<sprite class='chest2' name='firstRoomChest5' x='3106' y='290'>
-			<action command='openChest' name='Open.'>
+			<action command='openChest' name='Apri.'>
 				<args>firstRoomChest5,obj05,
-				  @! You got a whole bunch of SEA DWELLER BLING!
-				  @! It's pretty obvious this all belongs to Cronus over there. He's just not wearing it right now so he can convince everyone he doesn't feel like his royalty status is a big deal, even though he does.
-				  @! You have no problem whatsoever selling this shit to the highest bidder though. You pocket the gaudy loot while giggling.
+				  @! Hai trovato un bel po' di GIOIELLI DA ABITANTE MARINO!
+				  @! È abbastanza ovvio che tutto questo appartenga a Cronus laggiù. Semplicemente non li sta indossando adesso così che può convincere tutti che non creda che il suo stato nobile sia una gran cosa, anche se è così.
+				  @! Ma non hai nessun problema a vendere questa roba al miglior offerente. Ti metti in tasca il bottino pacchiano sghignazzando.
 				</args>
 		  </action>
   	</sprite>
   	
   	<sprite class='chest2' name='firstRoomChest6' x='3950' y='230' width='100' height='100' collidable='false'>
-			<action command='openChest' name='Open.'>
+			<action command='openChest' name='Apri.'>
 				<args>firstRoomChest6,obj06,
-				  @! You got AHAB'S CROSSHAIRS!
-				  @! You raise this awesome legendary weapon to the heavens and watch it sparkle a bit...
-				  @! Just before you bring it down on your knee and snap it in half, while laughing maniacally. You hear a muffled sob from Ampora's direction.
+				  @! Hai trovato il MIRINO DI AHAB!
+				  @! Alzi questa leggendaria fantastica arma al cielo per osservarla scintillare per un po'...
+				  @! Appena prima di portarla giù al tuo ginocchio spezzandola in due, ridendo maniacalmente. Puoi sentire un singhiozzo sommesso dalla direzione di Ampora.
 				</args>
 		  </action>
   	</sprite>
   	
   	<sprite class='chest2' name='firstRoomChest7' x='4300' y='1024'>
-			<action command='openChest' name='Open.'>
+			<action command='openChest' name='Apri.'>
 				<args>firstRoomChest7,obj07,
-				  @! You got GAME GRUB MAGAZINE!
-				  @! This publication is absolutely dripping with exclusive grub leaks. Actually it's a pretty disgusting magazine.
+				  @! Hai trovato un MAGAZINE GAME GRUB!
+				  @! Questa pubblicazione sta assolutamente sudando assurdi grub leaks. In effetti è un magazine piuttosto disgustoso.
 				</args>
 		  </action>
   	</sprite>
@@ -600,14 +600,14 @@
   	
   	
   	<sprite class='chest2' name='firstRoomChest8' x='5936' y='146'>
-			 <action command='openChest' name='Open.'>
+			 <action command='openChest' name='Apri.'>
 				<args>firstRoomChest8,obj08,
-				  @! You got a CLUB KEY!
+				  @! Hai trovato una CHIAVE DI FIORI!
 				</args>
 				<action command='addAction'>
   				<args>megaDoor,
   					<action name='Use club key.' command='removeAction'>
-  						<args>megaDoor,Use club key.</args>
+  						<args>megaDoor,Usa chiave di fiori.</args>
   						<action command='setGameState'>
   							<args>clubKeyUsed,true</args>
   							<action command='addSprite'>

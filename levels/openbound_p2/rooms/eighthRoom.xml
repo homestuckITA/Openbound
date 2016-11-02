@@ -62,7 +62,7 @@
   							<action command='fadeOut' name='Yes.'>
 									<action command='presentActions'>
 										<args>
-											<action command='loadStateFile' name='Start over.'>
+											<action command='loadStateFile' name='Ricomincia.'>
 													<args>../init.xml,false</args>
 											</action>
 										</args>
@@ -82,7 +82,7 @@
   	</triggers>
   	
   	<sprite name='expoStand' x='609' y='243' width='92' height='78'>
-   		<action command='addOverlay' name='Talk.'>
+   		<action command='addOverlay' name='Parla.'>
    			<args>peanuts</args>
    			<action class='peanutActions'/>
    		</action>

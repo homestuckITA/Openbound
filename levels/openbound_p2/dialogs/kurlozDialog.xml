@@ -1,42 +1,42 @@
 <sburb description='kurloz dialogs'>
 	<classes>
-		<action sprite='meenah' class='kurlozTalk1' command='talk' name='Talk to Kurloz.'>
+		<action sprite='meenah' class='kurlozTalk1' command='talk' name='Parla con Kurloz.'>
       <args>
-      @meenah_idle MEENAH: yo freak remember me
+      @meenah_idle MEENAH: ehi frichettone ti ricordi di me
       @kurloz_smile:#:o) KURLOZ: 
-      @meenah_idle MEENAH: so 
-      @meenah_talk MEENAH: so what kinda conversation could we even have that wouldnt be weird and awkward
+      @meenah_idle MEENAH: allora
+      @meenah_talk MEENAH: che tipo di conversazione potremmo avere che non sia strana e imbarazzante
       @kurloz_smile:#:o) KURLOZ: 
-      @meenah_idle MEENAH: i sea
-      @meenah_talk MEENAH: got anyfin for me other than an eerie glare and a gross stiched up smile
+      @meenah_idle MEENAH: capisco
+      @meenah_talk MEENAH: hai nient altro per me che non sia uno sguardo angosciante e uno schifoso sorriso stampato in faccia
       @kurloz_smile:#:o) KURLOZ: 
-      @meenah_talk MEENAH: whats the wicked word these days
+      @meenah_talk MEENAH: whats qual è la parola maledetta in questi giorni
       @kurloz_finger:#:o) KURLOZ: 
-      @meenah_annoyed MEENAH: shit be cold home skillet
+      @meenah_annoyed MEENAH: sei proprio freddino socio
       <!--  -->
       </args>
 		</action>
 
-		<action sprite='meenah' class='kurlozTalk2' command='talk' name='Ask Kurloz to join.'>
+		<action sprite='meenah' class='kurlozTalk2' command='talk' name='Chiedi a Kurloz di unirsi.'>
       <args>
-      @meenah_talk MEENAH: so i guess i want you to join my army
-      @meenah_idle MEENAH: maybe
-      @meenah_talk MEENAH: if you promise you aint gonna be too capricious or clown ass batshit or whatever
+      @meenah_talk MEENAH: quindi credo di volere che tu ti unisca al mio esercito
+      @meenah_idle MEENAH: forse
+      @meenah_talk MEENAH: se prometti di non essere troppo capriccioso o clown-schizzato totale o quello che è
       @kurloz_no:#:o) KURLOZ: 
-      @meenah_talk MEENAH: well least your honest about it
-      @meenah_talk MEENAH: got any crazy chucklevoodoo tips on how to kill a cherub?
+      @meenah_talk MEENAH: beh almeno sei sincero
+      @meenah_talk MEENAH: hai qualche folle suggerimento ghignovudù per uccidere cherubini?
       @kurloz_shrug:#:o) KURLOZ: 
-      @meenah_idle MEENAH: so
-      @meenah_talk MEENAH: nothing to say as usual then
+      @meenah_idle MEENAH: quindi
+      @meenah_talk MEENAH: niente da dire come sempre allora
       @kurloz_zip:#:o) KURLOZ: 
-      @meenah_talk MEENAH: its awesome we had this talk
+      @meenah_talk MEENAH: è fantastico aver fatto questa chiacchiarata
       <!--  -->
       </args>
 		</action>
 
-		<action sprite='meenah' class='kurlozTalk3' command='talk' name='Be Kurloz.'>
+		<action sprite='meenah' class='kurlozTalk3' command='talk' name='Sii Kurloz.'>
       <args>
-      @! You wouldn't even know how to BEGIN being this oddball. Best to just leave him alone.
+      @! Non sapresti nemmeno da dove INIZIARE per essere questo tipo strano. Meglio lasciarlo da solo e basta.
       <!--  -->
       </args>
 		</action>
@@ -44,7 +44,7 @@
 
 		
 		
-		<action sprite='meulin' class='kurlozTalk5' command='talk' name='Talk to Kurloz.'>
+		<action sprite='meulin' class='kurlozTalk5' command='talk' name='Parla con Kurloz.'>
       <args>
       @meulin_mime4~meme10  
       @kurloz_mime1~kurmeme1:#:o)  
@@ -56,7 +56,7 @@
       @meulin_mime5~meme14  
       @kurloz_mime1~kurmeme4:#:o)  
       @kurloz_mime2~kurmeme5:#:o)  
-      @! Give Kurloz a COD PIECE?
+      @! Dai a Kurloz il COD PIECE?
       <!-- y/n -->
       </args>
 		</action>
@@ -66,12 +66,12 @@
 			@kurloz_hypno2%kurbox~kurtalk1  
       @kurloz_hypno2%kurbox~kurtalk2  
       @kurloz_hypno2%kurbox~kurtalk3  
-      @meulin_hypno%kurbox:#OTM#RYDAS-AND-NINJETTES-REPRESENT MEULIN: (=ﾟ･ﾟ=) &lt; ALL HAIL THE ONE TRUE MESSIAH. 
+      @meulin_hypno%kurbox:#OTM#ORGOGLIO-RYDAS-E-NINJETTES MEULIN: (=ﾟ･ﾟ=) &lt; LODE ALL UNICO VERO MESSIA.
       @kurloz_hypno2%kurbox~kurtalk4  
-      @meulin_hypno%kurbox:#MUCH-CLOWN-LOVE MEULIN: (=ﾟ･ﾟ=) &lt; MAY THE BARD'S RIOTOUS CHUCKLEVOODOOS INSPIRE NIGHTMARES IN ALL WHO WOULD OPPAWS CALICORN, AND MAY THE JOCULARKITTY OF HIS VAST HONK RING LOUD AND MOTHER FUCKIN TRUE ALL THE WAY TO SHANGRI LOL.
+      @meulin_hypno%kurbox:#TANTO-AMORE-CLOWN MEULIN: (=ﾟ･ﾟ=) &lt;  CHE I BRUTALI GRAFFIOOVUDU' DEL BARDO POSSANO ISPIRARE INCUBI IN TUTTI COLORO CHE SI OPPONGONO A CALICORN, E POSSA LA SCHERZOSITA' DEL SUO VASTO HONK SUONARE FORTE E FOTTUTAMENTE CHIARA FINO A SHANGRI LOL.
       @kurloz_hypno1%kurbox~kurtalk5  
       @kurloz_hypno1%kurbox~kurtalk6  
-      @meulin_hypno%kurbox MEULIN: (=ﾟ･ﾟ=) &lt; MAY THIS LUDICROUS PAIR OF SHORTS ASSNIFFST HIS HOLY MISSION, AND FLUMMOX ALL WHO WOULD CATST THEIR UNWORTHY GAZE PON ITS FRESH FUCKIN BULGE.
+      @meulin_hypno%kurbox MEULIN: (=ﾟ･ﾟ=) &lt; CHE QUESTO RIDICOLO PAIO DI SHORTS ASSISTA LA SUA SACRA MISSIONE, E CONFONDA TUTTI COLORO CHE GETTERANNO IL PROPRIO INDEGNO SGUARDO SULLA SUA FRESCA CAZZO DI PROTUBERANZA.
       @kurloz_hypno1%kurbox~kurtalk7  
       <!--  --> 
       </args>
@@ -97,7 +97,7 @@
       @kurloz_angry%kurbox~kurtalk17  
       @kurloz_angry%kurbox~kurtalk18  
       @kurloz_smile%kurbox~kurtalk19:#:o)  
-      @gamzee_idle%kurbox GAMZEE: shut your mother fucking mouth and give me the cod piece
+      @gamzee_idle%kurbox GAMZEE: chiudi quella stracazzo di bocca e dammi il cod piece
       @kurloz_zip%kurbox KURLOZ:
       <!--  -->
       </args>

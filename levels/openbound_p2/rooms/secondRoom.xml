@@ -34,11 +34,11 @@
   		<animation sheet='prospitians' x='-70' y='-80'/>
 			<action command='talk' name='Examine.'>
 				<args>
-				@! Is it... could it be???
-				@! IT IS! IT'S PROBLEM SLEUTH, ACE DICK, AND PICKLE INSPECTOR, IN THEIR ORIGINAL PROSPITIAN ATTIRE! YOU KNEW IT! YOU KNEW YOU WOULD FIND THEM EVENTUALLY! IT'S SO GREAT TO MEET ...
-				@! Wait.
-				@!:#proportioned-prospitians#........ This is not Problem Sleuth, Ace Dick, and Pickle Inspector. These are just some random Prospitians who are similarly proportioned.
-				@! You're beginning to think you'll never run into them.
+				@! Questo è... che sia???
+				@! È COSÌ! SONO PROBLEM SLEUTH, ACE DICK E PICKLE INSPECTOR, NEL LORO ORIGINALE VESTIARIO DA PROSPITIANI! LO SAPEVI! SAPEVI CHE ALLA FINE LI AVRESTI TROVATI! È COSÌ FANTASTICO CHE...
+				@! Aspetta.
+				@!:#prospitiani-proporzionati#........ Questi non sono Problem Sleuth, Ace Dick e Pickle Inspector. Questi sono solo dei prospitiani a caso di simili proporzioni.
+				@! Stai cominciando a pensare che non li incontrerai mai.
 				<!--  -->
 				</args>
 			</action>
