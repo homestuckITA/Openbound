@@ -1,0 +1,86 @@
+<sburb>
+    <classes>
+  		<action class='porrimTalk1' sprite='meenah' command='talk' name='Ascolta la conversazione.'>
+		      <args>
+		      @porrim_talk PORRIM: Ah, sembra che abbiamo+ co+mpagnia. Indo+vina chi è!
+		      @porrim_happytalk PORRIM: So+no+ davvero+ felice che ttu sia venuta a parlarmi. Spero+ tenga a mente quello+ che ti ho+ detto+.
+		      @kanaya2_happytalk KANAYA: Sì Lo Farò Sicuramente
+		      @kanaya2_happytalk KANAYA: E Anche Io Sono Felice
+		      @kanaya2_happy KANAYA: Di
+		      @kanaya2_smirktalk KANAYA: Beh
+		      @porrim_happytalk PORRIM: Hai del lavo+ro+ impo+rtante davanti a te. L'eredità della no+stra razza è nelle tue mani.
+		      @porrim_happytalk PORRIM: So+ che mi renderai fiera.
+		      @kanaya2_smirklaugh KANAYA: Okay Grazie
+		      <!--  -->
+		      </args>
+		</action>
+		<action class='porrimTalk2' sprite='meenah' command='talk' name='Chiedi password a Kanaya.'>
+      <args>
+      @meenah_talk MEENAH: aw dassalmone sono piedipiatti bellegambe e quellachesomigliaa maryam giovane
+      @meenah_happytalk MEENAH: di cozza glubbate voi donne qui
+      @kanaya2_bored KANAYA: Niente Me Ne Stavo Andando Adesso
+      @meenah_talk MEENAH: oh già lì
+      @meenah_talk MEENAH: di nuovo nel tuo meteorite vero? perchè è lì che sono diretta
+      @meenah_talk MEENAH: non posso passare dalla porta però
+      @meenah_happytalk MEENAH: posso avere la tua password
+      @kanaya2_idle KANAYA: Perdonami
+      @kanaya2_idle KANAYA: No
+      @meenah_happy MEENAH: andiamo
+      @porrim_annoyed2 PORRIM: Meenah, che stai facendo+? No+n assillarla per info+rmazio+ni private. È sco+rtese.
+      @meenah_creepy MEENAH: ANDIAAAAAMO
+      @meenah_happier MEENAH: sto facendo la gentile
+      @kanaya2_bored KANAYA: Davvero?
+      @meenah_angrytalk MEENAH: sto fottutamente sorridendo no???
+      @kanaya2_talk KANAYA: Beh Ci Stavo Andando In Ogni Caso
+      @kanaya2_talk KANAYA: Non Ti Darò La Mia Password Ma Puoi Seguirmi Suppongo
+      @kanaya2_talk KANAYA: Ma Puoi Rimanere Solo Finché Ti Scorterò Io
+      @meenah_wut MEENAH: checazz
+      @meenah_wut MEENAH: perchè
+      @kanaya2_talk KANAYA: Perché Non Mi Fido Di Te
+      @meenah_wut2 MEENAH: aw cavoli
+      @meenah_annoyed MEENAH: ma sono a posto
+      @meenah_fish MEENAH: dovresti farti furba e pensare che sono a posto
+      @kanaya2_bored:#Sarcasmo-Umano KANAYA: Hai Ragione Con Un Tono Da Venditore Al Mercato Come Quello Sarei Un Imbecille A Non Bramare La Tua Compagnia
+      @meenah_annoyedtalk MEENAH: che hai contro di me clone di maryam
+      @kanaya2_idle KANAYA: Penso Che Tu Sia Sociopatica
+      @kanaya2_bored KANAYA: Ho Dato Abbastanza Con Simili Personaggi In Passato
+      @meenah_fish MEENAH: ti sbagli del tutto su di me ragazza
+      @meenah_talk MEENAH: cosa devo fare x essere tua amica maryam il sequel
+      @kanaya2_facepalm KANAYA: Il Mio Nome È Kanaya!
+      @meenah_talk MEENAH: va beh va beh kanaya sia
+      @meenah_talk MEENAH: un giorno mi verrà in mente un buon fish pun per dirlo
+      @meenah_happytalk MEENAH: così saprai quando il nostro legame sarà ben SALMO(N-E)
+      @kanaya2_cry KANAYA: 
+      @meenah_happytalk MEENAH: guida tu io sarò tutta composta e vincerò la tua fiducia
+      @meenah_creepy MEENAH: V-EDRAI
+      @! Sii Kanaya?
+      <!-- y/n -->
+      </args>
+</action>
+
+<action class='porrimTalk3' sprite='kanaya' command='talk' name='Parla con Porrim.'>
+      <args>
+      @porrim_happytalk PORRIM: Restiamo+ in co+ntatto+, Kanaya. Vieni a cercarmi nei so+gni o+gni vo+lta che vuo+i.
+      @porrim_happytalk PORRIM: E assicurati che quella no+n si allo+ntani tro+ppo+ dalla tua vista.
+      @meenah_annoyedtalk MEENAH: e che dassalmone
+      @meenah_annoyedtalk MEENAH: i ragazzini non hanno alcun rispersico per la nobiltà sti giorni e sono tipo un asinello qui
+      @porrim_annoyedtalk PORRIM: Per favo+re. No+n sei neanche arrabbiata. Vo+levi so+lo+ altre scuse per dire altri gio+chi di paro+le.
+      @meenah_annoyedtalk MEENAH: bellegambe smettila di essere un tale soggettone astuto
+      <!--  -->
+      </args>
+</action>
+
+<action class='porrimTalk4' sprite='damara' command='talk' name='Origlia.'>
+      <args>
+      @porrim_angrytalk PORRIM: Damara, ti dispiace? Stiamo+ co+nversando+.
+      @damara_idle DAMARA: 
+      @porrim_angrytalk PORRIM: Per favo+re. Lasciaci so+le. Parliamo+ più tardi, o+k?
+      @kanaya2_idle KANAYA: ...
+      @kanaya2_talk KANAYA: (mi sta mettendo leggermente a disagio)
+      @porrim_talk PORRIM: (è la sua specialità. igno+rala finché no+n se ne va.)
+      <!--  -->
+      </args>
+</action>
+
+	</classes>
+</sburb>

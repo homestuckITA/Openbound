@@ -1,0 +1,216 @@
+<sburb>
+<classes>
+<action class='daveTalk1' sprite='kanaya' command='talk' name='Parla con Dave.'>
+      <args>
+      @dave_idle DAVE: we
+      @dave_talk DAVE: che succede
+      @dave_talk DAVE: il meteorite sta passando attraverso un altra oniribolla?
+      @kanaya2_idle KANAYA: Sì
+      @kanaya2_talk KANAYA: Visto Il Fantasma Che Mi Sta Seguendo
+      @dave_huh DAVE: oh
+      @dave_huh DAVE: ehi
+      @meenah_wink MEENAH: 
+      @dave_huhtalk DAVE: che c è non parli adesso?
+      @dave_smug DAVE: facevi piuttosto la sfacciata prima
+      @kanaya2_talk KANAYA: Sta Esibendo Il Miglior Comportamento Possibile Durante Questo Tour
+      @kanaya2_happytalk KANAYA: In Realtà Finora Sta Andando Molto Bene
+      @dave_idle DAVE: ok vabbè
+      @dave_talk DAVE: tanto non ci preoccupiamo nemmeno più di niente quando passiamo attraverso le oniribolle ora
+      @dave_talk DAVE: tipo nessun avviso o allerta o nessun ai posti di combattimento inesistenti o nient altro
+      @dave_huh DAVE: eh chi se ne frega in effetti
+      @dave_huhtalk DAVE: probabilmente neanche lascerò la stanza stavolta
+      @dave_talk DAVE: mi sono un po rotto dei fantasmi in realtà
+      @dave_smug DAVE: senza offesa troll marino
+      @meenah_fish MEENAH: (scornuto raschiamerda)
+      @kanaya2_idle KANAYA: Shh!
+      @meenah_wut2 MEENAH: 38(
+      @kanaya2_happytalk KANAYA: Quindi Cosa Stavi Mormorando Prima Che Ti Interrompessimo
+      @dave_talk DAVE: oh solo un po di rap 
+      @dave_talk DAVE: ho lavorato sui miei rap 
+      @dave_talk DAVE: hai sentito i miei rap vero
+      @dave_talk DAVE: vuoi sentire un po di rap 
+      @kanaya2_idle KANAYA: ...
+      @dave_huhtalk DAVE: aspetta non sai cos è un rap 
+      @dave_talk DAVE: è una tradizione umana dove butti un ritmo e dici cose forti
+      @dave_talk DAVE: se il flusso va alla grande e le rime sono abbastanza fighe la polizia inizia a cacciare fuori le pistole
+      @dave_talk DAVE: non possono farci niente è tipo un riflesso
+      @dave_talk DAVE: è così che sai che lo stai facendo giusto
+      @kanaya2_talk KANAYA: Sai Cosa Sono I Tuoi Rap? Sono Praticamente La Stessa Antica Forma Di Poesia Slam Alterniana
+      @kanaya2_talk KANAYA: Ma Più Primitivi E Genericamente Coinvolgono Meno Testo Riguardo Torreggiante Bestiame Muscoloso
+      @dave_idle DAVE: poesia slam?
+      @dave_madtalk DAVE: non me ne hai parlato prima
+      @kanaya2_talk KANAYA: Non So Non Nutro Molto Interesse Nell Argomento
+      @dave_mad DAVE: si ma
+      @dave_madtalk DAVE: avrebbe dovuto saltare fuori
+      @dave_huhtalk DAVE: aspetta ora che ci penso
+      @dave_huhtalk DAVE: ricordo che un troll strano mi stava rappando una volta
+      @kanaya2_idle KANAYA: Eccoci Qua Allora
+      @dave_talk DAVE: ma intendo avremmo potuto parlare di rap tutto questo tempo
+      @dave_talk DAVE: cioè io e te
+      @dave_talk DAVE: penso sarebbe saltato fuori se avessimo parlato di più
+      @dave_talk DAVE: kanaya dovremmo parlare di più non parliamo davvero abbastanza
+      @dave_talk DAVE: davvero tipo
+      @dave_talk DAVE: iniziare a fare sul serio
+      @dave_talk DAVE: solo noi due
+      @dave_talk DAVE: tutti a conversare ecc 
+      @kanaya2_idle KANAYA: Um
+      @dave_idle DAVE: davvero cioè
+      @dave_smug DAVE: dovremmo approfondire questa dinamica
+      @dave_smug DAVE: vedere che c è LI'
+      @dave_madtalk DAVE: cazzo spremeremo SANGUE da questa roccia
+      @dave_concern DAVE: questo fantasma silenzioso in modo imbarazzante mi è testimone
+      @kanaya2_talk KANAYA: Se Hai Successo Nell Estrarre Sangue Dal Materiale Geologico In Questione Potrei Per Caso Averlo
+      @dave_smug DAVE: oh ragazzi
+      @dave_smug DAVE: delle battute vampire più o meno semi auto deprecanti sono un inizio mi piace
+      @kanaya2_talk KANAYA: Non So Quanto Sei Sincero Adesso Dave
+      @kanaya2_talk KANAYA: Probabilmente Solo In Parte Dal Momento Che La Regola È Che Tutto Deve Essere Almeno Parzialmente Una Battuta Giusto
+      @dave_idle DAVE: si esattamente
+      @kanaya2_talk KANAYA: Ma Se Vuoi Fare Una Conversazione Vera E Scambiare Punti Di Vista Sulle Nostre Rispettive Culture Allora Ok Suppongo Mi Vada Bene
+      @kanaya2_happytalk KANAYA: Potrei Essere In Grado Di Riportare Alla Memoria Alcuni Testi Classici Di Alcuni Famosi Poeti Slam
+      @dave_idle DAVE: oh cavoli si
+      @dave_talk DAVE: sarebbe così fottutamente perfetto
+      @kanaya2_happytalk KANAYA: Ok Vedrò Cosa Potrò Fare
+      @dave_talk DAVE: dovrai leggermi la lingua strana dei troll
+      @dave_talk DAVE: sarà tipo ora delle storie con karkat
+      @dave_idle DAVE: kanaya edition
+      @kanaya2_smirklaugh KANAYA: Heh Certo
+      @dave_smug DAVE: ma dovrai rappare le parole
+      @kanaya2_facepalm KANAYA: Oh
+      @dave_smug DAVE: pompare di basso e massacrare il microfono
+      @dave_madtalk DAVE: voglio fottutamente SENTIRE quella poesia slam
+      @kanaya2_bored KANAYA: È Troppo Tardi Per Ritirarsi Da Tutto Questo?
+      @meenah_happy MEENAH: si
+      <!--  -->
+      </args>
+</action>   
+<action class='daveTalk2' sprite='rose' command='talk' name='Parla con Dave.'>
+      <args>
+      @dave_huhtalk DAVE: cos è con la troll pesce punk che segue kanaya in giro
+      @rose_talk ROSE: Sembra che sia di passaggio. Kanaya non vuole che crei problemi.
+      @dave_huh DAVE: creare problemi
+      @dave_madtalk DAVE: che cazzo potrebbe mai fare lei qui
+      @dave_madtalk DAVE: dare un calcio a una vecchia pila di ciarpame e far cascare il valore immobiliare ancora più in basso di quanto non lo sia già?
+      @dave_smug DAVE: io dico fatela sbarellare
+      @rose_talk ROSE: Sentiti libero di parlarne con Kanaya.
+      @rose_annoyedtalk ROSE: Ma se la autorizzi a dare di matto, assicurati solo che non sia in alcun modo vicino al mio tavolo di chimica. 
+      @dave_idle DAVE: si
+      @dave_talk DAVE: non può buttare tutte le tue fiale e l altra roba sul pavimento
+      @dave_talk DAVE: l unico che ha il permesso di buttare la scienza sono io
+      @rose_annoyed ROSE: Scemo.
+      @dave_mad DAVE: non osare
+      @dave_madtalk DAVE: puntellavo la mia cazzo di DESTREZZA qui
+      @rose_annoyedtalk ROSE: Lo so. Sono stata nella stessa stanza, proprio qui, a sentirti mormorare testi da solo per le ultime due ore.
+      @dave_huhtalk DAVE: rose sai cos è che fa schifo
+      @rose_idle ROSE: Dimmi.
+      @rose_talk ROSE: A quale cosa schifosa ti riferisci?
+      @dave_talk DAVE: mi è appena venuto in mente
+      @dave_talk DAVE: mentre sputavo rime malate a non finire
+      @dave_talk DAVE: ho avuto questa strana sensazione che potrei star un po
+      @dave_huh DAVE: uscendo dal giro?
+      @rose_coy ROSE: Riguarda Terezi?
+      @dave_huh DAVE: cosa
+      @dave_mad DAVE: no no
+      @dave_madtalk DAVE: non essere ingenua ragazza-parole sai di cosa sto parlando
+      @dave_huhtalk DAVE: intendo un po fuori moda
+      @dave_talk DAVE: come un dinosauro goffo di riferimenti pop
+      @dave_talk DAVE: ricordati che siamo tipo bloccati nel 2009
+      @dave_talk DAVE: quindi sono tipo congelato nel tempo nella cultura pop di quel periodo
+      @dave_talk DAVE: sembra come se tutti i miei riferimenti siano un po stantii
+      @dave_talk DAVE: anche se la terra è distrutta e tutto e non c era più cultura dopo quel punto in ogni caso
+      @dave_talk DAVE: eppure
+      @dave_talk DAVE: posso sentirlo
+      @dave_talk DAVE: tipo nelle ossa
+      @dave_talk DAVE: so solo che in una qualche terra ipotetica che è andata avanti la mia merda sta iniziando a diventare desueta
+      @dave_talk DAVE: e so che non importa perchè ci siamo solo noi qui
+      @dave_talk DAVE: ma a me importa
+      @dave_madtalk DAVE: è questione di integrità sono un fottuto artista
+      @dave_madtalk DAVE: tipo penso che se faccio ancora un altro rap su un fottuto film di dane cook del 2008 per far incazzare karkat o qualche altra minchiata stancante come quella io
+      @dave_huhtalk DAVE: non lo so
+      @dave_huhtalk DAVE: inizierò solo a sentirmi come un truffatore
+      @dave_huhtalk DAVE: mi sta un po rattrappendo rose
+      @dave_madtalk DAVE: ma non è colpa mia tipo sono totalmente ostaggio di questo accumulo liofilizzato di spazzatura culturale che non si potrà mai più muovere
+      @dave_madtalk DAVE: quindi devo prendere da lì come se stessi razziando una fottuta tomba tutto a cercare di comportarmi da RAPPER SFACCIATO
+      @dave_smug DAVE: tipo SI QUELLO STRONZI
+      @dave_concern DAVE: DEL PASSATO
+      @dave_huhtalk DAVE: tutto il vostro ammasso di lapidi da qualche parte nel raniverso morto
+      @dave_madtalk DAVE: rappresento dei dannati STARDAND dei vostri media mi capite
+      @dave_huhtalk DAVE: mi sto deprimento qui
+      @dave_talk DAVE: tutto quello che sto dicendo è che sarebbe figo avere della roba nuova su cui lavorare
+      @dave_talk DAVE: tipo solo per sapere
+      @dave_talk DAVE: per sapere come sarebbe il mondo nell anno che sarebbe per noi adesso
+      @dave_talk DAVE: che sarebbe 2011 suppongo
+      @dave_huhtalk DAVE: wow 2011 davvero
+      @dave_huh DAVE: cazzo
+      @dave_talk DAVE: vorrei solo sapere cosa sarebbe successo
+      @dave_talk DAVE: c era così tanta merda a cui prepararsi
+      @dave_talk DAVE: doveva essere emozionante
+      @dave_talk DAVE: tipo barack obama era appena diventato presidente ricordi
+      @dave_talk DAVE: non abbiamo mai potuto vedere se ha rimesso a posto l economia
+      @dave_talk DAVE: ricordi come stavamo morendo dalla voglia di vedere se avrebbe aggiustato l economia me lo chiedevi tutti i cazzo di giorni
+      @dave_talk DAVE: scherzo a nessuno frega un cazzo di quello
+      @dave_huh DAVE: ma tipo
+      @dave_huhtalk DAVE: non ho mai potuto vedere i prossimi casini di stiller e vedere quanto per il culo avrei potuto prenderli
+      @dave_huhtalk DAVE: non abbiamo mai potuto sapere come sarebbe finita l avventura dei midnight crew
+      @dave_mad DAVE: se mai
+      @dave_huh DAVE: rose
+      @dave_concern DAVE: ROSE??
+      @dave_concern DAVE: ma che cazzo ragazzi
+      @dave_concern DAVE: perchè sei tornata alle tue bottiglie o che cazzo è, ero proprio in piena elocuzione
+      @dave_concern DAVE: non farmi così
+      @dave_concern DAVE: si
+      @dave_concern DAVE: uh si
+      @dave_concern DAVE: si IN EFFETTI voglio che torni qua
+      @dave_madtalk DAVE: sto aspettando
+      @rose_annoyed ROSE: Bene. Eccomi qua.
+      @dave_madtalk DAVE: wow era così difficile
+      @dave_madtalk DAVE: questo è quello che fanno le persone civili rose parlano con gli altri tipo effettivamente nelle proprie fottute vicinanze
+      @rose_annoyedtalk ROSE: Hai solo una propensione ad andare avanti per un po'. Ho creduto che fossimo passati allo stadio del tradizionale monologo borbottato del discorso Strideriano.
+      @dave_madtalk DAVE: no quella cosa neanche esiste
+      @dave_madtalk DAVE: stavo solo tipo
+      @dave_huhtalk DAVE: cercando di chiederti un parere
+      @rose_idle ROSE: Un parere su cosa?
+      @dave_huhtalk DAVE: non lo so neanche
+      @dave_huhtalk DAVE: scommetto che john avrebbe qualcosa da dire
+      @dave_huhtalk DAVE: probabilmente sta vivendo la mia stessa sindrome del fottuto uomo delle caverne congelato nel 2009
+      @dave_smug DAVE: che sto dicendo in effetti il tipo è un uomo delle caverne del 1997
+      @dave_smug DAVE: hahaha come se gliene fregasse qualcosa finchè ha i suoi dvd di cage
+      @rose_happytalk ROSE: Oh! L'ho visto la notte scorsa.
+      @dave_concern DAVE: cosa
+      @rose_happytalk ROSE: In un sogno. È stato molto breve, solo alcuni minuti. L'ho salutato e mi sono svegliata.
+      @dave_huhtalk DAVE: whoa che stava facendo
+      @rose_happytalk ROSE: Combatteva contro Jack. In realtà, stava andando piuttosto bene!
+      @dave_huh DAVE: oh cavoli
+      @dave_smug DAVE: me ne devi parlare meglio
+      @rose_talk ROSE: Lo farò. Ma più tardi. Devo tornare a lavoro.
+      @dave_idle DAVE: ok quando
+      @dave_idle DAVE: stanotte?
+      @rose_talk ROSE: Ho da fare stanotte. Che ne dici di domani?
+      @dave_huh DAVE: da fare
+      @dave_huh DAVE: che devi fare
+      @rose_idle ROSE: Delle cose.
+      @dave_huh DAVE: posso venire?
+      @rose_annoyed ROSE: No!
+      @dave_mad DAVE: cazzo va bene
+      @dave_mad DAVE: domani allora
+      @dave_smug DAVE: forse mi sognocostruirò il mio john stanotte e beh mi divertirò un sacco senza di te che ne dici
+      @rose_laugh ROSE: ...
+      @dave_mad DAVE: fottiti
+      <!--  -->
+      </args>
+</action>   
+<action class='daveTalk3' sprite='damara' command='talk' name='Parla con Dave.'>
+      <args>
+      @dave_idle DAVE: ehi
+      @dave_talk DAVE: e tu chi cazzo saresti
+      @dave_talk DAVE: non mi sembra tu sia di queste parti
+      @damara_smile DAMARA: IO MOLTO FELICE. 
+      @damara_smile DAMARA: INCONTRARE UMANI.
+      @damara_smile DAMARA: MOLTO PIACERE.
+      @dave_talk DAVE: meh sembri abbastanza innocua
+      @dave_talk DAVE: che mi importa
+      @dave_talk DAVE: vai pure a far casini scolaretta giapponese troll
+      <!--  -->
+      </args>
+</action>
+</classes>
+</sburb>

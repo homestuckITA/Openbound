@@ -1,0 +1,102 @@
+<sburb>
+      <assets>
+            <asset name='dialogimg_kankri' type='graphic'>interface/backgrounds/dialogimg_kankri.png</asset>
+            <asset name='dialogimg_sneak' type='graphic'>interface/backgrounds/dialogimg_sneak.png</asset>
+      </assets>
+
+      <sprite name='dialogimg_sneak'>
+            <animation sheet='dialogimg_sneak' length='2' frameInterval='30'/>
+      </sprite>
+
+    <classes>
+<action class='meenahTalk1' sprite='rufioh' command='talk' name='Parla con Meenah.'>
+      <args>
+      @rufioh_happytalk \nRUFIOH: d*nnaz1one... graz1e a d1o ho d1 nuovo 1l m1o lusus... non so cosa fare1 senza 1l p1ccoletto!
+      @meenah_talk MEENAH: ma poi lui è uh
+      @meenah_idle MEENAH: "reale"?
+      @meenah_idle MEENAH: hai capito
+      @meenah_talk MEENAH: tipo il fantasma del tuo vero lusus o
+      @rufioh_sheepish \nRUFIOH: er... sa1 cosa? non ne sono sicuro, pupa!
+      @rufioh_happytalk \nRUFIOH: potrebbe essere solo un frutto della m1a memor1a o una cosa del genere. o forse è davvero 1l suo fantasma...
+      @rufioh_happytalk \nRUFIOH: quando damara tempo fa gl1 ha accidentalmente t1rato addosso un bagagl1o d1 c1bo... d1strutto 1l suo p1ccolo corpo... ho sempre sognato che lo avre1 1ncontrato d1 nuovo nell'oltretomba.
+      @rufioh_sheepish \nRUFIOH: qu1nd1 quando l'ho trovato qu1... suppongo d1 non averc1 pensato molto? ero solo fel1ce d1 vederlo.
+      @rufioh_talk:#sa1...-le-bas1? \nRUFIOH: rappresenta 1 m1e1 pens1er1 fel1c1 dopotutto. non r1esco davvero a fare granché senza d1 lu1... come volare... combattere... vantarm1... 
+      @meenah_idle MEENAH: vero
+      @rufioh_surprisetalk \nRUFIOH: r1cordo quando ero p1ccolo... ero solo un nanetto là fuor1 che cercava d1 sopravv1vere nel mondo... la gente m1 guardava d1vert1ta per le m1e al1 che crescevano, e quello faceva davvero spaventare le persone yo!
+      @rufioh_sadtalk \nRUFIOH: qu1nd1 sono d1ventato molto 1mbarazzato e non m1 sent1vo a casa l1'... con tutt1 che m1 guardavano 1n quel modo...
+      @rufioh_surprisetalk \nRUFIOH: qu1nd1 una notte 1l m1o lusus m1 ha portato nella foresta...
+      @rufioh_talk:#ho-urlato-bangarang-COS1'-FORTE-non-ha1-1DEA! \nRUFIOH: e ho scoperto questo 1ntero v1llagg1o d1 f***ute case albero là fuor1... e scale d1 corda e 1o ero t1po C*ZZO!
+      @rufioh_happytalk \nRUFIOH: è quando sono d1ventato un membro uff1c1ale de1 g1appom1nk1a sperdut1.
+      @meenah_annoyed MEENAH: ehi ok quindi...
+      @meenah_annoyedtalk MEENAH: potremmo non parlare dei giappominkia sperduti
+      @meenah_annoyedtalk MEENAH: potrebbe non essere una conversazione da farsi?
+      @rufioh_offended \nRUFIOH: uh...
+      @meenah_annoyedtalk MEENAH: ruf senti la tua storia è figa ma c è della spazzatura che è così sciocca che non posso nemmeno cercare di tollerarla
+      @rufioh_sheepish \nRUFIOH: g1à suppongo... heh.
+      @rufioh_happytalk \nRUFIOH: comunque, erano tutt1 1 m1e1 ragazz1... un gruppo con cu1 r1lassars1, m1gl1ore d1 quanto cred1, spaccavano con gl1 an1me troll... e 1l resto.
+      @meenah_wut2:#no MEENAH: oh x l amor di glub
+      @rufioh_happytalk \nRUFIOH: fatto batt1 c1nque a damara là fuor1... temp1 assurd1!
+      @rufioh_happytalk \nRUFIOH: penso s1ano state orb1te d1 formaz1one per me... ho 1mparato ad amare un sacco d1 cose che amo ancora ogg1.
+      @rufioh_surprisetalk \nRUFIOH: detto tra me e te... m1 mancano 1 g1orn1 1n cu1 potevo straparlare con le1 d1 an1me troll... ma ora... sa1 com'è...
+      @meenah_annoyedtalk MEENAH: ok perchè voi nerd fetenti insistete a chiamarli anime troll
+      @meenah_annoyed MEENAH: devo chiederlo
+      @meenah_annoyedtalk MEENAH: non vi rendete conto che mettere 'troll' in ogni contesto di cultura troll è fottutamente ridondante?
+      @meenah_annoyed MEENAH: perchè non li chiamate cartoni e basta
+      @rufioh_surprise:#nel profondo... \nRUFIOH: yeah... lo apprezzo. non c1 avevo ma1 pensato... huh.
+      @rufioh_sheepish \nRUFIOH: va bene, cap1sco che la roba che m1 p1ace non è per tutt1.
+      @rufioh_sheepish \nRUFIOH: la gente d1ce che è solo per larvette... e ho p1ù o meno supposto che un g1orno non m1 sarebbero p1ù p1ac1ut1, ma credo non s1a ma1 accaduto.
+      @rufioh_surprisetalk \nRUFIOH: po1 d1 nuovo... s1amo mort1 tutt1... e ora s1amo davvero tutt1 g1ovan1 per sempre... 
+      @rufioh_surprisetalk \nRUFIOH: propr1o come d1ceva la profez1a de1 g1appom1nk1a sperdut1... 
+      @rufioh_notalk \nRUFIOH: whoa che spavento... ho sempre pensato fossero un mucch1o d1 s***nzate!!!
+      @meenah_talk MEENAH: whoops hai appena detto di nuovo giappominkia sperduti uccidendo quindi la conversazione
+      @meenah_talk MEENAH: nelle immortali parole a gesti della grande meulin leijon:
+      @meenah_fish MEENAH: NON C-E LA FACCIO
+      <!--  -->
+      </args>
+</action>
+
+<action class='meenahTalk2' sprite='horuss' command='talk' name='Parla con Meenah.'>
+      <args>
+      @meenah_idle MEENAH: hozak
+      @meenah_talk MEENAH: domanda seria
+      @horuss_idle2talk HORUSS:  (ノಠ益ಠ)ノ &lt; Sì, mia impareggiabile, esaltata Eminenza?
+      @meenah_happytalk MEENAH: quand è che hai deciso di essere un cavallo
+      @kankri_whistle KANKRI: *FIIIIIIIIIIIIIIIIIIIII!!!*
+      @kankri_talk2 KANKRI: Aspetta, Meenah. Questa d9manda che hai appena p9st9 era in effetti una grave micr9aggressi9ne vers9 c9l9r9 che s9n9 c9lpiti da pr96lemi pr9f9ndamente diffic9lt9si di disf9ria di specie. La tua d9manda era a66astanza inn9cente, quindi n9n im69ccher9' la peric9l9sa strada della diffamazi9ne di trigger, ma Meenah, santi numi, quell9 che hai appena dett9 era catastr9ficamente triggerante. Il p9ver9 H9russ pr96a6ilmente rimarrà triggerat9 per settimane a causa della tua d9manda spensierata. Diav9l9, anche i9 me ne sent9 un p9' triggerat9, e n9n s9n9 nemmen9 s9tt9 l'impressi9ne di essere un cavall9. Pens9 che chiunque a p9rtata d'9recchi ne sia rimast9 triggerat9. Ti senti triggerat9, H9russ?
+      @horuss_laugh HORUSS: (ｏ皿ｏ;) &lt; Trigger suona come il meraviglioso nome di una zoccolbestia.
+      @kankri_talk KANKRI: Vist9? C9mpletamente triggerat9. 9ra iniziam9 c9n le cure.
+      @meenah_annoyed:#non-ce-la-faccio MEENAH: 38(
+      @kankri_talk4 KANKRI: Meenah, il su9 credere di essere in realtà una maest9sa z9cc9l6estia n9n è caratterizzat9 da scelta. Infatti, n9n è nemmen9 un credere. È un FATT9, e d966iam9 l9ttare per rispettarl9 c9me 6ASAT9 SU FATTI, n9n in picc9la parte a causa dei su9i sentimenti superimp9rtanti a riguard9. Adattarsi alla realtà fattuale sulle em9zi9ni critiche delle pers9ne è una pietra miliare della Pr96lematicità, e fallire nel farl9 pu9' s9l9 risultare nel rilasci9 di devastanti carichi di par9le c9rrettive intente a educare, guarire e s9praffare ret9ricamente.
+      @kankri_talk3 KANKRI: Quand9 hai chiest9 "quand è che hai decis9 di essere un cavall9," hai implicat9 che a66ia fatt9 la scelta di c9struirsi questa caratteristica della sua identità, invece di asc9ltare attentamente la fauna interi9re, prestare attenzi9ne al richiam9 del lung9, fantasm9s9 mus9 che il su9 c9rp9 gli ha tragicamente negat9, malgrad9 avverta il su6d9l9 f9rmic9lì9 del su9 cavall9s9 p9steri9re fantasma.
+      @horuss_smiletalk HORUSS: 8=D &lt; È così vero, amico. La tua saggezza trascende davvero il tuo sangue mutante degenerato e mediamente disgustoso.
+      @kankri_talk2 KANKRI: Grazie. 9ra, sai quant9 9di9 deragliare le c9nversazi9ni, ma pens9 che questa 9ccasi9ne richieda una scrup9l9sa, inarresta6ile lezi9ne a riguard9. Inizier9' 9ra il mi9 schiacciante rimpr9ver9 su quest9 delicat9 arg9ment9, in quest9 m9d9:
+      @kankri_talk4~dialogimg_kankri
+      @!~dialogimg_sneak
+      <!--  -->
+      </args>
+</action>
+
+<action class='meenahTalk3' sprite='damara' command='talk' name='Parla con Meenah.'>
+      <args>
+      @damara_talk DAMARA: あなたは時間の領主に挑戦します。
+      @damara_talk DAMARA: あなたの哀れな軍隊は失敗しなければならない。
+      @damara_talk DAMARA: 彼はあなたの幽霊を食べるようになる。彼は現実そのものを消費するからである。
+      @meenah_idle MEENAH:  penso che...
+      @meenah_idle MEENAH: suonava come...
+      @meenah_talk MEENAH: se cercassi di augurarmi buona fortuna per la mia battaglia in preparazione?
+      @meenah_happytalk MEENAH: ehi grazie megido
+      @meenah_happytalk MEENAH: forse mi ero sbagliata su di te
+      @damara_smile DAMARA: ない。あなたはそうしなかった。
+      @meenah_happytalk MEENAH: aw forse sono stata una stronza con te per nessuna ragione
+      @meenah_happytalk MEENAH: dimentichiamoci che tutta quella merda sia mai accaduta
+      @meenah_happytalk MEENAH: ehi che ne dici di un abbraccio
+      @meenah_angrytalk MEENAH: whoa attenta a dove metti quella mano!!!
+      @damara_smoke DAMARA: 私は何も後悔はありません。
+      @meenah_talk MEENAH: scuse accettate
+      @meenah_talk MEENAH: ehi troveresti del tempo per togliere quell enorme ghiacciaio di quarzo 
+      @meenah_fish MEENAH: sono un po di fretta qui
+      <!--  -->
+      </args>
+</action>
+  	</classes>
+</sburb>

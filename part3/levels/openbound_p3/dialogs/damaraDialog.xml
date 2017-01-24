@@ -1,0 +1,160 @@
+<sburb>
+    <classes>
+<action class='damaraTalk1' sprite='meenah' command='talk' name='Parla con Damara.'>
+      <args>
+      @meenah_idle MEENAH: allooooora
+      @meenah_idle MEENAH: megido
+      @meenah_idle MEENAH: eccoci di nuovo
+      @meenah_annoyed MEENAH: credo
+      @damara_squint DAMARA: 
+      @meenah_annoyedtalk MEENAH: ti prego dimmi che questa riunione è imbarazzante per te quanto lo è per me
+      @damara_squint DAMARA: 
+      @meenah_talk MEENAH: non dirai niente eh
+      @meenah_talk MEENAH: te ne starai lì e basta a lasciarmi contorcere sull amo durante questa glaciale koinversazione
+      @meenah_angrytalk MEENAH: andiamo stupida stronza dì almeno QUALCOSA per rompere il ghiaccio
+      @damara_fu3 DAMARA: 
+      @meenah_happier MEENAH: GRAZI-E
+      @meenah_talk MEENAH: ehi non hai in alcun modo rapito il lusus di nitram vero?
+      @meenah_talk MEENAH: o rubato tutto il suo stupido bottino di fiduspawn
+      @meenah_talk MEENAH: pensavo fosse roba passata
+      @meenah_annoyedtalk MEENAH: non dirmi che stai ancora tormentando il tipo dopo l eternità
+      @damara_talk DAMARA: あなたのデュアルフォークを取る。二回自分自身をファック。
+      @meenah_wut MEENAH: farmi due volte cosa con il mio doppio COSA di preciso??
+      @meenah_annoyedtalk MEENAH: dassalmone il tuo strano accento è più pesante che mai
+      @damara_talk DAMARA: あなたに性的快感を与えるために十分な厚さではない。
+      @damara_squinttalk DAMARA: あなたはあなたの言葉で私を退屈続けるのだろうか？または。あなたは私の服を脱ぐのだろうか？
+      @damara_smilemeantalk DAMARA: 私はあなたの歯の間に私の乳首を感じるようにしたい。
+      @meenah_wut2 MEENAH: che
+      @meenah_annoyedtalk MEENAH: mi hai appena detto di mordere qualcosa o
+      @meenah_annoyed MEENAH: vaffa ci rinuncio
+      @meenah_annoyedtalk MEENAH: la barriera linguistica è una fottuta palla
+      @damara_smoke DAMARA: 
+      <!--  -->
+      </args>
+</action>
+
+<action class='damaraTalk2' sprite='meenah' command='talk' name='Chiedi a Damara di unirsi.'>
+      <args>
+      @meenah_happier MEENAH: ehi indovina un po! sto costruendo un esercito per uccidere lord ahahahaha
+      @meenah_creepylaugh:#aka#balena-lol MEENAH: OOO)( B-ELLA QUESTA
+      @meenah_talk MEENAH: come se te ne fregasse un cazzo di salvare la realtà e/o non saresti un enorme ostacolo traditore là fuori
+      @damara_idle DAMARA: 十分に公平。
+      @meenah_talk MEENAH: ma giusto per essere sicuri huh
+      @meenah_talk MEENAH: mi sono circa domandata
+      @meenah_talk MEENAH: prima quando tipo
+      @meenah_talk MEENAH: ci siamo un po rovinate a vicenda
+      @meenah_talk MEENAH: per tutta quella roba del ciclo di vendetta
+      @meenah_talk MEENAH: e io ho finito col morire e godtierare e tutto il resto
+      @meenah_idle MEENAH: te lo ricordi
+      @damara_smilemean DAMARA: 私が覚えている。
+      @damara_smiletalk DAMARA: 時々私は、そのメモリに自慰行為。
+      @meenah_annoyedtalk MEENAH: nn sono sicura di aver seguito ma supporrò che fosse altra strana sfacciataggine
+      @meenah_talk MEENAH: ma quello che voglio sapere è
+      @meenah_talk MEENAH: dopo la battaglia
+      @meenah_talk MEENAH: ti ho forse fatto male abbastanza da farti
+      @meenah_talk MEENAH: strisciare via e morire da qualche parte
+      @meenah_wink MEENAH: tipo un bozzolo avventura
+      @damara_idle DAMARA: ...
+      @meenah_happytalk MEENAH: magari eri tutta insanguinata da quelle inforcate
+      @meenah_happytalk MEENAH: e magari è arrivato un amico con impossibilità esasperante di portarti rancore per il modo in cui l hai fottuto
+      @meenah_happytalk MEENAH: magari trottando insieme al suo nuovo corpo da cavallo e sollevando il tuo torso sanguinante sulla sua schiena
+      @meenah_creepytalk MEENAH: poi è galoppato via verso il tuo bozzolo e ti ha lasciato sulla lastra probabilmente senza avere il coraggio di finirti
+      @meenah_creepylaugh:#tipo-come-tutte-le-pigne-che-frullano-nella-tua-dannata-testa? MEENAH: ti suona familiare?
+      @damara_huhtalk DAMARA: 性交あなたは何を話している？白痴雌犬。
+      @meenah_angrytalk MEENAH: TI STO C)(I-ED-ENDO S-E S-EI UN GOD TI-ER STUPIDA IMP-ERSCRUTABIL-E P-ESCIV-ENDOLA
+      @meenah_annoyedtalk MEENAH: santi sgombri prendere info da te è come sfilare una perla da un vongola zoccola e omicida
+      @damara_squinttalk DAMARA: ハマグリは、真珠を生成しません。あなたは海の何も知らない。
+      @meenah_angrytalk MEENAH: si lo so che le vongole non fanno perle!!! guarda ho solo sbagliato era un insulto frettoloso ok
+      @meenah_angrytalk MEENAH: non mettere in discussione la mia autorità sull oceano dmeg sai che ho tutta la roba acquosa sotto C)(IAV-E
+      @meenah_fishtalk MEENAH: chi pensi che stai cercando di provocare con quel richiamo da dilettante
+      @damara_smoke DAMARA: あなたは非常に怒っているように見える。性交をチルアウト。のはお互いに触れてみましょう。私と一緒に投石入手してください。
+      @meenah_wut2 MEENAH: omg non ti capisco
+      @meenah_wut MEENAH: rilassarmi e fare COSA con te...
+      @meenah_annoyedtalk MEENAH: te lo chiedo di nuovo più semplice che posso
+      @meenah_angrytalk MEENAH: M-EGIDO SE-I UNA FATASTR-EGA MAGICA IMMORTAL-E CON ALI DA FARFALLA NASCOST-E: SI O NO
+      @damara_talk DAMARA: 正確にどのくらいの。あなたは知りたいですか？水のビッチ。
+      @meenah_idle MEENAH: damara
+      @meenah_talk MEENAH: se le conversazioni orribili fossero state un videogioco saresti davvero stata il boss finale
+      @meenah_talk MEENAH: ora dove cazzo sta aranea col suo piccolo stand ciarlatano facciamola finita con questo casino
+      <!--  -->
+      </args>
+</action>
+
+
+<action class='damaraTalk3' sprite='meenah' command='talk' name='Sii Damara.'>
+      <args>
+      @damara_talk DAMARA: あなたは私になりたいですか？
+      @damara_talk DAMARA: あなたは私にはできません。あなたは私を理解できない場合。
+      @damara_talk DAMARA: さらに。あなたは私にはできません。あなたは私を性交することができない場合。
+      @meenah_talk MEENAH: ummm si non ho idea di che hai detto
+      @meenah_talk MEENAH: suppongo dovrebbe domandartelo qualcuno che parla la tua lingua inkoimprensibile
+      <!--  -->
+      </args>
+</action>
+
+<action class='damaraTalk4' sprite='rufioh' command='talk' name='Parla con Damara.'>
+      <args>
+      @rufioh_offendedtalk \nRUFIOH: hey pupa... suppongo tu non abb1a n1ente a che vedere con la recente scomparsa del m1o lusus, vero?
+      @damara_talk DAMARA: もちろんそんなことはない。あなたの告発は言語道断。 
+      @rufioh_offended \nRUFIOH: s1'... certo... m1 p1acerebbe crederlo!
+      @rufioh_talk \nRUFIOH: come se non foss1 ab1tuato a1 tuo1 trucchett1 orma1...
+      @damara_huhtalk DAMARA: 黙れ。そう。あなたはまだ彼と別れたのですか？
+      @rufioh_sadtalk \nRUFIOH: no... non ancora...
+      @rufioh_sheepish \nRUFIOH: c1 ho provato... ma non ce la facevo... è d1ff1c1le, sa1?
+      @damara_meantalk DAMARA: あなたは、どういう意味ですか。それは恋人があなたを裏切ったときに感じる？はい、私は知っている。
+      @rufioh_sadtalk \nRUFIOH: d*nnazione... se1 fredda, ragazza. perché non vuo1 lasc1ar perdere 1l passato?
+      @rufioh_offended \nRUFIOH: comunque... una volta che avrò effett1vamente trovato 1 nerv1 d1 ch1udere con lu1... non credere che s1a la tua grande occas1one con me!
+      @rufioh_sheepish \nRUFIOH: tra no1 è f1n1ta del tutto... per rag1on1 abbastanza ovv1e... qu1nd1 solo am1c1, t1 va?
+      @damara_fiendish DAMARA: 右。我々が表示されます。
+      @rufioh_happytalk \nRUFIOH: haha... g1à, sapevo che avrest1 fatto cos1'. 
+      @rufioh_surprisetalk \nRUFIOH: comunque, meenah ha un certo b1sogno d1 andare avant1 1n questa bolla... so che t1 p1ace rendere la m*rda compl1cata per tutt1 tutto 1l tempo, ma...
+      @rufioh_surprisetalk \nRUFIOH: pens1 che potrest1 sbarazzart1 d1 quel grosso coso 1ceberg che ha1 buttato là?
+      @damara_idle DAMARA: いいえクソ方法。
+      @rufioh_sheepish \nRUFIOH: aw, and1amo... fallo per me, damara?
+      @damara_smilemeantalk DAMARA:罰金。しかし、あなたは私に借りがある。性的な接待。
+      @rufioh_laugh \nRUFIOH: hahahaha... wow... va bene... forse? và e basta...
+      <!--  -->
+      </args>
+</action>
+
+<action class='damaraTalk5' sprite='horuss' command='talk' name='Parla con Damara.'>
+      <args>
+      @horuss_smiletalk HORUSS: 8=D &lt; Oh, ciao Damara. Ho sentito che stavi avendo un problema meccanico col tuo petto lì. Ti dà fastidio se do un'occhiata?
+      @damara_talk DAMARA: あなたは私の胸をいつでも表示することができます。
+      @horuss_smiletalk HORUSS: 8=D &lt; Io... credo tu abbia detto di sì? Scusa, è davvero faticoso capire il tuo grossolano gergo da sanguesporco.
+      @damara_talk DAMARA: 私のおっぱいの上にミルクを注いでください。
+      @horuss_smiletalk HORUSS: 8=D &lt; Non ho ben capito neanche quello. Era qualcosa riguardo il latte? Servito a te in qualche modo particolare?
+      @horuss_hmmtalk HORUSS: 8=D &lt; Sì, se vuoi un po' di latte, posso portartene più tardi. Dovrò solo equipaggiare i miei guanti deFORZAnti a vapore così che possa porgerti il bicchiere senza distruggerlo.
+      @damara_talk DAMARA: ない。手袋を着用しないでください。私はそれがラフ好きです。私の体を押しつぶす。馬男。
+      @horuss_hmmtalk HORUSS: 8=D &lt; Dovrei completare il mio congegno di traduzione universale così che possiamo avere conversazioni più coerenti. È che è così difficile far funzionare correttamente i circuiti quando uno insiste nel contare sulla forza del vapore.
+      @damara_squinttalk DAMARA: あなたは、幽霊のような私の性器が性的クライマックスを持っていることを確認してください。あなたの幻の馬のペニスでそれを行う必要があります。
+      @horuss_smiletalk HORUSS: 8=D &lt; Vuoi che porti i tuoi cosa a cosa esattamente col mio cosa?
+      @damara_smiletalk DAMARA: 私の裸の底にあなたの汗まみれの顔をこする。
+      @horuss_idle HORUSS: 8=D &lt; Hmm. Io...
+      @horuss_sweat_bashful HORUSS: 8=D &lt; Sicura?
+      @damara_smilemeantalk DAMARA: 私はあなたのアジアの女子高生です。ズタズタに私の服を減らすことができます。あなたは私を喜ばせる必要があります。あなたのホーンを使用してください。
+      @horuss_sweat_grin HORUSS: 8=D &lt; Fare cosa con la tua uniforme scolastica?
+      @horuss_sweat_talk HORUSS: 8=D &lt; Non vorrei fare niente per rovinarla. È piuttosto carina. 
+      @horuss_hmmtalk HORUSS: 8=D &lt; Ma forse potrei costruirti un avatar robotico, che emuli le tue scelte di moda. In realtà, se l'avessi già fatto, potrei installare algoritmi di discorso più sensibili, così da poterti capire tanto per cambiare.
+      @damara_mean DAMARA: 静かにしています。黙って私をファック。
+      @horuss_sweat_idle HORUSS: 8=D &lt; Um. *Cough.*
+      @damara_meantalk DAMARA: 私の体内に入る。または。私はあなたを破壊するだろう。
+      @horuss_sweat_bashful HORUSS: 8=D &lt; Damara, perdonami se balzo a conclusioni affrettate, ma la natura dei tuoi commenti criptici è per caso stata un po'... beh
+      @horuss_oops HORUSS: 8=D &lt; Un po' a luci rosse?
+      @damara_lewd DAMARA: 
+      <!--  -->
+      </args>
+</action>
+
+<action class='damaraTalk6' sprite='horuss' command='talk' name='Sii Damara.'>
+      <args>
+      @damara_talk DAMARA: あなたは私になりたいですか？
+      @damara_talk DAMARA: あなたは私にはできません。あなたは私を理解できない場合。
+      @damara_talk DAMARA: さらに。あなたは私にはできません。あなたは私を性交することができない場合。
+      @horuss_sweat_grin HORUSS: 8=D &lt; Torno dopo?
+      @horuss_sweat_grin HORUSS: 8=D &lt; Penso Rufioh potrebbe chiedere. È sempre stato l'unico che poteva comprendere la tua volgare lingua paesana.
+      <!--  -->
+      </args>
+</action>
+  	</classes>
+</sburb>

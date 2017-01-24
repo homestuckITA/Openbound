@@ -1,0 +1,52 @@
+<sburb>
+<classes>
+<action class='andrewTalk1' command='talk' name='Ancora questo tizio?'>
+      <args>
+      @! Oh. Sei tu. Smamma ragazzina!
+      @meenah_idle MEENAH: ehi tizio arancione
+      @meenah_talk MEENAH: e dimmi che ci fai qui
+      @!:#Non.-Farmi.-Incazzare. Ho detto vattene Feferi!!!
+      @meenah_fish MEENAH: chiferi???
+      @! Va bene. So che sta succedendo qui. Ovviamente hai sviluppato dei sentimenti per me. Lo capisco. Ti ho guidato io.
+      @! Ricordi quando ho detto portami un cavallo e sarò tuo per sempre?
+      @! Menzogna totale!
+      @! Scusa, ma il mio cuore è ancora puntato su Vriska. Sarà mia moglie.
+      @meenah_idle MEENAH: chi è vriska
+      @! Quella ragazza lì. No, non guardare! Shhhhhhhhhh. Cerchiamo di non attirare l'attenzione, ok? Mi rovinerai tutto.
+      @meenah_wut MEENAH: lei??
+      @meenah_wut MEENAH: zio non è un po' troppo giovane per te?
+      @! No, ma ecco il punto! Ha passato Dio solo sa quanti anni come fantasma, quindi ora è più vecchia! Questo significa che non è inquietante.
+      @! Chissà poi quanti anni è stata qui? Forse 100??? Diavolo, potrebbe essere anche più vecchia di me adesso! Vedi? Assolutamente non più inquietante. Caso chiuso!
+      @meenah_annoyedtalk MEENAH: non so di che stai parlando ma sembri uno stronzo
+      @! Devo solo cercare il momento giusto di fare la mia mossa. L'unico problema è che ho perso l'anello.
+      @! John CAZZO DI Egbert ce l'ha. Non sembra neanche intenzionato a mollarlo, il bastardo. 
+      @! Devo fare un piano. Pensa, immaginazione, pensa. Argh, quell'unica volta che mi servi!
+      @meenah_happytalk MEENAH: yo ho un fiotto di ding ding io
+      @meenah_happytalk MEENAH: potrei venderti un anello
+      @! Potresti??? Oh cavoli, è perfetto. Quant'è?
+      @meenah_happy~dialogimg_ks MEENAH: 
+      @! SEI FOTTUTAMENTE SERIA?
+      @! Cosa ti fa pensare che abbia un simile mucchio di grana in giro?!
+      @meenah_annoyedtalk MEENAH: quello è il mio prezzo pelle di zucca lo vuoi o no
+      @! Va bene. Ok. Sembra che non abbia altra scelta che sborsare.
+      @! Solo... non dirlo a nessuno, ok? Avevo circa promesso che avrei usato questi soldi per qualcos'altro.
+      @meenah_annoyedtalk MEENAH: frega niente amico ci stai o no
+      @! Sì. Eccoli.
+      @meenah_happytalk MEENAH: ohhhhh siii guarda che meraviglie
+      @meenah_creepylaugh MEENAH: ecco qua ragazzo innamorato
+      @! Grazie!
+      @! Aspetta...
+      @! Questo anello è...
+      @! L'hai forse rubato...
+      @! A Cronus?
+      @meenah_wink MEENAH: eccerto
+      @! ...
+      @! Ew.
+      @meenah_angrytalk MEENAH: NI-ENT-E RISARCIM-ENTI!!!!!!!!!!!!!!!
+      @! :(
+      <!--  -->
+      </args>
+</action>
+
+</classes>
+</sburb>

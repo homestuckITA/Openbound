@@ -1,0 +1,108 @@
+<sburb>
+    <classes>
+<action class='roseTalk1' sprite='kanaya' command='talk' name='Parla con Rose.'>
+      <args>
+      @rose_concern ROSE: Cosa è successo?
+      @kanaya2_idle KANAYA: Cosa
+      @rose_concern ROSE: Non illumini più!
+      @kanaya2_happy KANAYA: Oh Giusto
+      @kanaya2_smirktalk KANAYA: Sono Rimasta Così Assorta In Una Conversazione Con La Mia Antenata Che Ho Dimenticato Che Mi Ha Insegnato Come 
+      @kanaya2_happy KANAYA: Spegnermi
+      @rose_talk ROSE: Oh, quindi sei davvero andata a parlare con lei?
+      @kanaya2_happy KANAYA: Sì
+      @rose_happytalk ROSE: Fantastico! Com'è andata?
+      @kanaya2_happy KANAYA: Molto Bene
+      @kanaya2_happytalk KANAYA: È Molto Gentile E Come Persona È Impressionante Come Immaginavo Che Fosse
+      @kanaya2_happytalk KANAYA: Ma Non Altrettanto Intimidatoria Davvero
+      @rose_happytalk ROSE: Sapevo che non te ne saresti pentita se avessi raccolto il coraggio di parlarci.
+      @rose_concern ROSE: Cosa ti ha detto, a parte qualche suggerimento attenua-pelle da vampiro a vampiro?
+      @kanaya2_happy KANAYA: Diverse Cose
+      @kanaya2_happytalk KANAYA: Soprattutto Incoraggiarmi A Perseguire Il Mio Precedente Dovere Verso La Mia Gente
+      @rose_idle ROSE: Oh?
+      @kanaya2_happytalk KANAYA: Ha Detto Che Era Solita Sfuggire Al Suo Ruolo Con Una Certa Veemenza
+      @kanaya2_happytalk KANAYA: I Doveri Della Nostra Casta Erano Piuttosto Limitati In Entrambi I Mondi A Quanto Pare
+      @kanaya2_happytalk KANAYA: Quindi Lei Ha Rinunciato Ad Essi Completamente E Ha Desiderato Una Vita Diversa
+      @kanaya2_happytalk KANAYA: Ma Ha Anche Detto Qualcosa Intendendo Che
+      @kanaya2_happytalk KANAYA: Ha Scoperto Che Non Era Davvero Necessario Rigettare Completamente Quel Ruolo
+      @kanaya2_happytalk KANAYA: E Lo Stesso Vale Per Me
+      @kanaya2_happytalk KANAYA: Finché Dentro Di Me So Di Essere Libera
+      @kanaya2_happytalk KANAYA: E Se La Mia Decisione È Di Abbracciare Il Mio Cammino Allora Questo Può Essere Fonte Di Forza
+      @rose_concern ROSE: Quindi vuoi di nuovo provare a ripristinare la tua razza?
+      @rose_concern ROSE: Ho iniziato a pensare che avessi perso ogni speranza verso quella possibilità.
+      @kanaya2_talk KANAYA: È Vero Non C È Più La Sfera
+      @kanaya2_talk KANAYA: Ha Detto Che Potrebbe Essere Difficile
+      @kanaya2_smirktalk KANAYA: Ma Non C È Speranza Se Non Ci Provo
+      @rose_idle ROSE: Questo è vero.
+      @kanaya2_talk KANAYA: Non So Ancora Come Lo Farò
+      @kanaya2_talk KANAYA: Ma È Questa La Natura Delle Avventure
+      @kanaya2_talk KANAYA: Non Puoi Farti Spaventare Dalle Avventure
+      @kanaya2_happytalk KANAYA: Penso Di Essere Emozionata A Riguardo Adesso
+      @rose_happy ROSE: Lo vedo.
+      @rose_happytalk ROSE: Possiamo lavorarci insieme quando arriviamo. Forse la sessione che esploreremo potrà darci delle risposte.
+      @kanaya2_happy KANAYA: Lo Spero
+      @rose_concern ROSE: Ehi,
+      @rose_sad ROSE: Non sei permanentemente spenta adesso, vero?
+      @kanaya2_talk KANAYA: Oh No Posso Riaccendermi
+      @kanaya_idle KANAYA: Vedi
+      @kanaya2_talk KANAYA: A Quanto Pare È Solo 
+      @kanaya_happytalk KANAYA: Uno Sciocco Scherzo Biologico
+      @rose_talk ROSE: Oh, bene. Mi hai fatto preoccupare per un momento.
+      @kanaya2_idle KANAYA: Scusa
+      @kanaya2_talk KANAYA: So Quanto Apprezzi Una Buona Fonte Di Luce
+      @rose_happytalk ROSE: La luce è una delle mie cose preferite.
+      @rose_coytalk ROSE: Per favore non prendere queste parole come provocazioni, ma il mio aspetto è semplicemente il migliore che ci sia.
+      <!--  -->
+      </args>
+</action>
+<action class='roseTalk2' sprite='dave' command='talk' name='Parla con Rose.'>
+      <args>
+      @dave_madtalk DAVE: rose smettila di fare casino dalla mia parte non riesco a concentrarmi sui miei rap
+      @dave_madtalk DAVE: nel sacro nome religioso di gesù che cazzo stai facendo con tutte quelle bottiglie
+      @rose_talk ROSE: Solo un po' di alchimia.
+      @dave_huh DAVE: alchimia
+      @dave_huhtalk DAVE: che razza di merdata stai alchemizzando con questa robaccia
+      @dave_huhtalk DAVE: stai tipo alchemizzando bottiglie con altre bottiglie per fare non lo so
+      @dave_huhtalk:#rose_ebottiglie DAVE: superbottiglie 
+      @rose_annoyedtalk ROSE: No. Che tu lo creda o meno, in realtà sono focalizzata sul contenuto delle bottiglie.
+      @dave_talk DAVE: sei abbastanza allenata con gli alchemizzatori
+      @rose_talk ROSE: L'alchimia che sto praticando è un po' più alla vecchia maniera.
+      @rose_talk ROSE: Sai, c'era un tempo sulla Terra in cui l'alchimia non si riferiva a un processo su un grande dispositivo usato come costrutto da gioco per materializzare dal nulla delle versioni idealizzate di un oggetto.
+      @rose_talk ROSE: Gli alchimisti facevano esperimenti con varie sostanze per tramutarle in qualcosa di maggior valore.
+      @rose_talk ROSE: La sua più pedestre e scientificamente credibile cugina è la chimica, che credo sia il termine tecnico per mescolare insieme della merda.
+      @rose_talk ROSE: Che strettamente parlando descrive più accuratamente quello che sto facendo.
+      @dave_talk DAVE: quindi cos è stai facendo della scienza adesso
+      @dave_talk DAVE: chi credi di essere tua madre forse
+      @dave_huhtalk DAVE: aspetta quello suonava di nuovo come un insulto stupido
+      @dave_huhtalk DAVE: tutte le volte che parlo di tua madre suona come un insulto
+      @dave_smug DAVE: chi credi di essere mia madre
+      @dave_huh DAVE: aspetta taglia anche questo
+      @dave_huhtalk DAVE: tutte le volte che iniziamo a parlare di lei come mia madre le cose iniziano solo a ruzzolare giù per il nostro stupido trampolino colloquiale e improvvisamente sigmund freud e re edipo iniziano a fottersi le mamme gnocche l uno dell altro in una specie di party depravato a tema scambio sexy di mamme
+      @rose_annoyedtalk ROSE: Grazie per l'immagine mentale. Era quasi tanto grafico quanto insensato.
+      @dave_talk DAVE: quindi cosa stai facendo
+      @rose_happy ROSE: Bevande.
+      @dave_talk DAVE: bevande che tipo di bevande
+      @rose_happytalk ROSE: Bevande gustose, spero.
+      @dave_concern DAVE: succo di mela???
+      @dave_concern DAVE: ti prego fa che sia sdm ti prego fa che sia sdm ti prego fa che sia sdm 
+      @rose_talk ROSE: Vedrò cosa potrò fare.
+      @dave_idle DAVE: omg
+      @dave_idle:#omg DAVE: omg
+      @dave_smug DAVE: caaaaaaaaaaaaaaaaaaaaaazzo si
+      <!--  -->
+      </args>
+</action>
+<action class='roseTalk3' sprite='damara' command='talk' name='Parla con Rose.'>
+      <args>
+      @rose_talk ROSE: Ciao. Non penso che ci siamo mai incontrate.
+      @damara_huh DAMARA: 
+      @rose_talk ROSE: Sembri confusa. Ti sei persa?
+      @rose_annoyedtalk ROSE: Forse non dovresti star girando da queste parti.
+      @damara_smile DAMARA: PER FAVORE. SPIACE.
+      @damara_smile DAMARA: NON VOGLIO. DISTURBO.
+      @rose_happytalk ROSE: Aw. Sembri così gentile.
+      @rose_happytalk ROSE: Prego, sentiti libera di restare finché vuoi.
+      <!--  -->
+      </args>
+</action>
+  	</classes>
+</sburb>
