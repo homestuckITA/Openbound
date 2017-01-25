@@ -82,7 +82,7 @@
       <action class='porrimTalk2'>
         <action command='presentActions'>
           <args>
-            <action name='Yes.' class='beKanaya'>
+            <action name='Sì.' class='beKanaya'>
               <action command='follow'>
                 <args>meenah,kanaya</args>
                 <action command='setGameState'>
@@ -114,7 +114,7 @@
             <!--  -->
             </args>
       </action>
-      <action command='removeSprite' name='Enter password.' sprite='kanaya'>
+      <action command='removeSprite' name='Inserisci password.' sprite='kanaya'>
         <args>secondRoomDoor,secondRoom</args>
         <action command='addWalkable' noDelay='true'>
           <args>secondRoomWalkable,secondRoom</args>

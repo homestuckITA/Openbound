@@ -109,7 +109,7 @@
     </sprite>
 
     <sprite class='chest7' name='fifthRoomChest15' x='440' y='540'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>fifthRoomChest15,item15,
         @! Hai trovato una PALLINA 8 ROTTA!
       @! Ti ricordi di averne vistoe un po' prima. Qual è che era il contesto? Hai fatto così tante conversazioni strane che adesso è un po' tutto un miscuglio.
@@ -119,7 +119,7 @@
     </sprite>
 
     <sprite class='chest7' name='fifthRoomChest16' x='672' y='756'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>fifthRoomChest16,item16,
          @!:#pshoooes Hai trovato un PAIO DI STIVALI RAZZO!
       @! Che se ne farebbe un fantasma di stivalli razzo, comunque? Non volano comunque, i fantasmi?
@@ -129,7 +129,7 @@
     </sprite>
 
     <sprite class='chest7' name='fifthRoomChest17' x='608' y='756'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>fifthRoomChest17,item17,
           @! Hai trovato un CUMULO DI TESORI INESTIMABILI!
       @! Huh. Un vero tesoro, in una cassa del tesoro.
@@ -139,7 +139,7 @@
     </sprite>
 
     <sprite class='chest7' name='fifthRoomChest18' x='828' y='1532'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>fifthRoomChest18,item18,
            @! Hai trovato un OTTETTO DI FLUORITE!
       @!:#:::;) Ti senti fortunato, punk????????

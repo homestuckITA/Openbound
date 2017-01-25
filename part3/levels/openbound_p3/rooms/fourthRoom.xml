@@ -119,7 +119,7 @@
     </sprite>
 
     <sprite class='chest7' name='fourthRoomChest14' x='568' y='424'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>fourthRoomChest14,item14,
                    @! Hai trovato un DIARIO ALTERNIANO!
       @! È un po' logorroico. Anche se un po' del materiale all'interno ti risulta un po' osè. In effetti... un bel po' di materiale.
