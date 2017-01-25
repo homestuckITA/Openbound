@@ -3,7 +3,7 @@
   		<action class='porrimTalk1' sprite='meenah' command='talk' name='Ascolta la conversazione.'>
 		      <args>
 		      @porrim_talk PORRIM: Ah, sembra che abbiamo+ co+mpagnia. Indo+vina chi è!
-		      @porrim_happytalk PORRIM: So+no+ davvero+ felice che ttu sia venuta a parlarmi. Spero+ tenga a mente quello+ che ti ho+ detto+.
+		      @porrim_happytalk PORRIM: So+no+ davvero+ felice che tu sia venuta a parlarmi. Spero+ tenga a mente quello+ che ti ho+ detto+.
 		      @kanaya2_happytalk KANAYA: Sì Lo Farò Sicuramente
 		      @kanaya2_happytalk KANAYA: E Anche Io Sono Felice
 		      @kanaya2_happy KANAYA: Di
