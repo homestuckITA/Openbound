@@ -10,7 +10,7 @@
 	<character class='kanaya' name='kanaya' sx='-50' sy='-115' sWidth='100' sHeight='130' width='35' height='25' sheet='kanayaSheet' state='walkFront' facing='Front'>
 		
 	</character>
-	<action class='beKanaya' name='Be Kanaya.' command='macro'>
+	<action class='beKanaya' name='Sii Kanaya.' command='macro'>
 		<args>
 			<action  command='changeChar'>
 				<args>kanaya</args>

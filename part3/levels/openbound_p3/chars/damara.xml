@@ -11,7 +11,7 @@
 		
 	</character>
 	
-	<action class='beDamara' name='Be Damara.' command='macro'>
+	<action class='beDamara' name='Sii Damara.' command='macro'>
 		<args>
 			<action command='changeChar'>
 				<args>damara</args>

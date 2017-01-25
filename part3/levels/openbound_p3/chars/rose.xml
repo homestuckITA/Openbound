@@ -11,7 +11,7 @@
 		
 	</character>
 	
-	<action class='beRose' name='Be Rose.' command='macro'>
+	<action class='beRose' name='Sii Rose.' command='macro'>
 		<args>
 			<action command='changeChar'>
 				<args>rose</args>

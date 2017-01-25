@@ -149,7 +149,7 @@
       @horuss_smiletalk HORUSS: 8=D &lt; Che bellissimo gesto di amicizia. Sono così fa**uramente felice, non ha idea.
       @horuss_crossed2 HORUSS: （;≧皿≦） &lt; *ps, così felice, che mi sono allargato con il mio tremendo linguaggio, e mi sono scordato che non avrei mai dovuto fare quella faccia.
       @horuss_crossed2 HORUSS:  (;¬д¬) &lt; È ovviamente libera di essere me quando preferisce, milady.
-      @! Be Horuss?
+      @! Sii Horuss?
                 </args>
                 <action command='removeAction'>
                   <args>horuss,Sii Horuss.,Dà Horsaponi a Horuss.</args>
@@ -467,7 +467,7 @@
               <args>@rufioh_happytalk RUFIOH: oh C*ZZO! l'ha1 trovato... graz1e 1nf1n1te!!!
       @rufioh_happytalk RUFIOH: ero cos1' preoccupato... ma ora è tornato, cos1' come 1 m1e1 pens1er1 fel1c1.
       @rufioh_happytalk RUFIOH: ho un sacco d1 s1curezza adesso... heh, vuo1 essere me? la m1a autost1ma può assolutamente permetterlo yo!!!
-      @! Be Rufioh?
+      @! Sii Rufioh?
               </args>
               <action command='addAction' noDelay='true'>
                 <args>rufioh,

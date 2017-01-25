@@ -10,7 +10,7 @@
 	<character class='meulin' name='meulin' sx='-50' sy='-110' sWidth='100' sHeight='130' width='30' height='15' sheet='meulinSheet' state='walkFront' facing='Front'>	
 	</character>
 	
-	<action class='beMeulin' command='changeChar' name='Be Meulin.'>
+	<action class='beMeulin' command='changeChar' name='Sii Meulin.'>
 		<args>meulin</args>
 		<action command='playSong'>
 			<args>oliveRogueSong,9.61</args>
