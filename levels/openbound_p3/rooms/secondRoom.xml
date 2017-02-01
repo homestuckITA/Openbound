@@ -82,7 +82,7 @@
       <action class='porrimTalk2'>
         <action command='presentActions'>
           <args>
-            <action name='Yes.' class='beKanaya'>
+            <action name='Sì.' class='beKanaya'>
               <action command='follow'>
                 <args>meenah,kanaya</args>
                 <action command='setGameState'>
@@ -109,12 +109,12 @@
     <sprite name='secondRoomDoor' x='1235' y='200' width='200' height='300'>
       <action command='talk' name='Examine door.' sprite='!kanaya'>
             <args>
-            @! Wait... there's something different about this door. You think it might be a real door! It's not someone's memory, like the rest of this place is.
-            @! The meteor must be physically passing through the dream bubble again. You'd love to get in here and snoop around somehow, but the door is password protected. There's got to be someone around here who knows the password...
+            @! Aspetta... C'è qualcosa di diverso in questa porta. Pensi che potrebbe essere una porta vera! Non è il ricordo di qualcuno, come il resto di questo posto.
+            @! Si vede che il meteorite sta passando di nuovo fisicamente attraverso l'oniribolla. Ti piacerebbe entrare e ficcanasare in qualche modo, ma la porta è protetta da password. Dovrà pur esserci qualcuno qui intorno che conosca la password...
             <!--  -->
             </args>
       </action>
-      <action command='removeSprite' name='Enter password.' sprite='kanaya'>
+      <action command='removeSprite' name='Inserisci password.' sprite='kanaya'>
         <args>secondRoomDoor,secondRoom</args>
         <action command='addWalkable' noDelay='true'>
           <args>secondRoomWalkable,secondRoom</args>

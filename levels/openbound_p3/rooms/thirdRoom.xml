@@ -202,11 +202,11 @@
     </character>
 
     <sprite class='chest7' name='thirdRoomChest9' x='2826' y='351'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>thirdRoomChest9,item9,
-            @! You got a CAN OF EARTH TAB!
-            @! The mayor had a couple of these stowed in his rags for safe keeping. He has decided to store them in chests now, which unbeknownst to him are the opposite of safe keeping.
-            @! You crack it open and chug it. You are overwhelmed by the intense rush of sugar. This high will surely last for hours.
+            @! Hai trovato una LATTINA DI TAB TERRESTRE!
+            @! Il sindaco teneva un paio di questi nei suoi stracci per sicurezza. Ora ha deciso di metterli in questa cassa, che a sua insaputa sono l'opposto di sicure.
+            @! La apri e la trangugi. Sei sopraffatta dall'intenso afflusso di zuccheri. Questo livello durerà certamente per ore.
             @!~dialogimg_tab1
             @!~dialogimg_tab2
             @!~dialogimg_tab3
@@ -215,42 +215,42 @@
     </sprite>
 
     <sprite class='chest7' name='thirdRoomChest10' x='2181' y='897'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>thirdRoomChest10,item10,
-             @! You got an EMPTY BOTTLE!
-      @! You guess... you'll just kinda...
-      @!:#boring-treasure Put it over there with the other bottles.
+             @! Hai trovato una BOTTIGLIA VUOTA!
+      @! Supponi... che la...
+      @!:#tesoro-noioso Metterai lì con le altre bottiglie.
         </args>
       </action>
     </sprite>
 
     <sprite class='chest7' name='thirdRoomChest11' x='1698' y='474'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>thirdRoomChest11,item11,
-             @! You got a...
-      @! Hey what even is this thing?
-      @! Whatever it is, you got it.
+             @! Hai trovato un...
+      @! Ehi cos'è questa roba?
+      @! Qualunque cosa sia, l'hai trovata..
         </args>
       </action>
     </sprite>
 
     <sprite class='chest7' name='thirdRoomChest12' x='1353' y='474'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>thirdRoomChest12,item12,
-                   @! You got a BOONBUCK!
-      @! Ok, you can't even pretend to be excited about this. You get the feeling that whoever was stocking these chests just started running out of treasure assets.
-      @! You put the phoned-in item back in the chest. But a little later, Meenah sneaks back over here, takes the boonbuck, and stashes it in her nautically themed, hot pink clam shell shaped purse, which we have never seen her rendered with, but is totally is something that exists in the most canonical way possible. There, now you know.
+                   @! Hai trovato un BOONDANARO!
+      @! Ok, non riesci nemmeno a fingere di esserne entusiasta. Hai l'impressione che chiunque stesse fornendo i tesori per queste casse sia semplicemente a corto di risorse.
+      @! Rimetti l'oggetto nella cassa. Ma un po' più avanti, Meenah sgattaiolerà nuovamente qui, prenderà il boondanaro, e lo infilerà nella sua borsetta a tema nautico a forma di conchiglia rosa, con cui non l'abbiamo mai vista insieme, ma è assolutamente una cosa che esiste nella maniera più canonica possibile. Ecco, ora lo sai.
 
         </args>
       </action>
     </sprite>
 
     <sprite class='chest7' name='thirdRoomChest13' x='828' y='1206'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>thirdRoomChest13,item13,
-             @! EEEUUUGHH MORE TROLL BLOOD, WHY???
-      @! As you prepare to lob it into the dark shaft below, you catch a whiff of it. Hold on... it smells... fruity?
-      @! You guess it was a false alarm. This appears to be some form of delicious juice. Your bad.
+             @! EEEUUUGHH ANCORA SANGUE TROLL, PERCHÉ???
+      @! Mentre ti prepari a lanciarlo nel pozzo nero di sotto, ne cogli una folata. Un momento... sembra... alla frutta?
+      @! Supponi sia un falso allarme. Questo sembra essere una specie di succo delizioso. Errore tuo.
         </args>
       </action>
     </sprite>

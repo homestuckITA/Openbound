@@ -11,7 +11,7 @@
 		
 	</character>
 	
-	<action class='beMeenah' name='Be Meenah.' command='macro'>
+	<action class='beMeenah' name='Sii Meenah.' command='macro'>
 		<args>
 			<action command='changeChar' noDelay='true'>
 				<args>meenah</args>

@@ -31,37 +31,37 @@
 </hud>
 
 <character class='karkat' x='792' y='638'>
-      <action sprite='dave' command='talk' name='Talk to Karkat.'>
+      <action sprite='dave' command='talk' name='Parla con Karkat.'>
         <args>
-        @karkat_talk KARKAT: OK, THIS IS JUST FUCKING STUPID NOW.
-        @dave_idle DAVE: what
-        @karkat_talk KARKAT: I'M ASLEEP, BUT I GUESS THE METEOR IS PHYSICALLY PASSING THROUGH THE BUBBLE I'M DREAMING IN?
-        @karkat_talk KARKAT: AND NOW MY "DREAM PHANTOM", OR WHATEVER THE FUCK YOU'RE SUPPOSED TO CALL THIS VERSION OF YOURSELF, IS ACTUALLY IN THE SAME PHYSICAL LOCATION AS MY SLEEPING BODY.
-        @karkat_yell KARKAT: I'VE JUST BEEN STANDING HERE WATCHING MYSELF SLEEP ON THE HORN PILE. IT'S OFFICIAL. WE'VE BREACHED A CRITICAL THRESHOLD OF BULGE NUMBING IDIOCY. 
+        @karkat_talk KARKAT: OK, ORA QUESTO È SOLO FOTTUTAMENTE STUPIDO.
+        @dave_idle DAVE: cosa
+        @karkat_talk KARKAT: SONO ADDORMENTATO, MA SUPPONGO CHE IL METEORITE STIA PASSANDO FISICAMENTE ATTRAVERSO LA BOLLA IN CUI STO SOGNANDO.
+        @karkat_talk KARKAT: E ORA IL MIO "FANTASMA SOGNO", O IN QUALUNQUE CAZZO DI MODO SI SUPPONE CHE QUELLA VERSIONE DI ME SI CHIAMI, È FINITO NELLA STESSA POSIZIONE FISICA DEL MIO CORPO DORMIENTE.
+        @karkat_yell KARKAT: SONO SOLO STATO QUI IN PIEDI A GUARDARE ME STESSO DORMIRE NELLA PILA DI TROMBETTE. È UFFICIALE. ABBIAMO SFONDATO UN CONFINE CRITICO DI IDIOZIA AMMOSCIA PROTUBERANZE. 
         @dave_huh DAVE: huh
-        @karkat_yell KARKAT: WHAT DO WE EVEN CALL THIS DREAMING INSTANCE OF OURSELVES? IT CAN'T BE "DREAM SELF" BECAUSE THAT'S ALREADY A THING. AS IN THE VERSION OF YOURSELF ON DERSE OR PROSPIT.
-        @karkat_yell KARKAT: BUT THAT WAS MORE LIKE A PHYSICAL, REAL SELF, THAT JUST HAPPENED TO SERVE AS A BACKUP LIFE. THIS IS SOMETHING TOTALLY DIFFERENT, LIKE A WEIRD HOLOGRAM.
-        @karkat_what KARKAT: HEY, AM I TANGIBLE TO YOU?
+        @karkat_yell KARKAT:  COME CHIAMIAMO POI QUESTE ISTANZE SOGNANTI DI NOI STESSI? NON PUÒ ESSERE SÉ ONIRICO PERCHÉ QUELLA È GIÀ UN'ALTRA COSA. OVVERO LA NOSTRA VERSIONE SU DERSE E PROSPIT.
+        @karkat_yell KARKAT: MA QUELLO ERA PIÙ COME UN ALTER EGO FISICAMENTE REALE, CHE PARE SERVISSE COME VITA DI SCORTA. QUESTO È UNA COSA COMPLETAMENTE DIFFERENTE, COME UN OLOGRAMMA.
+        @karkat_what KARKAT: EHI, SONO TANGIBILE PER TE?
         @dave_huh DAVE: uh
-        @karkat_idle KARKAT: TOUCH ME.
-        @dave_huh DAVE: what
-        @karkat_eyeroll1 KARKAT: JUST GIVE ME A LITTLE POKE.
+        @karkat_idle KARKAT: TOCCAMI.
+        @dave_huh DAVE: cosa
+        @karkat_eyeroll1 KARKAT: DAMMI SOLO UN PICCOLO TOCCO..
         @dave_mad DAVE: no
-        @karkat_talk KARKAT: DON'T BE LIKE THAT, JUST MAN UP AND TOUCH ME. MAYBE JUST BRUSH MY CHEEK GENTLY WITH THE BACK OF YOUR HAND. SOMETHING UNAMBIGUOUSLY PLATONIC LIKE THAT.
-        @dave_mad DAVE: no fuck you
-        @dave_madtalk DAVE: im not caressing your dream hologram
-        @karkat_facepalm KARKAT: YOU HAVE A REALLY TRAGICALLY UNDER-INQUISITIVE MIND, DAVE. THIS IS FOR SCIENCE. IF SCIENCE WAS UP TO YOU, HUMANITY NEVER WOULD HAVE COME ANYWHERE CLOSE TO RISING TO THE LEVEL OF PATHETIC INFERIORITY IT WAS BARELY ABLE TO ACHIEVE AS IT WAS.
-        @dave_talk DAVE: you look really tired man
-        @dave_talk DAVE: your sleep phantom should curl up with your napping meat torso in the horn pile and try to score some shuteye
-        @karkat_shout KARKAT: YEAH, WELL MAYBE I'LL DO JUST THAT, ASSHOLE!
+        @karkat_talk KARKAT: NON FARE COSÌ, CRESCI E TOCCAMI. MAGARI ACCAREZZA SOLO LA MIA GUANCIA GENTILMENTE COL DORSO DELLA MANO. QUALCOSA DI NON AMBIGUAMENTE PLATONICO COME QUELLO.
+        @dave_mad DAVE: no fottiti
+        @dave_madtalk DAVE: non accarezzerò il tuo ologramma sogno
+        @karkat_facepalm KARKAT: HAI UNA MENTE DAVVERO TRAGICAMENTE SUPER INQUISITORIA, DAVE. QUESTO È PER LA SCIENZA. SE LA SCIENZA FOSSE STATA UNA TUA RESPONSABILITÀ, L'UMANITÀ NON SI SAREBBE MAI NEANCHE LONTANAMENTE AVVICINATA A RAGGIUNGERE IL LIVELLO DI PATETICA INFERIORITÀ CHE ERA STATA A MALAPENA IN GRADO DI RAGGIUNGERE GIÀ DI SUO.
+        @dave_talk DAVE: sembri davvero stanco zio
+        @dave_talk DAVE: il tuo fantasma sogno dovrebbe rannicchiarsi sul tuo torso carnoso addormentato sulla pila di trombette e cercare di farsi un pisolino
+        @karkat_shout KARKAT: SÌ, BEH FORSE LO FARÒ, STRONZO!
         @dave_idle DAVE: ok
-        @dave_idle DAVE: hop to it
-        @karkat_sullen KARKAT: NO. NOT WHILE YOU'RE WATCHING.
-        @dave_idle DAVE: man
-        @dave_talk DAVE: our conversations can be so embarrassing
-        @dave_talk DAVE: im so glad we manage to have most of them in private
-        @karkat_eyeroll1 KARKAT: YEAH
-        @karkat_eyeroll2 KARKAT: ME TOO
+        @dave_idle DAVE: saltagli sopra 
+        @karkat_sullen KARKAT: NO. NON MENTRE STAI GUARDANDO.
+        @dave_idle DAVE: cavoli
+        @dave_talk DAVE: a volte le nostre conversazioni sono così imbarazzanti
+        @dave_talk DAVE: sono così grato che finiamo con l averne per lo più in privato
+        @karkat_eyeroll1 KARKAT: GIÀ
+        @karkat_eyeroll2 KARKAT: ANCH'IO.
         <!--  -->
         </args>
       </action>
@@ -69,49 +69,49 @@
 
     <sprite name='gamzee' x='422' y='624' width='40' height='24' collidable='true' depthing='1'>
       <animation sheet='gamzeeSheet' x='-30' y='-90'/>
-      <action sprite='rose' command='talk' name='Talk to Gamzee.'>
+      <action sprite='rose' command='talk' name='Parla con Gamzee.'>
             <args>
-            @rose_talk ROSE: You better not let Kanaya find you in here.
-            @rose_talk ROSE: She still hates you, you know.
-            @rose_talk ROSE: And not in "that way." I think she still truly would like to kill you.
-            @gamzee_idle GAMZEE: yeah, i all up and motherfuckin know that already.
-            @rose_concern ROSE: I've wondered, doesn't it ever get confusing? Trying to differentiate between platonic, malicious intent, and gestures of black romance?
+            @rose_talk ROSE: Faresti meglio a non farti trovare qui da Kanaya.
+            @rose_talk ROSE: Ti odia ancora, sai.
+            @rose_talk ROSE: E non in "quel modo." Penso voglia ancora davvero ucciderti.
+            @gamzee_idle GAMZEE: sì, so già tutta questa stracazzo di roba qui.
+            @rose_concern ROSE: Mi domandavo, non diventa mai confusionario? Cercare di differenziare fra platonico, intento malvagio, e gesti di romanticismo nero?
             @gamzee_idle GAMZEE: NO.
-            @gamzee_idle GAMZEE: like i'd even give a dayglow chainsaw bitch like that on my time of day up in any quadrant.
-            @gamzee_idle GAMZEE: BESIDES, ALREADY GOT MY BLACK ROM ON WITH ANOTHER MOTHERFUCKER.
-            @gamzee_idle GAMZEE: been dating somebody in the motherfuckin shadows. getting pretty nasty between us. all experiencing the shit out of the dark miracle called hatebliss. 
-            @rose_concern ROSE: Wait, really?
-            @rose_annoyed ROSE: Who?
+            @gamzee_idle GAMZEE: come se mi interessasse dare a una stronza segona luccicante come quella del tempo delle mie giornate in qualunque quadrante.
+            @gamzee_idle GAMZEE: E POI, TENGO GIÀ IL ROMANTICISMO NERO IN AZIONE CON UN ALTRO CAZZONE.
+            @gamzee_idle GAMZEE: mi sono visto con qualcuno di nascosto. si è fatto piuttosto orribile fra noi. tutti a sperimentare il cazzo di miracolo oscuro chiamato beatitudine nell'odio. 
+            @rose_concern ROSE: Aspetta, davvero?
+            @rose_annoyed ROSE: Chi?
             @gamzee_idle GAMZEE: :o)
             @rose_idle ROSE: Karkat?
             @gamzee_idle GAMZEE: no.
             @rose_laugh ROSE: Dave??
             @gamzee_idle GAMZEE: NO.
-            @rose_sad ROSE: Not... the Mayor???
+            @rose_sad ROSE: Non... il Sindaco???
             @gamzee_idle GAMZEE: no.
-            @rose_concern ROSE: Wait...
+            @rose_concern ROSE: Aspetta...
             @rose_concern ROSE: Terezi?
             @gamzee_idle GAMZEE: HONK.
-            @rose_talk ROSE: Are you serious?
-            @gamzee_idle GAMZEE: do i mother fucking look like i'd motherfuckin joke around with a mother fucker?
-            @rose_idle ROSE: I...
-            @rose_annoyedtalk ROSE: I can't even parse that relationship as something meaningful.
-            @rose_annoyed ROSE: What...
-            @gamzee_idle GAMZEE: IT'S SIMPLE. 
-            @gamzee_idle GAMZEE: mother fucker.
-            @gamzee_idle GAMZEE: SHE ALL GETS ON HER HATE OF ME QUITE UNDERSTANDABLY, SEEING AS TO WHAT A VILE PIECE OF CLOWN ASS TRASH I'M ALL IS.
-            @gamzee_idle GAMZEE: but doesn't quite hate me enough to want to kill me. :o)
-            @rose_talk ROSE: This is a really startling revelation, I must say.
-            @rose_talk ROSE: It's a game changer.
-            @gamzee_idle GAMZEE: HEY.
-            @gamzee_idle GAMZEE: please don't all tell at this noise to anyone.
-            @gamzee_idle GAMZEE: IF KARKAT MOTHER FUCKIN KNEW ON THIS...
-            @gamzee_idle GAMZEE: he actually would want to kill me. :o(
-            @rose_talk ROSE: Yes, I can see the dilemma you're in.
-            @rose_talk ROSE: Your social dynamics really begin to get complicated once your quadrants start to fill up, don't they?
-            @gamzee_idle GAMZEE: MOTHER FUCK YEAH THEY MOTHER FUCKING DO.
-            @rose_talk ROSE: Don't worry. Your secret is safe with me.
-            @rose_talk ROSE: Now shoo. Back into the ventilation system with you, before you're spotted.
+            @rose_talk ROSE: Sul serio?
+            @gamzee_idle GAMZEE: ho per caso la cazzo di aria di qualcuno che farebbe questi cazzo di scherzi con qualche cazzone?
+            @rose_idle ROSE: Io...
+            @rose_annoyedtalk ROSE: Non riesco nemmeno ad analizzare una simile relazione come qualcosa di significativo.
+            @rose_annoyed ROSE: Cosa...
+            @gamzee_idle GAMZEE: È SEMPLICE.
+            @gamzee_idle GAMZEE: cazzona.
+            @gamzee_idle GAMZEE: ACCENDE TUTTA IL SUO ODIO PER ME IN MODO ABBASTANZA COMPRENSIBILE, VISTO IL VILE PEZZO DI SPAZZATURA DI CULO CLOWN CHE SONO.
+            @gamzee_idle GAMZEE: ma non mi odia abbastanza da volermi uccidere. :o)
+            @rose_talk ROSE: È davvero una rivelazione allarmante, devo dirlo.
+            @rose_talk ROSE: Cambia le carte in tavola.
+            @gamzee_idle GAMZEE: EHI.
+            @gamzee_idle GAMZEE: per favore non darlo a nessuno.
+            @gamzee_idle GAMZEE: SE KARKAT LO SAPESSE...
+            @gamzee_idle GAMZEE: potrebbe davvero volermi uccidere. :o(
+            @rose_talk ROSE: Sì, posso vedere in che tipo di dilemma ti trovi.
+            @rose_talk ROSE: Le vostre dinamiche sociali iniziano davvero a diventare complicate una volta che i tuoi quadranti iniziano a riempirsi, vero?
+            @gamzee_idle GAMZEE: CAZZO SÌ È PROPRIO COSÌ.
+            @rose_talk ROSE: Non preoccuparti. Il tuo segreto è al sicuro con me.
+            @rose_talk ROSE: Ora shoo. Torna nel sistema di ventilazione, prima di essere visto.
             <!--  -->
             </args>
       </action>
@@ -119,10 +119,10 @@
 
     <sprite name='terezi' x='422' y='624' width='40' height='24' collidable='true' depthing='1'>
       <animation sheet='tereziSit' x='-30' y='-90'/>
-      <action command='talk' name="It's Terezi!" sprite='damara'>
+      <action command='talk' name="È Terezi!" sprite='damara'>
           <args>
-          @terezi_idle TEREZI: H3Y D4MZ!!!!
-          @terezi_idle TEREZI: 1F YOU GO 4NYWH3R3 N34R H1M, 1 W1LL FUCK1NG K1LL YOU!
+          @terezi_idle TEREZI: 3H1 D4MZ!!!!
+          @terezi_idle TEREZI: S3 T1 4VV1C1N1 4 LU1 1N QU4LUNQU3 MODO, T1 4MM4ZZO!
           @damara_fu2 DAMARA:
           <!--  -->
           </args>
@@ -171,32 +171,32 @@
     </sprite>
 
     <sprite name='sleepKat' x='602' y='589' width='224' height='100'>
-      <action sprite='kanaya' command='talk' name='Examine snoozing Karkat.'>
+      <action sprite='kanaya' command='talk' name='Esamina Karkat ronfante.'>
             <args>
             @meenah_idle MEENAH: !!!!!
-            @! Hey, it's your newly recruited Grand Threshecutioner! Looks like he hasn't woken up from the same nap he was having last time you talked to him. The guy must have been really tired.
-            @! Why's he sleeping in this massive pile of horns? That can't be too comfortable. Maybe you should wake him up. Then as long as he's awake, might as well see if he's ready to pack his bags and head off to war.
-            @! Hold on. Maryam is eying you suspiciously. She isn't on to your plan, is she? How could she know? This girl is really cramping your style. You'd try to shake her loose, but as a rainbow drinker she seems to have an absolutely insane fastness attribute.
-            @kanaya2_talk KANAYA: Whatever Youre Thinking Dont Even Try It
-            @meenah_wut MEENAH: what!!!
-            @meenah_wut2 MEENAH: wasnt thinkin nofin
-            @kanaya2_talk KANAYA: Lets Keep Moving
+            @! Ehi, la tua nuova recluta Grand Esecutrebbiatore! Sembra che non si sia svegliato dallo stesso sogno che stava facendo l'ultima volta che ci hai parlato. Il tipo doveva essere davvero stanco.
+            @! Perché sta dormendo in questo enorme mucchio di trombette? Non deve essere troppo comodo. Forse dovresti svegliarlo. Poi visto che sarà sveglio, tanto varrà chiedergli se è pronto a preparare lo zaino e venire in guerra.
+            @! Aspetta. Maryam ti sta guardando con sospetto. Non le piace il tuo piano, vero? Come fa a saperlo? Questa ragazza ti sta davvero mettendo i bastoni fra le ruote. Proveresti a andartene via, ma in quanto succhiarcobaleno sembra possedere un attributo di incredibile velocità.
+            @kanaya2_talk KANAYA: Qualunque Cosa Tu Stia Pensando Non Provarci Neanche
+            @meenah_wut MEENAH: cosa???
+            @meenah_wut2 MEENAH: non stavo pensando niente
+            @kanaya2_talk KANAYA: Muoviamoci
             <!--  -->
             </args>
       </action>
-      <action sprite='rose' command='talk' name='Examine snoozing Karkat.'>
+      <action sprite='rose' command='talk' name='Esamina Karkat ronfante.'>
             <args>
-            @! "ZZZZZZZZZZZZZ," Karkat said from atop the towering heap of hilarious clown accessories.
+            @! "ZZZZZZZZZZZZZ," disse Karkat da sopra il torreggiante cumulo di ridicoli accessori clown.
             <!--  -->
             </args>
       </action>
-      <action sprite='dave' command='talk' name='Examine snoozing Karkat.'>
+      <action sprite='dave' command='talk' name='Esamina Karkat ronfante.'>
             <args>
-            @! So many horns. You've always wondered what the elusive juggalo troll even needs with so many horns? You think he may have some sort of problem. Also what is with trolls and their weird tendency to be found sleeping in horn piles? You can't even imagine a less comfortable place to nap. There are some things you will never understand.
+            @! Così tante trombette. Ti sei sempre chiesto cosa poi ci facesse il troll juggalo elusivo con così tante trombette. Pensi che potrebbe avere un qualche tipo di problema. E cos'è con i troll con questa tendenza ad essere trovati a dormire su pile di roba? Non riesci nemmeno a immaginare un modo più scomodo di dormire. Ci sono alcune cose che proprio non capirai mai.
             <!--  -->
             </args>
       </action>
-      <action sprite='damara' command='talk' name='What have we here?'>
+      <action sprite='damara' command='talk' name='Cosa abbiamo qui?'>
             <args>
             @damara_smilemean DAMARA: ..............
             <!--  -->

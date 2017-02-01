@@ -119,11 +119,11 @@
     </sprite>
 
     <sprite class='chest7' name='fourthRoomChest14' x='568' y='424'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>fourthRoomChest14,item14,
-                   @! You got an ALTERNIAN JOURNAL!
-      @! It's a bit wordy. Though some of the material here strikes you as pretty risque. Actually... quite a lot of the material.
-      @! You surreptitiously pocket the overwrought diary for later reading.
+                   @! Hai trovato un DIARIO ALTERNIANO!
+      @! È un po' logorroico. Anche se un po' del materiale all'interno ti risulta un po' osè. In effetti... un bel po' di materiale.
+      @! Ti intaschi furtivamente il pomposo diario per prossima lettura.
 
         </args>
       </action>

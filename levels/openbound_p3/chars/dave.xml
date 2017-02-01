@@ -10,7 +10,7 @@
 	<character class='dave' name='dave' sx='-50' sy='-115' sWidth='100' sHeight='130' width='35' height='25' sheet='daveSheet' state='walkFront' facing='Front'>
 		
 	</character>
-	<action command='macro' class='beDave' name='Be Dave.'>
+	<action command='macro' class='beDave' name='Sii Dave.'>
 		<args>
 			<action  command='changeChar'>
 				<args>dave</args>

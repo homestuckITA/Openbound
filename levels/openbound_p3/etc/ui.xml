@@ -34,13 +34,13 @@
   	</spritebutton>
   	<spritebutton name='helpButton' x='591' y='9' width='54' height='63' sheet='helpControl'>
   		<action command='talk' soft='true'>
-  			<args>@! Use the arrow keys or WASD to move, and space to interact.</args>
+  			<args>@! Usa le freccie o i tasti WASD per muoverti, e spazio per interagire.</args>
   		</action>
   	</spritebutton>
   	<spritebutton name='saveButton' x='558' y='18' sheet='saveControl'>
   		<action command='talk' soft='true'>
   			<args>
-  			@! Warning: this feature is experimental. Use it only if you're having stability issues and want to keep your place should the application crash. Save files are discarded when the browser is closed.
+  			@! Attenzione: questa funzione è sperimentale. Usala solo se stai avendo problemi di stabilità e tenere il segno potrebbe crashare l'applicazione. I file salvati vengono cancellati quando si chiude il browser.
   			</args>
 				<action command='saveOrLoad' >
 					<args></args>

@@ -11,7 +11,7 @@
 		
 	</character>
 	
-	<action class='beTerezi' name='Be Terezi.' command='changeChar'>
+	<action class='beTerezi' name='Sii Terezi.' command='changeChar'>
 		<args>terezi</args>
 		<action command='playSong' noDelay='true'>
 			<args>tereziSong,16.89</args>

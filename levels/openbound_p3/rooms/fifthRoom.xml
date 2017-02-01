@@ -109,40 +109,40 @@
     </sprite>
 
     <sprite class='chest7' name='fifthRoomChest15' x='440' y='540'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>fifthRoomChest15,item15,
-        @! You got a BROKEN 8 BALL!
-      @! You remember seeing a bunch of these earlier. What was the context again? You just had so many long weird conversations it's all kind of a jumble now.
-      @! You feel unlucky just looking at this thing. You toss it in the bushes.
+        @! Hai trovato una PALLINA 8 ROTTA!
+      @! Ti ricordi di averne vistoe un po' prima. Qual è che era il contesto? Hai fatto così tante conversazioni strane che adesso è un po' tutto un miscuglio.
+      @! Ti senti sfortunata solo a guardare questa cosa. La butti nei cespugli.
         </args>
       </action>
     </sprite>
 
     <sprite class='chest7' name='fifthRoomChest16' x='672' y='756'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>fifthRoomChest16,item16,
-         @!:#pshoooes You got a pair of ROCKET BOOTS!
-      @! What would a ghost need with rocket boots, anyway? Can't all ghosts fly?
-      @! Or maybe that's just dead god tiers, who can generally fly anyway. Or dead dream selves? Actually you don't know what the flying rules are and you don't really care.
+         @!:#pshoooes Hai trovato un PAIO DI STIVALI RAZZO!
+      @! Che se ne farebbe un fantasma di stivalli razzo, comunque? Non volano comunque, i fantasmi?
+      @! O forse sono solo i god tier, che possono volare comunque in generale. O i sé onirici morti? In realtà non sai quali siano le regole del volo qui e non ti interessa.
         </args>
       </action>
     </sprite>
 
     <sprite class='chest7' name='fifthRoomChest17' x='608' y='756'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>fifthRoomChest17,item17,
-          @! You got a HEAP OF PRICELESS TREASURE!
-      @! Huh. Actual treasure, inside a treasure chest.
-      @! Now you've seen everything.
+          @! Hai trovato un CUMULO DI TESORI INESTIMABILI!
+      @! Huh. Un vero tesoro, in una cassa del tesoro.
+      @! Ora sì che hai visto tutto.
         </args>
       </action>
     </sprite>
 
     <sprite class='chest7' name='fifthRoomChest18' x='828' y='1532'>
-      <action command='openChest' name='Open.'>
+      <action command='openChest' name='Apri.'>
         <args>fifthRoomChest18,item18,
-           @! You got the FLUORITE OCTET!
-      @!:#:::;) Feeling lucky, punk????????
+           @! Hai trovato un OTTETTO DI FLUORITE!
+      @!:#:::;) Ti senti fortunato, punk????????
         </args>
       </action>
     </sprite>

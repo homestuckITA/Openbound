@@ -47,20 +47,20 @@
   	<action class='notForYou' command='goBack'>
 			<args>char</args>
 			<action command='talk'>
-				<args>@!:#nice-try Where do you think YOU'RE going! This is Meenah's interactive quest through the afterlife. You can only leave this area if you're being her!</args>
+				<args>@!:#bel-tentativo DOVE pensi di andare! Questa è la quest interattiva di Meenah attraverso l'oltretomba. Puoi lasciare quest'era solo se stai essendo lei!</args>
 			</action>
 		</action>
 
 	  <action class='finish' command='goBack'>
 			<args>char</args>
 			<action command='talk'>
-				<args>@! This leads to the end of the game. Are you sure you're done here?</args>
+				<args>@! Questo porta alla fine del gioco. Sei sicuro di aver fatto?</args>
 				<action command='presentActions'>
 					<args>
-						<action command='fadeOut' name='Yes.'>
+						<action command='fadeOut' name='Sì.'>
 							<action command='presentActions'>
 								<args>
-									<action command='loadStateFile' name='Start over.'>
+									<action command='loadStateFile' name='Ricomincia.'>
 											<args>../init.xml,false</args>
 									</action>
 								</args>

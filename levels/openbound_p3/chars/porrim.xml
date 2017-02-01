@@ -11,7 +11,7 @@
 		
 	</character>
 	
-	<action class='bePorrim' name='Be Porrim.' command='changeChar'>
+	<action class='bePorrim' name='Sii Porrim.' command='changeChar'>
 		<args>porrim</args>
 		<action command='playSong'>
 			<args>porrimSong</args>
